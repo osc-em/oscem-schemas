@@ -1,6 +1,7 @@
 ---
 site_name: "OSC-EM Schemas"
 site_dir: site/
+docs_dir: docs/
 site_url: https://osc-em.github.io/oscem-schemas
 site_author: OSC-EM
 repo_url: https://github.com/osc-em/oscem-schemas
@@ -20,6 +21,7 @@ theme:
     - search.highlight
     - content.code.copy
     - content.tabs.link
+edit_uri: ""
 plugins:
   - search
   - mermaid2:
@@ -27,6 +29,7 @@ plugins:
 nav:
   - Home: https://osc-em.github.io/
   - Overview: index.md
+  - Artifacts: https://osc-em.github.io/oscem-schemas/artifacts
   - Schemas:
     - General: general/index.md
     - SPA: spa/index.md

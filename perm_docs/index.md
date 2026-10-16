@@ -2,7 +2,7 @@
 
 Schemas for the Open Standards Community for Electron Microscopy (OSC-EM)
 
-URI: https://w3id.org/osc-em/oscem-schemas
+URI: https://w3id.org/oscem-schemas
 
 ## Available Schemas
 

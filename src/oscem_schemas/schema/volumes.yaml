@@ -1,11 +1,11 @@
-id: https://w3id.org/osc-em/volume
-name: OSCEMVolume
+id: https://w3id.org/oscem-schemas/latest/volumes
+name: Volumes
 description: >
-  LinkML schema for electron microscopy volume generated when processing.
+  LinkML schema for electron microscopy volumes generated when processing.
 
 prefixes:
   linkml: https://w3id.org/linkml/
-  volumes: https://w3id.org/osc-em/volume
+  volumes: https://w3id.org/oscem-schemas/latest/volumes
 
 
 default_prefix: volumes
@@ -17,7 +17,7 @@ imports:
 
 classes:
   Volumes:
-    description:  Class representing volume metadata
+    description: Class representing volume metadata
     slots:
       - volume_type
       - vol_number_particles

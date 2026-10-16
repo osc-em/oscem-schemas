@@ -33,9 +33,10 @@ Schemas are automatically exported to various formats (JSON Schema, JSON-LD, OWL
   - URL Pattern: `https://w3id.org/oscem-schemas/{VERSION}/{SCHEMA}/{FORMAT}/{FILE}`
 - **GitHub Pages**: Direct access to the release artifacts without a redirect:
   - URL Pattern: `https://osc-em.github.io/oscem-schemas/artifacts/{VERSION}/{SCHEMA}/{FORMAT}/{FILE}`
+  - Browse all versions: [Artifacts Documentation](https://osc-em.github.io/oscem-schemas/artifacts)
 - **Release Assets**: Downloadable zip archives from [GitHub Releases](https://github.com/osc-em/oscem-schemas/releases)
 
-`VERSION` can be 'latest' or any valid git release (eg `v1.0.0`). `SCHEMA` can refer to any of the five schemas above. The following `FORMAT` values are supported:
+`VERSION` can be 'latest' or any valid git release (eg `v1.0.0`). `SCHEMA` can refer to any of the main technique schemas (spa, cellular_tomo, env_tomo, subtomo, general) or supporting schemas (instrument, acquisition, processing, etc.). The following `FORMAT` values are supported:
 
 | FORMAT     | FILE                                    |
 | ---------- | --------------------------------------- |
@@ -60,6 +61,11 @@ For example, the latest json schema files can be accessed at
 - <https://w3id.org/oscem-schemas/latest/cellular_tomo/jsonschema/oscem_schemas_cellular_tomo.schema.json>
 - <https://w3id.org/oscem-schemas/latest/env_tomo/jsonschema/oscem_schemas_env_tomo.schema.json>
 
+You can also access supporting schemas (instrument, acquisition, etc.) individually:
+
+- <https://w3id.org/oscem-schemas/latest/instrument/jsonschema/instrument.schema.json>
+- <https://w3id.org/oscem-schemas/latest/acquisition/jsonschema/acquisition.schema.json>
+
 For metadata validation, we recommend using the JSON Schema versions.
 
 ## Documentation
@@ -72,16 +78,17 @@ from LinkML.
 
 ### Repository Structure
 
-- [examples/](examples/) - example data
 - [src/](src/) - source files (edit these)
   - [oscem_schemas](src/oscem_schemas)
-    - [schema](src/oscem_schemas/schema) -- LinkML schema files (edit these)
+    - [schema](src/oscem_schemas/schema) -- LinkML schema files (edit these). Files starting with `oscem_schemas_` are main technique schemas; others are supporting modules.
     - [datamodel](src/oscem_schemas/datamodel) -- generated Python datamodel
 - [tests/](tests/) - Python tests
+- [tests/data/examples/](tests/data/examples/) - example data
 - [perm_docs/](perm_docs/) - permanent documentation files
 - [src/docs/files/](src/docs/files/) - additional documentation
+- [scripts/](scripts/) - automation scripts for artifact generation
 
-**Note**: Generated artifacts (JSON Schema, OWL, etc.) are not stored in the repository. They are automatically generated and deployed to GitHub Pages on each release.
+**Note**: Generated artifacts (JSON Schema, OWL, etc.) are not stored in the repository. They are automatically generated and deployed to GitHub Pages on each release. See [artifacts documentation](https://osc-em.github.io/oscem-schemas/artifacts) for available versions.
 
 ### Building the project
 
@@ -95,22 +102,42 @@ Use the `make` command to generate project artifacts:
 - `make test`: run tests and linting
 - `make serve`: run docs locally on <http://127.0.0.1:8000/oscem-schemas/>
 - `make serve-live`: run docs locally, rebuilding automatically on schema changes
+- `make gen-all-schemas`: generate artifacts for all schema files (main + supporting)
+- `make gen-project`: generate artifacts for main schemas only (oscem_schemas_*.yaml)
 - `make clean` : remove generated files
 
-**Development workflow**: Edit source schemas in `src/`, run `make gen-project` locally for testing, then create a release to deploy artifacts.
+**Development workflow**: Edit source schemas in `src/oscem_schemas/schema/`, run `make gen-all-schemas` locally for testing, then create a release to deploy artifacts.
 
 ### Project Structure Notes
 
 This project uses a multi-schema approach with automated deployment:
 
-- **Multiple schemas**: Targets multiple schemas following the `oscem_schemas_*.yaml` pattern in `src/oscem_schemas/schema/` where `*` corresponds to the schema name (spa, cellular_tomo, etc.)
-- **Documentation**: Generates an overall documentation webpage with subpages for each schema. New schemas are added automatically, but you need to add a description and link in `perm_docs/index.md`
+- **Multiple schemas**: Targets multiple schemas following the `oscem_schemas_*.yaml` pattern in `src/oscem_schemas/schema/` where `*` corresponds to the schema name (spa, cellular_tomo, etc.). These are the main technique schemas.
+- **Supporting schemas**: Individual module schemas (instrument, acquisition, processing, etc.) that are imported by the main schemas. These can also be accessed independently.
+- **Automatic discovery**: New schemas are automatically discovered and included in artifact generation. Schema metadata (name, description) is read directly from the YAML files.
+- **Documentation**: Generates an overall documentation webpage with subpages for each schema. The [artifacts page](https://osc-em.github.io/oscem-schemas/artifacts) is automatically updated with all available versions and schemas.
 - **Examples**: Example data goes in `src/data/examples/` following the pattern `example_valid_*.yaml`
 - **Automated deployment**: On each release, artifacts are automatically:
-  - Generated in multiple formats (JSON Schema, OWL, JSON-LD, etc.)
-  - Deployed to GitHub Pages for permanent URLs
-  - Created as downloadable release assets
+  - Generated in multiple formats (JSON Schema, OWL, JSON-LD, etc.) for all schemas
+  - Deployed to GitHub Pages for permanent URLs with browsable navigation
+  - Created as downloadable release assets (per-schema zip archives)
   - Published to PyPI as a Python package
+
+For more information, please read the [Artifact Generation Scripts documentation](./scripts/README.md).
+
+### Adding a New Schema
+
+To add a new schema:
+
+1. Create a YAML file in `src/oscem_schemas/schema/` with standard LinkML structure including `id`, `name`, and `description` fields
+2. If it's a main technique schema, name it `oscem_schemas_*.yaml`; otherwise use a descriptive name for supporting schemas. Remember that for new main schemas the following changes are required, to update the website:
+    - Add the navigation link in [mkdocs.yml](./mkdocs.yml)
+    - Add it in the list of available schemas in [./perm_docs/index.md](./perm_docs/index.md)
+3. Run `make gen-all-schemas` to test locally
+4. The schema will automatically appear in all generated documentation and artifacts on the next release
+
+No code changes needed - the system automatically discovers and processes new schemas.
+For more information, please read the [Artifact Generation Scripts documentation](./scripts/README.md).
 
 ## Credits
 

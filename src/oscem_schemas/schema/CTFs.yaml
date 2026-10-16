@@ -1,11 +1,11 @@
-id: https://w3id.org/osc-em/ctfs
-name: OSCEMCTFs
+id: https://w3id.org/oscem-schemas/latest/ctfs
+name: CTFs
 description: >
   LinkML schema for electron microscopy CTFs generated when processing.
 
 prefixes:
   linkml: https://w3id.org/linkml/
-  ctf: https://w3id.org/osc-em/ctfs
+  ctf: https://w3id.org/oscem-schemas/latest/ctfs
 
 default_prefix: ctf
 
@@ -123,4 +123,3 @@ slots:
   resolution_histogram:
     description: Filename of the resolution values histogram
     range: string
-

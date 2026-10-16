@@ -1,8 +1,6 @@
-id: https://w3id.org/osc-em/oscem-emdataset
-name: oscem-emdataset
-title: oscem-emdatset
-description: |-
-  Schema for the Open Standards Community for Electron Microscopy (OSC-EM)
+id: https://w3id.org/oscem-schemas/latest/emdataset
+name: EMdataset
+description: Schema for the Open Standards Community for Electron Microscopy (OSC-EM)
 license: CC-BY
 see_also:
   - https://osc-em.github.io/oscem-schemas
@@ -10,12 +8,13 @@ see_also:
 
 prefixes:
   linkml: https://w3id.org/linkml/
-  oscem: https://w3id.org/osc-em/OSCEM_schemas
+  oscem: https://w3id.org/oscem-schemas/latest/
 
 ### This is the archetype for all oscem schemas - 
 ### import this as your top level and fill accordingly with subschemas.
 ### DO NOT MAKE ANY CLASS BUT THE EMDATASET IN YOUR SCHEMA, DO NOT REDEFINE SLOTS - ONLY SLOT_USAGE
 ### -- otherwise it will clash if imported into another schema -- all definitions need to be in subschemas
+
 default_prefix: oscem
 
 imports:
@@ -43,18 +42,14 @@ classes:
 
 slots:
   acquisition:
-    #descritption: "The acquisition details of the dataset"
+    #description: "The acquisition details of the dataset"
     range: Any
   instrument:
-    #descritption: "Instrument details for the dataset"
+    #description: "Instrument details for the dataset"
     range: Any
   sample:
-    #descritption: "What sample was used in the dataset"
+    #description: "What sample was used in the dataset"
     range: Any
   organizational:
-    #descritption: "Who performed the experiments under which funding"
+    #description: "Who performed the experiments under which funding"
     range: Any
-
-
-
-

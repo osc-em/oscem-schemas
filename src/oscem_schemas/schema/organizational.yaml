@@ -1,14 +1,12 @@
-id: https://w3id.org/osc-em/organizational
-name: OSCEMorg
+id: https://w3id.org/oscem-schemas/latest/organizational
+name: Organizational
 description: >
-  LinkML schema for electron microscopy sample and author-related metadata,
+  LinkML schema for electron microscopy grant and author-related metadata,
   broadly following the EMDB standard with some additions.
 prefixes:
   linkml: https://w3id.org/linkml/
   qudt: http://qudt.org/schema/qudt/
-  organizational: https://w3id.org/osc-em/organizational/
-
-#default_prefix: organizational
+  organizational: https://w3id.org/oscem-schemas/latest/organizational/
 
 imports:
   - linkml:types

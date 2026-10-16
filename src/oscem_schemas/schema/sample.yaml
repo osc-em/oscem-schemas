@@ -1,13 +1,13 @@
-id: https://w3id.org/osc-em/sample
-name: sample
+id: https://w3id.org/oscem-schemas/latest/sample
+name: Sample
 description: >
   LinkML schema for electron microscopy sample and author-related metadata,
   broadly following the EMDB standard with some additions.
 
 prefixes:
   linkml: https://w3id.org/linkml/
-  sample: https://w3id.org/osc-em/sample
-  types: https://w3id.org/osc-em/custom_types
+  sample: https://w3id.org/oscem-schemas/latest/sample
+  types: https://w3id.org/oscem-schemas/latest/custom_types
 
 default_prefix: sample
 

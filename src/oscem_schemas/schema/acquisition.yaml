@@ -1,13 +1,13 @@
-id: https://w3id.org/osc-em/acquisition
-name: OSCEMAcquisiton
+id: https://w3id.org/oscem-schemas/latest/acquisition
+name: Acquisition
 description: >
-  LinkML schema for electron microscopy sample and author-related metadata,
+  LinkML schema for electron microscopy acquisition and related metadata,
   broadly following the EMDB standard with some additions.
 
 prefixes:
   linkml: https://w3id.org/linkml/
-  acquisition: https://w3id.org/osc-em/acquisition
-  types: https://w3id.org/osc-em/custom_types
+  acquisition: https://w3id.org/oscem-schemas/latest/acquisition
+  types: https://w3id.org/oscem-schemas/latest/custom_types
 
 default_prefix: acquisition
 

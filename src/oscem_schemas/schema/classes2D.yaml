@@ -1,11 +1,11 @@
-id: https://w3id.org/osc-em/classes2D
-name: OSCEMClasses2D
+id: https://w3id.org/oscem-schemas/latest/classes2D
+name: Classes2D
 description: >
   LinkML schema for electron microscopy 2D classes generated when processing.
 
 prefixes:
   linkml: https://w3id.org/linkml/
-  classes2D: https://w3id.org/osc-em/classes2D
+  classes2D: https://w3id.org/oscem-schemas/latest/classes2D
 
 default_prefix: classes2D
 

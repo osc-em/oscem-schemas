@@ -1,19 +1,14 @@
 ---
-id: https://w3id.org/osc-em/oscem-schemas-env-tomo
-name: oscem-schemas-env-tomo
+id: https://w3id.org/oscem-schemas/latest/env_tomo
+name: EnvironmentalTomography
 title: oscem-schemas-env-tomo
-description: |-
-  Schema for the Open Standards Community for Electron Microscopy (OSC-EM)
+description: Schema for the Open Standards Community for Electron Microscopy (OSC-EM)
 license: CC-BY
 see_also:
   - https://osc-em.github.io/oscem-schemas
 
 prefixes:
   linkml: https://w3id.org/linkml/
-
-#default_prefix: oscem_env
-
-#default_range: string
 
 imports:
   - linkml:types
@@ -28,7 +23,7 @@ classes:
   EMDatasetEnv:
     is_a: EMDatasetBase
     tree_root: true
-    description: cryo electron tomography dataset of an environmental sample
+    description: Cryo electron tomography dataset of an environmental sample
     slot_usage:
       acquisition:
         range: AcquisitionEnvTomo

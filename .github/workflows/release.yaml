@@ -37,35 +37,93 @@ jobs:
 
       # Generate artifacts once, use everywhere
       - name: Generate project artifacts
-        run: make gen-project
+        run: make gen-all-schemas
 
       # 1. Deploy to GitHub Pages for permanent URLs
       - name: Prepare artifacts for GitHub Pages
         run: |
           mkdir -p artifacts-pages
           VERSION="${{ github.event.release.tag_name }}"
-          
-          echo "Deploying version: $VERSION"
-          
-          # Copy to versioned directory and latest
-          cp -r project "artifacts-pages/$VERSION"
-          cp -r project "artifacts-pages/latest"
-          
-          # Create index
-          cat > artifacts-pages/index.html << 'EOF'
-          <!DOCTYPE html>
-          <html>
-          <head>
-            <title>OSC-EM Schema Artifacts</title>
-            <meta http-equiv="refresh" content="0; url=https://osc-em.github.io/oscem-schemas/">
-          </head>
-          <body>
-            <p>Redirecting to <a href="https://osc-em.github.io/oscem-schemas/">documentation</a>...</p>
-          </body>
-          </html>
-          EOF
 
-      - name: Deploy to GitHub Pages
+          echo "Deploying version: $VERSION"
+
+          # Create version directories (clean latest to avoid stale files)
+          mkdir -p "artifacts-pages/$VERSION"
+          rm -rf "artifacts-pages/latest"
+          mkdir -p "artifacts-pages/latest"
+
+          # Copy to versioned directory and latest
+          cp -r project/* "artifacts-pages/$VERSION/"
+          cp -r project/* "artifacts-pages/latest/"
+
+          # Generate index pages for current version and latest
+          poetry run python scripts/generate_index_pages.py project "artifacts-pages/latest" "latest"
+          poetry run python scripts/generate_index_pages.py project "artifacts-pages/$VERSION" "$VERSION"
+
+      - name: Regenerate index pages for existing versions if missing
+        run: |
+          set -e
+
+          # Save current branch/ref to restore later
+          CURRENT_REF=$(git rev-parse HEAD)
+
+          # Fetch gh-pages branch
+          git fetch origin gh-pages || exit 0
+
+          # Extract artifacts directory
+          git show origin/gh-pages:artifacts 2>/dev/null || { echo "No existing artifacts to update"; exit 0; }
+
+          # List version directories from gh-pages
+          VERSIONS=$(git ls-tree --name-only origin/gh-pages:artifacts | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' || true)
+          if [ -z "$VERSIONS" ]; then
+            echo "No previous versions found"
+            exit 0
+          fi
+
+          for version in $VERSIONS; do
+            # Check if this version has subdirectory indexes by counting index.html files
+            HAS_INDEXES=$(git ls-tree -r origin/gh-pages:artifacts/$version | grep '/index.html$' | wc -l)
+
+            # If only 1 index.html exists (the top-level one), subdirectory indexes are missing
+            if [ "$HAS_INDEXES" -le 1 ]; then
+              echo "Regenerating missing index pages for $version"
+
+              # Extract this version's artifacts from gh-pages to artifacts-pages/$version
+              mkdir -p "artifacts-pages/$version"
+              git archive origin/gh-pages "artifacts/$version" | tar -x --strip-components=2 -C "artifacts-pages/$version"
+
+              # Remove any oscem_schemas_* directories from old deployments (keep only short names)
+              cd "artifacts-pages/$version"
+              rm -rf oscem_schemas_*
+              cd - > /dev/null
+
+              # Generate index pages for old version
+              poetry run python scripts/generate_index_pages.py "artifacts-pages/$version" "artifacts-pages/$version" "$version"
+            else
+              echo "Skipping $version - already has $HAS_INDEXES index pages"
+            fi
+          done
+
+          git checkout -q "$CURRENT_REF"
+
+      - name: Generate artifacts documentation page
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Generate artifacts.md to docs/ directory
+          poetry run python scripts/generate_artifacts_page.py "${{ github.repository }}"
+  
+          # Run gendoc to prepare docs
+          make gendoc
+
+          # Build with MkDocs to get proper styling
+          poetry run mkdocs build
+
+          # Copy the artifacts page HTML into the artifacts-pages deployment
+          # This puts it at gh-pages/artifacts/index.html
+          cp site/artifacts/index.html artifacts-pages/
+
+      - name: Deploy artifacts and documentation to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

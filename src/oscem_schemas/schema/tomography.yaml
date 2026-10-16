@@ -1,12 +1,10 @@
-id: https://w3id.org/osc-em/tomography
-name: TomoAdditionalFields
-description: Mixin for additional fields for tomography datasets
+id: https://w3id.org/oscem-schemas/latest/tomography
+name: TomographyAdditionalFields
+description: Mixin for additional fields for tomography datasets.
 
 prefixes:
-  types: https://w3id.org/osc-em/custom_types
-  tomo: https://w3id.org/osc-em/tomo
-
-#default_prefix: tomo
+  types: https://w3id.org/oscem-schemas/latest/custom_types
+  tomo: https://w3id.org/oscem-schemas/latest/tomo
 
 imports:
   - ./custom_types

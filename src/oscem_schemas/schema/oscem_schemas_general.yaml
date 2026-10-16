@@ -1,9 +1,8 @@
 ---
-id: https://w3id.org/osc-em/oscem-schemas-general
-name: oscem-schemas-general
+id: https://w3id.org/oscem-schemas/latest/general
+name: General
 title: oscem-schemas-general
-description: |-
-  Schema for the Open Standards Community for Electron Microscopy (OSC-EM)
+description: Schema for the Open Standards Community for Electron Microscopy (OSC-EM)
 license: CC-BY
 see_also:
   - https://osc-em.github.io/oscem-schemas

@@ -1,10 +1,10 @@
-id: https://w3id.org/osc-em/custom_types
-name: custom_types
-description: Mixins for basic types shared among OSC-EM schemas
+id: https://w3id.org/oscem-schemas/latest/custom_types
+name: CustomTypes
+description: Mixins for basic types shared among OSC-EM schemas.
 
 prefixes:
   linkml: https://w3id.org/linkml/
-  custom_types: https://w3id.org/osc-em/custom_types
+  custom_types: https://w3id.org/oscem-schemas/latest/custom_types
 
 default_prefix: custom_types
 
@@ -21,11 +21,6 @@ classes:
     slots:
     - minimal
     - maximal
-  #RangeSI:
-  #  description: A range constructed from min and max, si units attached
-   # slots:
-  #  - minimal_si
-  #  - maximal_si
   Series:
     is_a: Range
     description: A series of numbers constructed from min, max, and increment
@@ -43,13 +38,6 @@ classes:
     - x_max
     - y_min
     - y_max
-  #BoundingBox2DSI:
-   # description: an axis-aligned 2D bounding box (float units) with SI unit attached
-    #slots:
-  #  - x_min_si
-  #  - x_max_si
-  #  - y_min_si
-   # - y_max_si
   QuantityValue:
     class_uri: qudt:quantityValue
     description: if a value has a unit, it should be given as a unit value pair.
@@ -67,11 +55,6 @@ classes:
     slots:
     - valueSI
     - unitSI
-    # slot_usage:
-    #   si_value:
-    #     required: true
-    #   si_unit:
-    #     required: true
   Descriptor:
     description: List of custom descriptors for user-defined key-value pairs describing how micrographs were obtained or any related information
     abstract: true
@@ -150,21 +133,3 @@ slots:
   unitSI:
     description: the SI unit attached to a si value
     range: string
- # minimal_si:
-  #  description: Minimal value of a given dataset property, with si units
-  #  range: QuantitySI
-  #maximal_si:
-  #  description: Maximal value of a given dataset property, with si units
-  #  range: QuantitySI
-  #x_min_si:
-  #  description: minimum x, with si units
-  #  range: QuantitySI
-  #x_max_si:
-  #  description: maximum x, with si units
-  #  range: QuantitySI
-  #y_min_si:
-  #  description: minimum y, with si units
-  #  range: QuantitySI
-  #y_max_si:
-  #  description: maximum y, with si units
-  #  range: QuantitySI

@@ -1,11 +1,11 @@
-id: https://w3id.org/osc-em/micrographs
-name: OSCEMMicrographs
+id: https://w3id.org/oscem-schemas/latest/micrographs
+name: Micrographs
 description: >
   LinkML schema for electron microscopy micrographs generated when processing.
 
 prefixes:
   linkml: https://w3id.org/linkml/
-  micrographs: https://w3id.org/osc-em/micrographs
+  micrographs: https://w3id.org/oscem-schemas/latest/micrographs
 
 
 default_prefix: micrographs

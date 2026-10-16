@@ -12,11 +12,15 @@ include config.public.mk
 
 RUN = poetry run
 
-# List all schema files matching oscem_schemas_*.yaml in the schema directory
-SCHEMA_FILES := $(wildcard src/oscem_schemas/schema/oscem_schemas_*.yaml)
+# List all schema files in the schema directory
+ALL_SCHEMA_FILES := $(wildcard src/oscem_schemas/schema/*.yaml)
 
-# Extract schema names without the directory and extension
-SCHEMA_NAMES := $(notdir $(basename $(SCHEMA_FILES)))
+# Extract all schema names without the directory and extension
+ALL_SCHEMA_NAMES := $(notdir $(basename $(ALL_SCHEMA_FILES)))
+
+# For backwards compatibility: main schemas that start with oscem_schemas_
+MAIN_SCHEMA_FILES := $(wildcard src/oscem_schemas/schema/oscem_schemas_*.yaml)
+SCHEMA_NAMES := $(notdir $(basename $(MAIN_SCHEMA_FILES)))
 SCHEMA_NAMES := $(patsubst oscem_schemas_%,%,$(SCHEMA_NAMES))
 
 SRC = src
@@ -53,6 +57,9 @@ help: status
 	@echo "make -j serve-live -- serves docs locally, regenerating on schema changes"
 	@echo "make deploy -- deploys site"
 	@echo "make update -- updates linkml version"
+	@echo "make gen-project -- generate artifacts for main schemas (oscem_schemas_*.yaml)"
+	@echo "make gen-all-schemas -- generate artifacts for all schema files"
+	@echo "make gen-artifacts -- alias for gen-all-schemas + examples"
 	@echo "make help -- show this help"
 	@echo ""
 
@@ -94,7 +101,7 @@ update-template:
 update-linkml:
 	poetry add -D linkml@latest
 
-# Generate code for all schemas
+# Generate code for main schemas (oscem_schemas_*.yaml)
 .PHONY: gen-project
 gen-project: $(SCHEMA_NAMES:%=gen-project-%)
 
@@ -102,6 +109,22 @@ gen-project-%:
 	@echo "Generating code for schema $*"
 	mkdir -p $(DEST)/$*
 	$(RUN) gen-project $(CONFIG_YAML) -d $(DEST)/$* src/oscem_schemas/schema/oscem_schemas_$*.yaml
+
+# Generate code for all schema files (including supporting schemas like instrument, acquisition, etc.)
+.PHONY: gen-all-schemas
+gen-all-schemas: $(ALL_SCHEMA_NAMES:%=gen-schema-%)
+
+gen-schema-%:
+	@echo "Generating artifacts for schema file $*"
+	@# Use short name for main schemas (oscem_schemas_*), full name for supporting schemas
+	@if [[ "$*" == oscem_schemas_* ]]; then \
+		SCHEMA_DIR=$$(echo "$*" | sed 's/^oscem_schemas_//'); \
+	else \
+		SCHEMA_DIR="$*"; \
+	fi; \
+	mkdir -p "$(DEST)/$$SCHEMA_DIR"; \
+	$(RUN) gen-project $(CONFIG_YAML) -d "$(DEST)/$$SCHEMA_DIR" src/oscem_schemas/schema/$*.yaml || \
+		(echo "Warning: Could not generate artifacts for $$SCHEMA_DIR (may be import-only schema)" && rm -rf "$(DEST)/$$SCHEMA_DIR")
 
 # Generate documentation for all schemas
 .PHONY: gendoc
@@ -253,6 +276,6 @@ clean:
 
 # Default target
 .PHONY: all
-gen-artifacts: gen-project gen-examples
-all: gen-project gen-examples gendoc test
+gen-artifacts: gen-all-schemas gen-examples
+all: gen-all-schemas gen-examples gendoc test
 deploy: all mkdocs-deploy

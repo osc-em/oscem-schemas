@@ -1,13 +1,13 @@
-id: https://w3id.org/osc-em/instrument
-name: OSCEMInstrument
+id: https://w3id.org/oscem-schemas/latest/instrument
+name: Instrument
 description: >
   LinkML schema for electron microscopy instrument and related metadata,
   broadly following the EMDB standard with some additions.
 
 prefixes:
   linkml: https://w3id.org/linkml/
-  instrument: https://w3id.org/osc-em/instrument
-  types: https://w3id.org/osc-em/custom_types
+  instrument: https://w3id.org/oscem-schemas/latest/instrument
+  types: https://w3id.org/oscem-schemas/latest/custom_types
 
 default_prefix: instrument
 

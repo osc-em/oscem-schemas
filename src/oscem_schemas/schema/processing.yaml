@@ -1,12 +1,12 @@
-id: https://w3id.org/osc-em/processing
-name: OSCEMProcessing
+id: https://w3id.org/oscem-schemas/latest/processing
+name: Processing
 description: >
   LinkML schema for processing electron microscopy metadata,
   broadly following the EMDB standard with some additions.
 
 prefixes:
   linkml: https://w3id.org/linkml/
-  processing: https://w3id.org/osc-em/processing
+  processing: https://w3id.org/oscem-schemas/latest/processing
 
 default_prefix: processing
 

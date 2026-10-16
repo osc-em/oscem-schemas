@@ -1,11 +1,11 @@
-id: https://w3id.org/osc-em/sample-cellular-tomo-lab
-name: sample-cellular-tomo-lab
+id: https://w3id.org/oscem-schemas/latest/sample-cellular-tomo-lab
+name: SampleCellularTomographyLabGrown
 description: >
   LinkML schema for electron microscopy sample and author-related metadata,
   broadly following the EMDB standard with some additions.
 prefixes:
   linkml: https://w3id.org/linkml/
-  cellular_tomo: https://w3id.org/osc-em/cellular_tomo
+  cellular_tomo: https://w3id.org/oscem-schemas/latest/cellular_tomo
 
 default_prefix: cellular_tomo
 
@@ -22,7 +22,7 @@ classes:
     - growth_condition
 
   GrowthCondition:
-    description: how the cells were grown
+    description: How the cells were grown
     slots:
     - media
     - growth_location
@@ -33,7 +33,7 @@ classes:
 
 slots:
   temperature_growth:
-    description: temperature of the sample; in K.
+    description: Temperature of the sample; in K.
     range:  QuantitySI
   atmosphere_growth:
     description: What was the atmosphere the sample was in, elaborate on any special gases present etc.
@@ -48,8 +48,8 @@ slots:
     description: What was the targeted cell cycle state, if any
     range: string
   treatment:
-    description: were there any special treatment conditions; such as addition of certain chemicals etc
+    description: Were there any special treatment conditions; such as addition of certain chemicals etc
     range: string
   growth_condition:
-    description: how the specimen was grown
+    description: How the specimen was grown
     range: GrowthCondition

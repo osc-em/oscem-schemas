@@ -1,11 +1,11 @@
-id: https://w3id.org/osc-em/movies
-name: OSCEMMovies
+id: https://w3id.org/oscem-schemas/latest/movies
+name: Movies
 description: >
   LinkML schema for electron microscopy movies generated when processing.
 
 prefixes:
   linkml: https://w3id.org/linkml/
-  movies: https://w3id.org/osc-em/movies
+  movies: https://w3id.org/oscem-schemas/latest/movies
 
 
 default_prefix: movies

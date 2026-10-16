@@ -1,19 +1,14 @@
 ---
-id: https://w3id.org/osc-em/oscem-schemas-subtomo
-name: oscem-schemas-tomo
-title: oscem-schemas-tomo
-description: |-
-  Schema for the Open Standards Community for Electron Microscopy (OSC-EM)
+id: https://w3id.org/oscem-schemas/latest/subtomo
+name: SubtomogramAveraging
+title: oscem-schemas-subtomo
+description: Schema for the Open Standards Community for Electron Microscopy (OSC-EM)
 license: CC-BY
 see_also:
   - https://osc-em.github.io/oscem-schemas
 
 prefixes:
   linkml: https://w3id.org/linkml/
-
-#default_prefix: oscem_tomo
-
-#default_range: string
 
 imports:
   - linkml:types
@@ -28,7 +23,7 @@ classes:
   EMDatasetTomo:
     is_a: EMDatasetBase
     tree_root: true
-    description: cryo electron tomography dataset, with a focus on a single protein (complex) & subtomogram averaging
+    description: Cryo electron tomography dataset, with a focus on a single protein (complex) & subtomogram averaging
     slot_usage:
       acquisition:
         range: AcquisitionSubTomo
