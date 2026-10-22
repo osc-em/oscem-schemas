@@ -96,9 +96,12 @@ Use the `make` command to generate project artifacts:
 
 - `make setup`: one-time setup
 - `make all`: make everything
+- `make gen-project`: generate schema outputs
+- `make gendocs`: generate documentation
 - `make deploy`: deploys site
 - `make test`: run tests and linting
 - `make serve`: run docs locally on <http://127.0.0.1:8000/oscem-schemas/>
+- `make serve-live`: run docs locally, rebuilding automatically on schema changes
 - `make gen-all-schemas`: generate artifacts for all schema files (main + supporting)
 - `make gen-project`: generate artifacts for main schemas only (oscem_schemas_*.yaml)
 - `make clean` : remove generated files
