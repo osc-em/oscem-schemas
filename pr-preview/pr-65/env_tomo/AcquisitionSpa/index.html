@@ -250,6 +250,92 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inheritance">
+<span class="md-ellipsis">
+      
+        Inheritance
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+<span class="md-ellipsis">
+      
+        Slots
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+<span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+</a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+<span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+<span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+<span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+</a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+<span class="md-ellipsis">
+      
+        Direct
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+<span class="md-ellipsis">
+      
+        Induced
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -257,14 +343,8 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1 id="class-acquisitionspa">Class: AcquisitionSpa</h1>
-<div data-search-exclude="" markdown="1">
-
-
-
-URI: [https://w3id.org/oscem-schemas/latest/env_tomo/AcquisitionSpa](https://w3id.org/oscem-schemas/latest/env_tomo/AcquisitionSpa)
-
-
-
+<div>
+<p>URI: <a href="https://w3id.org/oscem-schemas/latest/env_tomo/AcquisitionSpa">https://w3id.org/oscem-schemas/latest/env_tomo/AcquisitionSpa</a></p>
 <div class="mermaid">erDiagram
 AcquisitionSpa {
     string technique  
@@ -340,95 +420,221 @@ SpecialistOptics ||--|o Phaseplate : "phaseplate"
 SpecialistOptics ||--|o SphericalAberrationCorrector : "spherical_aberration_corrector"
 
 </div>
-
-
-
-
-
-## Inheritance
-* [Acquisition](Acquisition.md)
-    * **AcquisitionSpa**
-
-
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [technique](technique.md) | 1 <br/> [String](String.md) | Single particle acquisition | [Acquisition](Acquisition.md) |
-| [screen_current](screen_current.md) | 0..1 <br/> [QuantitySI](QuantitySI.md) | The total electron beam current hitting the viewing screen, in nA | [Acquisition](Acquisition.md) |
-| [nominal_defocus](nominal_defocus.md) | 0..1 <br/> [Range](Range.md) | Target defocus set, min and max values in nm | [Acquisition](Acquisition.md) |
-| [calibrated_defocus](calibrated_defocus.md) | 0..1 <br/> [Range](Range.md) | Machine estimated defocus, min and max values in µm | [Acquisition](Acquisition.md) |
-| [nominal_magnification](nominal_magnification.md) | 0..1 <br/> [Integer](Integer.md) | Magnification level as indicated by the instrument, no unit | [Acquisition](Acquisition.md) |
-| [calibrated_magnification](calibrated_magnification.md) | 0..1 <br/> [Integer](Integer.md) | Calculated magnification, no unit | [Acquisition](Acquisition.md) |
-| [holder](holder.md) | 0..1 <br/> [String](String.md) | Speciman holder model | [Acquisition](Acquisition.md) |
-| [holder_cryogen](holder_cryogen.md) | 0..1 <br/> [String](String.md) | Type of cryogen used in the holder - if the holder is cooled seperately | [Acquisition](Acquisition.md) |
-| [temperature_range](temperature_range.md) | 0..1 <br/> [Range](Range.md) | Temperature during data collection, in K with min and max values | [Acquisition](Acquisition.md) |
-| [microscope_software](microscope_software.md) | 0..1 <br/> [String](String.md) | Software used for instrument control, | [Acquisition](Acquisition.md) |
-| [detectors](detectors.md) | 1..* <br/> [Detector](Detector.md) |  | [Acquisition](Acquisition.md) |
-| [dose_per_movie](dose_per_movie.md) | 0..1 <br/> [QuantitySI](QuantitySI.md) | Average dose per image/movie/tilt - given in electrons per square Angstrom | [Acquisition](Acquisition.md) |
-| [energy_filter](energy_filter.md) | 0..1 <br/> [EnergyFilter](EnergyFilter.md) | Whether an energy filter was used and its specifics | [Acquisition](Acquisition.md) |
-| [image_size](image_size.md) | 0..1 <br/> [ImageSize](ImageSize.md) | The size of the image in pixels, height and width given | [Acquisition](Acquisition.md) |
-| [date_time](date_time.md) | 1 <br/> [Datetime](Datetime.md) | Time and date of the data acquisition | [Acquisition](Acquisition.md) |
-| [exposure_time](exposure_time.md) | 0..1 <br/> [QuantitySI](QuantitySI.md) | Time of data acquisition per movie/tilt - in s | [Acquisition](Acquisition.md) |
-| [cryogen](cryogen.md) | 0..1 <br/> [String](String.md) | Cryogen used in cooling the instrument and sample, usually nitrogen | [Acquisition](Acquisition.md) |
-| [frames_per_movie](frames_per_movie.md) | 0..1 <br/> [Integer](Integer.md) | Number of frames that on average constitute a full movie, can be a bit hard t... | [Acquisition](Acquisition.md) |
-| [grids_imaged](grids_imaged.md) | 0..1 <br/> [Integer](Integer.md) | Number of grids imaged for this project - here with qualifier during this dat... | [Acquisition](Acquisition.md) |
-| [images_generated](images_generated.md) | 0..1 <br/> [Integer](Integer.md) | Number of images generated total for this data collection - might need a qual... | [Acquisition](Acquisition.md) |
-| [binning_camera](binning_camera.md) | 1 <br/> [ImageSize](ImageSize.md) | Level of binning on the images applied during data collection | [Acquisition](Acquisition.md) |
-| [pixel_size](pixel_size.md) | 1 <br/> [QuantitySI](QuantitySI.md) | Pixel size, in Angstrom | [Acquisition](Acquisition.md) |
-| [specialist_optics](specialist_optics.md) | 0..1 <br/> [SpecialistOptics](SpecialistOptics.md) | Any type of special optics, such as a phaseplate | [Acquisition](Acquisition.md) |
-| [beamshift](beamshift.md) | 0..1 <br/> [BoundingBox2D](BoundingBox2D.md) | Movement of the beam above the sample for data collection purposes that does ... | [Acquisition](Acquisition.md) |
-| [beamtilt](beamtilt.md) | 0..1 <br/> [BoundingBox2D](BoundingBox2D.md) | Another way to move the beam above the sample for data collection purposes th... | [Acquisition](Acquisition.md) |
-| [imageshift](imageshift.md) | 0..1 <br/> [BoundingBox2D](BoundingBox2D.md) | Movement of the Beam below the image in order to shift the image on the detec... | [Acquisition](Acquisition.md) |
-| [beamtiltgroups](beamtiltgroups.md) | 0..1 <br/> [Integer](Integer.md) | Number of Beamtilt groups present in this dataset - for optimized processing ... | [Acquisition](Acquisition.md) |
-| [gainref_flip_rotate](gainref_flip_rotate.md) | 0..1 <br/> [String](String.md) | Whether and how you have to flip or rotate the gainref in order to align with... | [Acquisition](Acquisition.md) |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/env_tomo
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://w3id.org/oscem-schemas/latest/env_tomo/AcquisitionSpa |
-| native | https://w3id.org/oscem-schemas/latest/env_tomo/AcquisitionSpa |
-
-
-
-
-
-
-## LinkML Source
-
+<h2 id="inheritance">Inheritance</h2>
+<ul>
+<li><a href="../Acquisition/">Acquisition</a><ul>
+<li><strong>AcquisitionSpa</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../technique/">technique</a></td>
+<td>1 <br/> <a href="../String/">String</a></td>
+<td>Single particle acquisition</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../screen_current/">screen_current</a></td>
+<td>0..1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>The total electron beam current hitting the viewing screen, in nA</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../nominal_defocus/">nominal_defocus</a></td>
+<td>0..1 <br/> <a href="../Range/">Range</a></td>
+<td>Target defocus set, min and max values in nm</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../calibrated_defocus/">calibrated_defocus</a></td>
+<td>0..1 <br/> <a href="../Range/">Range</a></td>
+<td>Machine estimated defocus, min and max values in µm</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../nominal_magnification/">nominal_magnification</a></td>
+<td>0..1 <br/> <a href="../Integer/">Integer</a></td>
+<td>Magnification level as indicated by the instrument, no unit</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../calibrated_magnification/">calibrated_magnification</a></td>
+<td>0..1 <br/> <a href="../Integer/">Integer</a></td>
+<td>Calculated magnification, no unit</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../holder/">holder</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Speciman holder model</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../holder_cryogen/">holder_cryogen</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Type of cryogen used in the holder - if the holder is cooled seperately</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../temperature_range/">temperature_range</a></td>
+<td>0..1 <br/> <a href="../Range/">Range</a></td>
+<td>Temperature during data collection, in K with min and max values</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../microscope_software/">microscope_software</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Software used for instrument control,</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../detectors/">detectors</a></td>
+<td>1..* <br/> <a href="../Detector/">Detector</a></td>
+<td></td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../dose_per_movie/">dose_per_movie</a></td>
+<td>0..1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>Average dose per image/movie/tilt - given in electrons per square Angstrom</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../energy_filter/">energy_filter</a></td>
+<td>0..1 <br/> <a href="../EnergyFilter/">EnergyFilter</a></td>
+<td>Whether an energy filter was used and its specifics</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../image_size/">image_size</a></td>
+<td>0..1 <br/> <a href="../ImageSize/">ImageSize</a></td>
+<td>The size of the image in pixels, height and width given</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../date_time/">date_time</a></td>
+<td>1 <br/> <a href="../Datetime/">Datetime</a></td>
+<td>Time and date of the data acquisition</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../exposure_time/">exposure_time</a></td>
+<td>0..1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>Time of data acquisition per movie/tilt - in s</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../cryogen/">cryogen</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Cryogen used in cooling the instrument and sample, usually nitrogen</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../frames_per_movie/">frames_per_movie</a></td>
+<td>0..1 <br/> <a href="../Integer/">Integer</a></td>
+<td>Number of frames that on average constitute a full movie, can be a bit hard t...</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../grids_imaged/">grids_imaged</a></td>
+<td>0..1 <br/> <a href="../Integer/">Integer</a></td>
+<td>Number of grids imaged for this project - here with qualifier during this dat...</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../images_generated/">images_generated</a></td>
+<td>0..1 <br/> <a href="../Integer/">Integer</a></td>
+<td>Number of images generated total for this data collection - might need a qual...</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../binning_camera/">binning_camera</a></td>
+<td>1 <br/> <a href="../ImageSize/">ImageSize</a></td>
+<td>Level of binning on the images applied during data collection</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../pixel_size/">pixel_size</a></td>
+<td>1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>Pixel size, in Angstrom</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../specialist_optics/">specialist_optics</a></td>
+<td>0..1 <br/> <a href="../SpecialistOptics/">SpecialistOptics</a></td>
+<td>Any type of special optics, such as a phaseplate</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../beamshift/">beamshift</a></td>
+<td>0..1 <br/> <a href="../BoundingBox2D/">BoundingBox2D</a></td>
+<td>Movement of the beam above the sample for data collection purposes that does ...</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../beamtilt/">beamtilt</a></td>
+<td>0..1 <br/> <a href="../BoundingBox2D/">BoundingBox2D</a></td>
+<td>Another way to move the beam above the sample for data collection purposes th...</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../imageshift/">imageshift</a></td>
+<td>0..1 <br/> <a href="../BoundingBox2D/">BoundingBox2D</a></td>
+<td>Movement of the Beam below the image in order to shift the image on the detec...</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../beamtiltgroups/">beamtiltgroups</a></td>
+<td>0..1 <br/> <a href="../Integer/">Integer</a></td>
+<td>Number of Beamtilt groups present in this dataset - for optimized processing ...</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+<tr>
+<td><a href="../gainref_flip_rotate/">gainref_flip_rotate</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Whether and how you have to flip or rotate the gainref in order to align with...</td>
+<td><a href="../Acquisition/">Acquisition</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/env_tomo</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>https://w3id.org/oscem-schemas/latest/env_tomo/AcquisitionSpa</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/env_tomo/AcquisitionSpa</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
-
-### Direct
-
+<h3 id="direct">Direct</h3>
 <details>
 <pre><code class="language-yaml">name: AcquisitionSpa
 from_schema: https://w3id.org/oscem-schemas/latest/env_tomo
@@ -442,9 +648,7 @@ slot_usage:
 
 </code></pre>
 </details>
-
-### Induced
-
+<h3 id="induced">Induced</h3>
 <details>
 <pre><code class="language-yaml">name: AcquisitionSpa
 from_schema: https://w3id.org/oscem-schemas/latest/env_tomo
@@ -795,7 +999,8 @@ attributes:
     range: string
 
 </code></pre>
-</details></div>
+</details>
+</div>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>

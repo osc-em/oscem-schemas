@@ -250,6 +250,101 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inheritance">
+<span class="md-ellipsis">
+      
+        Inheritance
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#class-properties">
+<span class="md-ellipsis">
+      
+        Class Properties
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+<span class="md-ellipsis">
+      
+        Slots
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+<span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+</a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+<span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+<span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+<span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+</a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+<span class="md-ellipsis">
+      
+        Direct
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+<span class="md-ellipsis">
+      
+        Induced
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -258,14 +353,8 @@
 <article class="md-content__inner md-typeset">
 <h1 id="class-emdatasettomo">Class: EMDatasetTomo</h1>
 <p><em>Cryo electron tomography dataset, with a focus on a single protein (complex) &amp; subtomogram averaging</em></p>
-<div data-search-exclude="" markdown="1">
-
-
-
-URI: [https://w3id.org/oscem-schemas/latest/subtomo/EMDatasetTomo](https://w3id.org/oscem-schemas/latest/subtomo/EMDatasetTomo)
-
-
-
+<div>
+<p>URI: <a href="https://w3id.org/oscem-schemas/latest/subtomo/EMDatasetTomo">https://w3id.org/oscem-schemas/latest/subtomo/EMDatasetTomo</a></p>
 <div class="mermaid">erDiagram
 AcquisitionSubTomo {
     string technique  
@@ -440,78 +529,92 @@ Specimen ||--|o QuantitySI : "concentration, humidity, temperature"
 TiltAngle ||--|| QuantitySI : "increment, maximal, minimal"
 
 </div>
-
-
-
-
-
-## Inheritance
-* [EMDatasetBase](EMDatasetBase.md)
-    * **EMDatasetTomo**
-
-
-## Class Properties
-
-| Property | Value |
-| --- | --- |
-| Tree Root | Yes |
-
-
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [acquisition](acquisition.md) | 1 <br/> [AcquisitionSubTomo](AcquisitionSubTomo.md) | Describe the data acquisition parameters | [EMDatasetBase](EMDatasetBase.md) |
-| [instrument](instrument.md) | 1 <br/> [Instrument](Instrument.md) | Describe the instrument used to acquire the data | [EMDatasetBase](EMDatasetBase.md) |
-| [sample](sample.md) | 0..1 <br/> [SampleMolecular](SampleMolecular.md) | Sample information | [EMDatasetBase](EMDatasetBase.md) |
-| [organizational](organizational.md) | 0..1 <br/> [Organizational](Organizational.md) | Information on authors and grants | [EMDatasetBase](EMDatasetBase.md) |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/subtomo
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://w3id.org/oscem-schemas/latest/subtomo/EMDatasetTomo |
-| native | https://w3id.org/oscem-schemas/latest/subtomo/EMDatasetTomo |
-
-
-
-
-
-
-## LinkML Source
-
+<h2 id="inheritance">Inheritance</h2>
+<ul>
+<li><a href="../EMDatasetBase/">EMDatasetBase</a><ul>
+<li><strong>EMDatasetTomo</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="class-properties">Class Properties</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tree Root</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../acquisition/">acquisition</a></td>
+<td>1 <br/> <a href="../AcquisitionSubTomo/">AcquisitionSubTomo</a></td>
+<td>Describe the data acquisition parameters</td>
+<td><a href="../EMDatasetBase/">EMDatasetBase</a></td>
+</tr>
+<tr>
+<td><a href="../instrument/">instrument</a></td>
+<td>1 <br/> <a href="../Instrument/">Instrument</a></td>
+<td>Describe the instrument used to acquire the data</td>
+<td><a href="../EMDatasetBase/">EMDatasetBase</a></td>
+</tr>
+<tr>
+<td><a href="../sample/">sample</a></td>
+<td>0..1 <br/> <a href="../SampleMolecular/">SampleMolecular</a></td>
+<td>Sample information</td>
+<td><a href="../EMDatasetBase/">EMDatasetBase</a></td>
+</tr>
+<tr>
+<td><a href="../organizational/">organizational</a></td>
+<td>0..1 <br/> <a href="../Organizational/">Organizational</a></td>
+<td>Information on authors and grants</td>
+<td><a href="../EMDatasetBase/">EMDatasetBase</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/subtomo</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>https://w3id.org/oscem-schemas/latest/subtomo/EMDatasetTomo</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/subtomo/EMDatasetTomo</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
-
-### Direct
-
+<h3 id="direct">Direct</h3>
 <details>
 <pre><code class="language-yaml">name: EMDatasetTomo
 description: Cryo electron tomography dataset, with a focus on a single protein (complex)
@@ -543,9 +646,7 @@ tree_root: true
 
 </code></pre>
 </details>
-
-### Induced
-
+<h3 id="induced">Induced</h3>
 <details>
 <pre><code class="language-yaml">name: EMDatasetTomo
 description: Cryo electron tomography dataset, with a focus on a single protein (complex)
@@ -621,7 +722,8 @@ attributes:
 tree_root: true
 
 </code></pre>
-</details></div>
+</details>
+</div>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>

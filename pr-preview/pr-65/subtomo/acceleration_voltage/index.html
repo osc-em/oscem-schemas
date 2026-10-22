@@ -523,6 +523,114 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#applicable-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Applicable Classes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Properties
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Properties">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#type-and-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type and Range
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See Also
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#identifier-and-mapping-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Identifier and Mapping Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schema-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mappings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linkml-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -540,36 +648,46 @@
 
 <h1 id="slot-acceleration_voltage">Slot: acceleration_voltage</h1>
 <p><em>Voltage used for the electron acceleration, in kV</em></p>
-<div data-search-exclude markdown="1">
-
-
-
-URI: [https://w3id.org/oscem-schemas/latest/subtomo/acceleration_voltage](https://w3id.org/oscem-schemas/latest/subtomo/acceleration_voltage)
+<div>
+<p>URI: <a href="https://w3id.org/oscem-schemas/latest/subtomo/acceleration_voltage">https://w3id.org/oscem-schemas/latest/subtomo/acceleration_voltage</a></p>
 <!-- no inheritance hierarchy -->
-
-
-
-
-
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [Instrument](Instrument.md) | Instrument values, mostly constant across a data collection |  yes  |
-
-
-
-
-
-
-## Properties
-
-### Type and Range
-
-| Property | Value |
-| --- | --- |
-| Range | [QuantitySI](QuantitySI.md) |
-| Domain Of | [Instrument](Instrument.md) |
+<h2 id="applicable-classes">Applicable Classes</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Modifies Slot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../Instrument/">Instrument</a></td>
+<td>Instrument values, mostly constant across a data collection</td>
+<td>yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="properties">Properties</h2>
+<h3 id="type-and-range">Type and Range</h3>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td><a href="../QuantitySI/">QuantitySI</a></td>
+</tr>
+<tr>
+<td>Domain Of</td>
+<td><a href="../Instrument/">Instrument</a></td>
+</tr>
+</tbody>
+</table>
 <details>
 <summary>Additional Constraints</summary>
 **Unit:**
@@ -579,50 +697,44 @@ URI: [https://w3id.org/oscem-schemas/latest/subtomo/acceleration_voltage](https:
 | ucum_code | kV |
 
 </details>
-
-
-
-
-
-
-
-
-
-## See Also
-
-* [mmcif:_em_imaging.accelerating_voltage.html](https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_em_imaging.accelerating_voltage.html)
-* [emg:00000004](https://purls.helmholtz-metadaten.de/emg/EMG_00000004)
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/subtomo
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://w3id.org/oscem-schemas/latest/subtomo/acceleration_voltage |
-| native | https://w3id.org/oscem-schemas/latest/subtomo/acceleration_voltage |
-| exact | pdbx:em_imaging.accelerating_voltage |
-| close | emg:00000004 |
-
-
-
-
-## LinkML Source
-
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a href="https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/_em_imaging.accelerating_voltage.html">mmcif:_em_imaging.accelerating_voltage.html</a></li>
+<li><a href="https://purls.helmholtz-metadaten.de/emg/EMG_00000004">emg:00000004</a></li>
+</ul>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/subtomo</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>https://w3id.org/oscem-schemas/latest/subtomo/acceleration_voltage</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/subtomo/acceleration_voltage</td>
+</tr>
+<tr>
+<td>exact</td>
+<td>pdbx:em_imaging.accelerating_voltage</td>
+</tr>
+<tr>
+<td>close</td>
+<td>emg:00000004</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <details>
 
 <pre><code class="language-yaml">name: acceleration_voltage
@@ -644,7 +756,8 @@ unit:
 
 </code></pre>
 
-</details></div>
+</details>
+</div>
 
 
 

@@ -250,6 +250,92 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+<span class="md-ellipsis">
+      
+        Slots
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usages">
+<span class="md-ellipsis">
+      
+        Usages
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+<span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+</a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+<span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+<span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+<span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+</a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+<span class="md-ellipsis">
+      
+        Direct
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+<span class="md-ellipsis">
+      
+        Induced
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -258,14 +344,8 @@
 <article class="md-content__inner md-typeset">
 <h1 id="class-instrument">Class: Instrument</h1>
 <p><em>Instrument values, mostly constant across a data collection.</em></p>
-<div data-search-exclude="" markdown="1">
-
-
-
-URI: [https://w3id.org/oscem-schemas/latest/spa/Instrument](https://w3id.org/oscem-schemas/latest/spa/Instrument)
-
-
-
+<div>
+<p>URI: <a href="https://w3id.org/oscem-schemas/latest/spa/Instrument">https://w3id.org/oscem-schemas/latest/spa/Instrument</a></p>
 <div class="mermaid">erDiagram
 Instrument {
     string electron_source  
@@ -290,74 +370,119 @@ Instrument ||--|| QuantitySI : "acceleration_voltage"
 
 </div>
 <!-- no inheritance hierarchy -->
-
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [microscope](microscope.md) | 1 <br/> [Microscope](Microscope.md) | Microscope information | direct |
-| [illumination](illumination.md) | 1 <br/> [String](String.md) | Mode of illumination used during data collection | direct |
-| [imaging](imaging.md) | 1 <br/> [String](String.md) | Mode of imaging used during data collection | direct |
-| [electron_source](electron_source.md) | 1 <br/> [String](String.md) | Type of electron source used in the microscope, such as FEG | direct |
-| [acceleration_voltage](acceleration_voltage.md) | 1 <br/> [QuantitySI](QuantitySI.md) | Voltage used for the electron acceleration, in kV | direct |
-| [c2_aperture](c2_aperture.md) | 0..1 <br/> [QuantitySI](QuantitySI.md) | C2 aperture size used in data acquisition, in µm | direct |
-| [cs](cs.md) | 0..1 <br/> [QuantitySI](QuantitySI.md) | Spherical aberration of the instrument, in mm | direct |
-| [operating_mode](operating_mode.md) | 0..1 <br/> [String](String.md) | Operating mode of the microscope, i | direct |
-| [beam_convergence](beam_convergence.md) | 0..1 <br/> [QuantitySI](QuantitySI.md) | Refers to how tightly or widely the electron beam is focused onto the sample,... | direct |
-
-
-
-
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [EMDatasetSpa](EMDatasetSpa.md) | [instrument](instrument.md) | range | [Instrument](Instrument.md) |
-
-
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/spa
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://w3id.org/oscem-schemas/latest/spa/Instrument |
-| native | https://w3id.org/oscem-schemas/latest/spa/Instrument |
-
-
-
-
-
-
-## LinkML Source
-
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../microscope/">microscope</a></td>
+<td>1 <br/> <a href="../Microscope/">Microscope</a></td>
+<td>Microscope information</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../illumination/">illumination</a></td>
+<td>1 <br/> <a href="../String/">String</a></td>
+<td>Mode of illumination used during data collection</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../imaging/">imaging</a></td>
+<td>1 <br/> <a href="../String/">String</a></td>
+<td>Mode of imaging used during data collection</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../electron_source/">electron_source</a></td>
+<td>1 <br/> <a href="../String/">String</a></td>
+<td>Type of electron source used in the microscope, such as FEG</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../acceleration_voltage/">acceleration_voltage</a></td>
+<td>1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>Voltage used for the electron acceleration, in kV</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../c2_aperture/">c2_aperture</a></td>
+<td>0..1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>C2 aperture size used in data acquisition, in µm</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../cs/">cs</a></td>
+<td>0..1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>Spherical aberration of the instrument, in mm</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../operating_mode/">operating_mode</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Operating mode of the microscope, i</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../beam_convergence/">beam_convergence</a></td>
+<td>0..1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>Refers to how tightly or widely the electron beam is focused onto the sample,...</td>
+<td>direct</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usages">Usages</h2>
+<table>
+<thead>
+<tr>
+<th>used by</th>
+<th>used in</th>
+<th>type</th>
+<th>used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../EMDatasetSpa/">EMDatasetSpa</a></td>
+<td><a href="../instrument/">instrument</a></td>
+<td>range</td>
+<td><a href="./">Instrument</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/spa</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>https://w3id.org/oscem-schemas/latest/spa/Instrument</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/spa/Instrument</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
-
-### Direct
-
+<h3 id="direct">Direct</h3>
 <details>
 <pre><code class="language-yaml">name: Instrument
 description: Instrument values, mostly constant across a data collection.
@@ -403,9 +528,7 @@ slot_usage:
 
 </code></pre>
 </details>
-
-### Induced
-
+<h3 id="induced">Induced</h3>
 <details>
 <pre><code class="language-yaml">name: Instrument
 description: Instrument values, mostly constant across a data collection.
@@ -568,7 +691,8 @@ attributes:
     required: false
 
 </code></pre>
-</details></div>
+</details>
+</div>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
