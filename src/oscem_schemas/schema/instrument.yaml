@@ -8,6 +8,8 @@ prefixes:
   linkml: https://w3id.org/linkml/
   instrument: https://w3id.org/oscem-schemas/latest/instrument
   types: https://w3id.org/oscem-schemas/latest/custom_types
+  pdbx: http://rdf.wwpdb.org/schema/pdbx-v50.owl#
+  mmcif: https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/
 
 default_prefix: instrument
 
@@ -68,23 +70,47 @@ slots:
   illumination:
     description: Mode of illumination used during data collection
     range: string
+    see_also:
+      - mmcif:_em_imaging.illumination_mode.html
+    exact_mappings:
+      - pdbx:em_imaging.illumination_mode
   imaging:
     description: Mode of imaging used during data collection
     range: string
+    see_also:
+      - mmcif:_em_imaging.mode.html
+    exact_mappings:
+      - pdbx:em_imaging.mode
   electron_source:
     description: Type of electron source used in the microscope, such as FEG
     range: string
+    see_also:
+      - mmcif:_em_imaging.electron_source.html
+    exact_mappings:
+      - pdbx:em_imaging.electron_source
   acceleration_voltage:
     description: Voltage used for the electron acceleration, in kV
     range:  QuantitySI
     unit:
       ucum_code: kV
+    see_also:
+      - mmcif:_em_imaging.accelerating_voltage.html
+    exact_mappings:
+      - pdbx:em_imaging.accelerating_voltage
   c2_aperture:
     description: C2 aperture size used in data acquisition, in µm
     range:  QuantitySI
+    see_also:
+      - mmcif:_em_imaging.c2_aperture_diameter.html
+    exact_mappings:
+      - pdbx:em_imaging.c2_aperture_diameter
   cs:
     description: Spherical aberration of the instrument, in mm
     range:  QuantitySI
+    see_also:
+      - mmcif:_em_imaging.nominal_cs.html
+    exact_mappings:
+      - pdbx:em_imaging.nominal_cs
   operating_mode:
     description: Operating mode of the microscope, i.e. "TEM", "STEM"
     range: string

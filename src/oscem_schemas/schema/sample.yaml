@@ -8,6 +8,8 @@ prefixes:
   linkml: https://w3id.org/linkml/
   sample: https://w3id.org/oscem-schemas/latest/sample
   types: https://w3id.org/oscem-schemas/latest/custom_types
+  pdbx: http://rdf.wwpdb.org/schema/pdbx-v50.owl#
+  mmcif: https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/
 
 default_prefix: sample
 
@@ -239,15 +241,31 @@ slots:
   molecular_type:
     description: Description of the overall molecular type, i.e., a complex
     range: string
+    see_also:
+      - mmcif:_entity_poly.type.html
+    exact_mappings:
+      - pdbx:entity_poly.type
   name_sample:
     description: Name of the full sample
     range: string
+    see_also:
+      - mmcif:_em_entity_assembly.name.html
+    exact_mappings:
+      - pdbx:em_entity_assembly.name
   source:
     description: Where the sample was taken from, i.e., natural host, recombinantly expressed, etc.
     range: string
+    see_also:
+      - mmcif:_entity.src_method.html
+    exact_mappings:
+      - pdbx:entity.src_method
   molecular_weight:
     description: Molecular weight in Da
     range:  QuantitySI
+    see_also:
+      - mmcif:_entity.formula_weight.html
+    exact_mappings:
+      - pdbx:entity.formula_weight
   molecular_overall_type:
     description: Description of the overall molecular type, i.e., a complex
     range: MoleculeClassEnum
@@ -255,34 +273,70 @@ slots:
   name_mol:
     description: Name of an individual molecule (often protein) in the sample
     range: string
+    see_also:
+      - mmcif:_pdbx_entity_branch_descriptor.descriptor.html
+    exact_mappings:
+      - pdbx:pdbx_entity_branch_descriptor.descriptor
   molecular_class:
     description: Class of the molecule
     range: string
   sequence:
     description: Full sequence of the sample as in the data, i.e., cleaved tags should also be removed from sequence here
     range: string
+    see_also:
+      - mmcif:_entity_poly.pdbx_seq_one_letter_code.html
+    exact_mappings:
+      - pdbx:entity_poly.pdbx_seq_one_letter_code
   natural_source:
     description: Scientific name of the natural host organism
     range: string
+    see_also:
+      - mmcif:_em_entity_assembly_naturalsource.organism.html
+    exact_mappings:
+      - pdbx:em_entity_assembly_naturalsource.organism
   taxonomy_id_source:
     description: Taxonomy ID of the natural source organism
     range: string
+    see_also:
+      - mmcif:_em_entity_assembly_naturalsource.ncbi_tax_id.html
+    exact_mappings:
+      - pdbx:em_entity_assembly_naturalsource.ncbi_tax_id
   expression_system:
     description: Scientific name of the organism used to produce the molecule of interest
     range: string
+    see_also:
+      - mmcif:_em_entity_assembly_recombinant.organism.html
+    exact_mappings:
+      - pdbx:em_entity_assembly_recombinant.organism
   taxonomy_id_expression:
     description: Taxonomy ID of the expression system organism
     range: string
+    see_also:
+      - mmcif:_em_entity_assembly_recombinant.ncbi_tax_id.html
+    exact_mappings:
+      - pdbx:em_entity_assembly_recombinant.ncbi_tax_id
   gene_name:
     description: Name of the gene of interest
     range: string
+    see_also:
+      - mmcif:_entity_src_gen.pdbx_gene_src_gene.html
+    exact_mappings:
+      - pdbx:entity_src_gen.pdbx_gene_src_gene
 
   present:
     description: Whether the model contains any ligands
     range: boolean
+    see_also:
+      - mmcif:_pdbx_entry_details.has_ligand_of_interest.html
+    exact_mappings:
+      - pdbx:pdbx_entry_details.has_ligand_of_interest
   smiles:
     description: Provide a valid SMILES string of your ligand
     range: string
+    see_also:
+      - mmcif:_pdbx_chem_comp_depositor_info.descriptor.html
+    exact_mappings:
+      - pdbx:pdbx_chem_comp_depositor_info.descriptor
   reference:
     description: Link to a reference of your ligand, i.e., CCD, PubChem, etc.
     range: string
@@ -290,64 +344,140 @@ slots:
   buffer:
     description: Name/composition of the (chemical) sample buffer during grid preparation
     range: string
+    see_also:
+      - mmcif:_em_buffer.details.html
+    exact_mappings:
+      - pdbx:em_buffer.details
   concentration:
     description: Concentration of the (supra)molecule in the sample, in mg/ml
     range:  QuantitySI
+    see_also:
+      - mmcif:_em_specimen.concentration.html
+    exact_mappings:
+      - pdbx:em_specimen.concentration
   ph:
     description: pH of the sample buffer
     range: float
+    see_also:
+      - mmcif:_em_buffer.pH.html
+    exact_mappings:
+      - pdbx:em_buffer.pH
   vitrification:
     description: Whether the sample was vitrified
     range: boolean
+    see_also:
+      - mmcif:_em_specimen.vitrification_applied.html
+    exact_mappings:
+      - pdbx:em_specimen.vitrification_applied
   vitrification_cryogen:
     description: Which cryogen was used for vitrification
     range: string
+    see_also:
+      - mmcif:_em_vitrification.cryogen_name.html
+    exact_mappings:
+      - pdbx:em_vitrification.cryogen_name
   humidity:
     description: Environmental humidity just before vitrification, in %
     range:  QuantitySI
+    see_also:
+      - mmcif:_em_vitrification.humidity.html
+    exact_mappings:
+      - pdbx:em_vitrification.humidity
   temperature:
     description: Environmental temperature just before vitrification, in K
     range:  QuantitySI
+    see_also:
+      - mmcif:_em_vitrification.chamber_temperature.html
+    exact_mappings:
+      - pdbx:em_vitrification.chamber_temperature
   staining:
     description: Whether the sample was stained
     range: boolean
+    see_also:
+      - mmcif:_em_specimen.staining_applied.html
+    exact_mappings:
+      - pdbx:em_specimen.staining_applied
   embedding:
     description: Whether the sample was embedded
     range: boolean
+    see_also:
+      - mmcif:_em_specimen.embedding_applied.html
+    exact_mappings:
+      - pdbx:em_specimen.embedding_applied
   shadowing:
     description: Whether the sample was shadowed
     range: boolean
+    see_also:
+      - mmcif:_em_specimen.shadowing_applied.html
+    exact_mappings:
+      - pdbx:em_specimen.shadowing_applied
 
   material:
     description: Material out of which the grid is made
     range: string
+    see_also:
+      - mmcif:_em_sample_support.grid_material.html
+    exact_mappings:
+      - pdbx:em_sample_support.grid_material
   mesh:
     description: Grid mesh in lines per inch
     range: float
+    see_also:
+      - mmcif:_em_sample_support.grid_mesh_size.html
+    exact_mappings:
+      - pdbx:em_sample_support.grid_mesh_size
   film_support:
     description: Whether a support film was used
     range: boolean
   film_material:
     description: Type of material the support film is made of
     range: string
+    see_also:
+      - mmcif:_em_support_film.material.html
+    exact_mappings:
+      - pdbx:em_support_film.material
   film_topology:
     description: Topology of the support film
     range: string
+    see_also:
+      - mmcif:_em_support_film.topology.html
+    exact_mappings:
+      - pdbx:em_support_film.topology
   film_thickness:
     description: Thickness of the support film
     range: string
+    see_also:
+      - mmcif:_em_support_film.thickness.html
+    exact_mappings:
+      - pdbx:em_support_film.thickness
   pretreatment_type:
     description: Type of pretreatment of the grid, i.e., glow discharge
     range: string
+    see_also:
+      - mmcif:_em_grid_pretreatment.type.html
+    exact_mappings:
+      - pdbx:em_grid_pretreatment.type
   pretreatment_time:
     description: Length of time of the pretreatment in s
     range:  QuantitySI
+    see_also:
+      - mmcif:_em_grid_pretreatment.time.html
+    exact_mappings:
+      - pdbx:em_grid_pretreatment.time
   pretreatment_pressure:
     description: Pressure of the chamber during pretreatment, in Pa
     range:  QuantitySI
+    see_also:
+      - mmcif:_em_grid_pretreatment.pressure.html
+    exact_mappings:
+      - pdbx:em_grid_pretreatment.pressure
   pretreatment_atmosphere:
     description: Atmospheric conditions in the chamber during pretreatment, i.e., addition of specific gases, etc.
     range: string
+    see_also:
+      - mmcif:_em_grid_pretreatment.atmosphere.html
+    exact_mappings:
+      - pdbx:em_grid_pretreatment.atmosphere
 
   overall_molecule:
     description: Description of the overall molecule
@@ -369,3 +499,7 @@ slots:
   assembly:
     description: What type of higher order structure your sample forms - if any.
     range: AssemblyEnum
+    see_also:
+      - mmcif:_em_experiment.aggregation_state.html
+    exact_mappings:
+      - pdbx:em_experiment.aggregation_state

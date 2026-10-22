@@ -8,6 +8,8 @@ prefixes:
   linkml: https://w3id.org/linkml/
   acquisition: https://w3id.org/oscem-schemas/latest/acquisition
   types: https://w3id.org/oscem-schemas/latest/custom_types
+  pdbx: http://rdf.wwpdb.org/schema/pdbx-v50.owl#
+  mmcif: https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/
 
 default_prefix: acquisition
 
@@ -154,12 +156,24 @@ slots:
   nominal_magnification:
     description: Magnification level as indicated by the instrument, no unit
     range: integer
+    see_also:
+      - mmcif:_em_imaging.nominal_magnification.html
+    exact_mappings:
+      - pdbx:em_imaging.nominal_magnification
   calibrated_magnification:
     description: Calculated magnification, no unit
     range: integer
+    see_also:
+      - mmcif:_em_imaging.calibrated_magnification.html
+    exact_mappings:
+      - pdbx:em_imaging.calibrated_magnification
   holder:
     description: Speciman holder model
     range: string
+    see_also:
+      - mmcif:_em_imaging.specimen_holder_model.html
+    exact_mappings:
+      - pdbx:em_imaging.specimen_holder_model
   holder_cryogen:
     description: Type of cryogen used in the holder - if the holder is cooled seperately
     range: string
@@ -170,9 +184,17 @@ slots:
   microscope_software:
     description: Software used for instrument control,
     range: string
+    see_also:
+      - mmcif:_em_software.name.html
+    broad_mappings:
+      - pdbx:em_software.name
   dose_per_movie:
     description: Average dose per image/movie/tilt - given in electrons per square Angstrom
     range:  QuantitySI
+    see_also:
+      - mmcif:_em_image_recording.avg_electron_dose_per_image.html
+    exact_mappings:
+      - pdbx:em_image_recording.avg_electron_dose_per_image
   energy_filter:
     range: EnergyFilter
     description: Whether an energy filter was used and its specifics.
@@ -189,21 +211,45 @@ slots:
     description: Time and date of the data acquisition
     # range is required
     range: datetime
+    see_also:
+      - mmcif:_em_imaging.date.html
+    close_mappings:
+      - pdbx:em_imaging.date
   exposure_time:
     description: Time of data acquisition per movie/tilt - in s
     range:  QuantitySI
+    see_also:
+      - mmcif:_em_image_recording.average_exposure_time.html
+    close_mappings:
+      - pdbx:em_image_recording.average_exposure_time
   cryogen:
     description: Cryogen used in cooling the instrument and sample, usually nitrogen
     range: string
+    see_also:
+      - mmcif:_em_imaging.cryogen.html
+    exact_mappings:
+      - pdbx:em_imaging.cryogen
   frames_per_movie:
     description: Number of frames that on average constitute a full movie, can be a bit hard to define for some detectors
     range: integer
+    see_also:
+      - mmcif:_em_image_scans.frames_per_image.html
+    exact_mappings:
+      - pdbx:em_image_scans.frames_per_image
   grids_imaged:
     description: Number of grids imaged for this project - here with qualifier during this data acquisition
     range: integer
+    see_also:
+      - mmcif:_em_image_recording.num_grids_imaged.html
+    exact_mappings:
+      - pdbx:em_image_recording.num_grids_imaged
   images_generated:
     description: Number of images generated total for this data collection - might need a qualifier for tilt series to determine whether full series or individual tilts are counted
     range: integer
+    see_also:
+      - mmcif:_em_image_recording.num_real_images.html
+    exact_mappings:
+      - pdbx:em_image_recording.num_real_images
   binning_camera:
     description: Level of binning on the images applied during data collection
     range: ImageSize
@@ -243,10 +289,18 @@ slots:
   width_energy_filter:
     range:  QuantitySI
     description: Width of the energy filter used.
+    see_also:
+      - mmcif:_em_imaging_optics.energyfilter_slit_width.html
+    exact_mappings:
+      - pdbx:em_imaging_optics.energyfilter_slit_width
 
   mode:
     description: Mode of the detector, e.g. "counting", "ScanningDetector", "ImagingDetector", etc.
     range: string
+    see_also:
+      - mmcif:_em_image_recording.detector_mode.html
+    exact_mappings:
+      - pdbx:em_image_recording.detector_mode
   dispersion:
     description: Dispersion of an analytical detector, in eV
     range:  QuantitySI
