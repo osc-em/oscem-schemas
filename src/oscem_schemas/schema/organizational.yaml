@@ -7,6 +7,8 @@ prefixes:
   linkml: https://w3id.org/linkml/
   qudt: http://qudt.org/schema/qudt/
   organizational: https://w3id.org/oscem-schemas/latest/organizational/
+  pdbx: http://rdf.wwpdb.org/schema/pdbx-v50.owl#
+  mmcif: https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/
 
 imports:
   - linkml:types
@@ -98,23 +100,43 @@ slots:
     description: last name
     range: string
     slot_uri: schema:familyName
+    see_also:
+      - mmcif:_pdbx_contact_author.name_last.html
+    exact_mappings:
+      - pdbx:pdbx_contact_author.name_last
   given_name:
     description: first name
     range: string
     slot_uri: schema:givenName
+    see_also:
+      - mmcif:_pdbx_contact_author.name_first.html
+    exact_mappings:
+      - pdbx:pdbx_contact_author.name_first
   job_title:
     description: job title
     range: boolean
     slot_uri: schema:jobTitle
+    see_also:
+      - mmcif:_pdbx_contact_author.role.html
+    exact_mappings:
+      - pdbx:pdbx_contact_author.role
   email:
     description: email
     range: string
     pattern: "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
     slot_uri: schema:email
+    see_also:
+      - mmcif:_pdbx_contact_author.email.html
+    exact_mappings:
+      - pdbx:pdbx_contact_author.email
   telephone:
     description: work phone
     range: string
     slot_uri: schema:telephone
+    see_also:
+      - mmcif:_pdbx_contact_author.phone.html
+    exact_mappings:
+      - pdbx:pdbx_contact_author.phone
   person:
     range: Person
     description: person
@@ -134,9 +156,17 @@ slots:
   orcid:
     description: ORCID of the author, a type of unique identifier
     range: string
+    see_also:
+      - mmcif:_pdbx_contact_author.identifier_ORCID.html
+    exact_mappings:
+      - pdbx:pdbx_contact_author.identifier_ORCID
   funder_name:
     description: funding organization/person.
     range: string
+    see_also:
+      - mmcif:_pdbx_audit_support.funding_organization.html
+    exact_mappings:
+      - pdbx:pdbx_audit_support.funding_organization
   funder:
     description: funding organization/person.
     range: Funder
@@ -154,6 +184,10 @@ slots:
     description: project id
     range: string
     slot_uri: schema:identifier
+    see_also:
+      - mmcif:_pdbx_audit_support.grant_number.html
+    exact_mappings:
+      - pdbx:pdbx_audit_support.grant_number
   grants:
     description: List of grants associated with the project
     range: Grant
