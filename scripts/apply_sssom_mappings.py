@@ -2,15 +2,18 @@
 """
 Apply SSSOM mapping files to the OSC-EM LinkML schema modules.
 
-For every row in a mapping file, the subject (an OSC-EM slot, class or enum) gets:
-- the object CURIE in the LinkML mapping slot matching the predicate
+Each row maps an OSC-EM term (a slot, class or enum in the https://w3id.org/oscem-schemas/
+namespace) to an external term. The OSC-EM term may be either the subject or the object;
+if it is the object, the predicate is inverted (broadMatch <-> narrowMatch). The OSC-EM
+term gets:
+- the external CURIE in the LinkML mapping slot matching the predicate
   (skos:exactMatch -> exact_mappings, skos:closeMatch -> close_mappings, ...)
-- the object CURIE in see_also
-- the object prefix declared in the module's prefixes
+- the external CURIE in see_also
+- the external prefix declared in the module's prefixes
 
-The mapping file is the source of truth for the object prefixes it uses (e.g. emg:).
-For each subject in the file, mappings with those prefixes that are no longer in the
-file (e.g. after changing the predicate or the object term) are removed. Mappings with
+The mapping file is the source of truth for the external prefixes it uses (e.g. emg:).
+For each OSC-EM term in the file, mappings with those prefixes that are no longer in the
+file (e.g. after changing the predicate or the external term) are removed. Mappings with
 other prefixes are left untouched, as are elements not mentioned in the file.
 
 Schema files are edited line by line rather than re-serialized, so formatting and
@@ -56,6 +59,12 @@ PREDICATE_SLOTS = {
     SKOS + "narrowMatch": "narrow_mappings",
     SKOS + "relatedMatch": "related_mappings",
 }
+# Predicate to use when the OSC-EM term is the object; the others are symmetric
+INVERSE_PREDICATES = {
+    SKOS + "broadMatch": SKOS + "narrowMatch",
+    SKOS + "narrowMatch": SKOS + "broadMatch",
+}
+OSCEM_NAMESPACE = "https://w3id.org/oscem-schemas/"
 # Order in which new keys are added to an element
 MANAGED_SLOTS = ["see_also"] + list(PREDICATE_SLOTS.values())
 
@@ -83,6 +92,7 @@ class MappingRow:
     subject_label: str
     predicate_id: str
     object_id: str
+    object_label: str
 
 
 # --- SSSOM ---------------------------------------------------------------------------
@@ -114,6 +124,7 @@ def read_sssom(path: Path) -> Tuple[dict, List[MappingRow]]:
                 subject_label=(rec.get("subject_label") or "").strip(),
                 predicate_id=rec["predicate_id"].strip(),
                 object_id=rec["object_id"].strip(),
+                object_label=(rec.get("object_label") or "").strip(),
             )
         )
     return metadata, rows
@@ -172,13 +183,12 @@ def index_schemas(schema_dir: Path) -> Dict[str, List[Element]]:
     return index
 
 
-def suggest(row: MappingRow, subject_uri: Optional[str], index, prefixes) -> str:
+def suggest(label: str, uri: str, index, prefixes) -> str:
     candidates = []
-    if row.subject_label:
+    if label:
         names = {e.name: uri for uri, elems in index.items() for e in elems}
-        candidates += [names[n] for n in difflib.get_close_matches(row.subject_label, names, n=3, cutoff=0.8)]
-    if subject_uri:
-        candidates += difflib.get_close_matches(subject_uri, index.keys(), n=3, cutoff=0.9)
+        candidates += [names[n] for n in difflib.get_close_matches(label, names, n=3, cutoff=0.8)]
+    candidates += difflib.get_close_matches(uri, index.keys(), n=3, cutoff=0.9)
     seen = []
     for uri in candidates:
         for elem in index[uri]:
@@ -330,9 +340,9 @@ def apply_mapping_file(path, index, files: Dict[Path, YamlText], log) -> List[st
     metadata, rows = read_sssom(path)
     sssom_prefixes = {**BUILTIN_PREFIXES, **(metadata.get("curie_map") or {})}
 
-    # Resolve rows and group by subject element
+    # Resolve rows and group by OSC-EM element
     desired: Dict[Element, Dict[str, List[str]]] = {}
-    object_prefixes: Dict[str, str] = {}
+    object_prefixes: Dict[str, str] = {}  # prefixes of the external terms
     for row in rows:
         where = f"{path.name}:{row.line}"
         predicate = expand(row.predicate_id, sssom_prefixes)
@@ -340,31 +350,48 @@ def apply_mapping_file(path, index, files: Dict[Path, YamlText], log) -> List[st
             errors.append(f"{where}: unsupported predicate {row.predicate_id}")
             continue
 
-        obj_prefix = row.object_id.partition(":")[0]
-        if expand(row.object_id, sssom_prefixes) is None or "://" in row.object_id:
-            errors.append(f"{where}: object {row.object_id} is not a CURIE with a prefix in the curie_map")
-            continue
-        object_prefixes[obj_prefix] = sssom_prefixes[obj_prefix]
-
+        # Orient the row so that term_id is the OSC-EM side
         subject_uri = expand(row.subject_id, sssom_prefixes)
-        elems = index.get(subject_uri, []) if subject_uri else []
+        object_uri = expand(row.object_id, sssom_prefixes)
+        subject_is_oscem = (subject_uri or "").startswith(OSCEM_NAMESPACE)
+        object_is_oscem = (object_uri or "").startswith(OSCEM_NAMESPACE)
+        if subject_is_oscem == object_is_oscem:
+            which = "both are" if subject_is_oscem else "neither is"
+            errors.append(
+                f"{where}: {row.subject_id} and {row.object_id}: {which} an OSC-EM term "
+                f"(expected exactly one in {OSCEM_NAMESPACE})"
+            )
+            continue
+        if subject_is_oscem:
+            term_id, term_uri, term_label, mapped_id = row.subject_id, subject_uri, row.subject_label, row.object_id
+        else:
+            term_id, term_uri, term_label, mapped_id = row.object_id, object_uri, row.object_label, row.subject_id
+            predicate = INVERSE_PREDICATES.get(predicate, predicate)
+
+        mapped_prefix = mapped_id.partition(":")[0]
+        if expand(mapped_id, sssom_prefixes) is None or "://" in mapped_id:
+            errors.append(f"{where}: {mapped_id} is not a CURIE with a prefix in the curie_map")
+            continue
+        object_prefixes[mapped_prefix] = sssom_prefixes[mapped_prefix]
+
+        elems = index.get(term_uri, [])
         if not elems:
             errors.append(
-                f"{where}: subject {row.subject_id} ({row.subject_label}) not found in the schema."
-                + suggest(row, subject_uri, index, sssom_prefixes)
+                f"{where}: {term_id} ({term_label}) not found in the schema."
+                + suggest(term_label, term_uri, index, sssom_prefixes)
             )
             continue
         if len(elems) > 1:
-            errors.append(f"{where}: subject {row.subject_id} is ambiguous: {'; '.join(map(str, elems))}")
+            errors.append(f"{where}: {term_id} is ambiguous: {'; '.join(map(str, elems))}")
             continue
         elem = elems[0]
 
         slots = desired.setdefault(elem, {s: [] for s in MANAGED_SLOTS})
-        if row.object_id in slots["see_also"]:
-            errors.append(f"{where}: {row.subject_id} is mapped to {row.object_id} more than once")
+        if mapped_id in slots["see_also"]:
+            errors.append(f"{where}: {term_id} is mapped to {mapped_id} more than once")
             continue
-        slots["see_also"].append(row.object_id)
-        slots[PREDICATE_SLOTS[predicate]].append(row.object_id)
+        slots["see_also"].append(mapped_id)
+        slots[PREDICATE_SLOTS[predicate]].append(mapped_id)
 
     if errors:
         return errors

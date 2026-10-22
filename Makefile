@@ -52,6 +52,8 @@ help: status
 	@echo "make install -- install dependencies"
 	@echo "make test -- runs tests"
 	@echo "make lint -- perform linting"
+	@echo "make apply-mappings -- update schemas from the SSSOM files in src/mappings/"
+	@echo "make test-mappings -- check that schemas match the SSSOM files"
 	@echo "make testdoc -- builds docs and runs local test server"
 	@echo "make serve -- serves docs locally"
 	@echo "make -j serve-live -- serves docs locally, regenerating on schema changes"
@@ -168,6 +170,15 @@ test-lint: $(SCHEMA_NAMES:%=lint-%)
 test-examples: $(SCHEMA_NAMES:%=examples-%)
 test: test-lint test-examples
 .PHONY: test test-lint test-examples
+
+# Apply the SSSOM mappings in src/mappings/ to the schemas
+apply-mappings:
+	$(RUN) python scripts/apply_sssom_mappings.py
+
+# Check that the schemas are up to date with the SSSOM mappings
+test-mappings:
+	$(RUN) python scripts/apply_sssom_mappings.py --check
+.PHONY: apply-mappings test-mappings
 
 test-%:
 	@echo "Running tests for schema $*"
