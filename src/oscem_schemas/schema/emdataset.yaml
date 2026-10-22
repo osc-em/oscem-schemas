@@ -9,6 +9,7 @@ see_also:
 prefixes:
   linkml: https://w3id.org/linkml/
   oscem: https://w3id.org/oscem-schemas/latest/
+  emg: https://purls.helmholtz-metadaten.de/emg/EMG_
 
 ### This is the archetype for all oscem schemas - 
 ### import this as your top level and fill accordingly with subschemas.
@@ -50,6 +51,10 @@ slots:
   sample:
     #description: "What sample was used in the dataset"
     range: Any
+    see_also:
+      - emg:00000046
+    exact_mappings:
+      - emg:00000046
   organizational:
     #description: "Who performed the experiments under which funding"
     range: Any
