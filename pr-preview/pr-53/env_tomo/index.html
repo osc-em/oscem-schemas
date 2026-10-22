@@ -1,0 +1,1356 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="OSC-EM">
+      
+      
+        <link rel="canonical" href="https://osc-em.github.io/oscem-schemas/env_tomo/">
+      
+      <link rel="icon" href="https://raw.githubusercontent.com/osc-em/osc-em.github.io/refs/heads/main/docs/assets/img/oscem_icon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Environmental Tomography - OSC-EM Schemas</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#757575">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="grey" data-md-color-accent="cyan">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#oscem-schemas-env-tomo" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="OSC-EM Schemas" class="md-header__button md-logo" aria-label="OSC-EM Schemas" data-md-component="logo">
+      
+  <img src="https://raw.githubusercontent.com/osc-em/osc-em.github.io/refs/heads/main/docs/assets/img/oscem_icon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OSC-EM Schemas
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Environmental Tomography
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/osc-em/oscem-schemas" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="OSC-EM Schemas" class="md-nav__button md-logo" aria-label="OSC-EM Schemas" data-md-component="logo">
+      
+  <img src="https://raw.githubusercontent.com/osc-em/osc-em.github.io/refs/heads/main/docs/assets/img/oscem_icon.svg" alt="logo">
+
+    </a>
+    OSC-EM Schemas
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/osc-em/oscem-schemas" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://osc-em.github.io/" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://osc-em.github.io/oscem-schemas/artifacts" class="md-nav__link">
+        Artifacts
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Schemas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Schemas" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Schemas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../general/" class="md-nav__link">
+        General
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spa/" class="md-nav__link">
+        SPA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../subtomo/" class="md-nav__link">
+        Subtomogram Averaging
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Environmental Tomography
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Environmental Tomography
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#classes" class="md-nav__link">
+    Classes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slots" class="md-nav__link">
+    Slots
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enumerations" class="md-nav__link">
+    Enumerations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types" class="md-nav__link">
+    Types
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subsets" class="md-nav__link">
+    Subsets
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cellular_tomo/" class="md-nav__link">
+        Cellular Tomography
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#classes" class="md-nav__link">
+    Classes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slots" class="md-nav__link">
+    Slots
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enumerations" class="md-nav__link">
+    Enumerations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types" class="md-nav__link">
+    Types
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subsets" class="md-nav__link">
+    Subsets
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="oscem-schemas-env-tomo">oscem-schemas-env-tomo</h1>
+<p>Schema for the Open Standards Community for Electron Microscopy (OSC-EM)</p>
+<p>URI: https://w3id.org/oscem-schemas/latest/env_tomo</p>
+<p>Name: EnvironmentalTomography</p>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Acquisition/">Acquisition</a></td>
+<td>General acquisition covering materials science and other use cases</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="AcquisitionSpa/">AcquisitionSpa</a></td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="AcquisitionTomo/">AcquisitionTomo</a></td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="AcquisitionCelTomo/">AcquisitionCelTomo</a></td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="AcquisitionEnvTomo/">AcquisitionEnvTomo</a></td>
+<td></td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="AcquisitionSubTomo/">AcquisitionSubTomo</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="Any/">Any</a></td>
+<td>Any type, used as the base for type-narrowing</td>
+</tr>
+<tr>
+<td><a href="BoundingBox2D/">BoundingBox2D</a></td>
+<td>an axis-aligned 2D bounding box (float units)</td>
+</tr>
+<tr>
+<td><a href="ChromaticAberrationCorrector/">ChromaticAberrationCorrector</a></td>
+<td>Special device used to correct instrument inherent chromatic aberration</td>
+</tr>
+<tr>
+<td><a href="Descriptor/">Descriptor</a></td>
+<td>List of custom descriptors for user-defined key-value pairs describing how mi...</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Descriptors/">Descriptors</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="Detector/">Detector</a></td>
+<td>Class representing a detector</td>
+</tr>
+<tr>
+<td><a href="EMDatasetBase/">EMDatasetBase</a></td>
+<td>OSC-EM Metadata for a dataset</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="EMDatasetEnv/">EMDatasetEnv</a></td>
+<td>Cryo electron tomography dataset of an environmental sample</td>
+</tr>
+<tr>
+<td><a href="EnergyFilter/">EnergyFilter</a></td>
+<td>A device used to filter for electrons with specific energy</td>
+</tr>
+<tr>
+<td><a href="Freezing/">Freezing</a></td>
+<td>how the sample was frozen</td>
+</tr>
+<tr>
+<td><a href="Funder/">Funder</a></td>
+<td>Description of the project funding</td>
+</tr>
+<tr>
+<td><a href="Grant/">Grant</a></td>
+<td>Grant</td>
+</tr>
+<tr>
+<td><a href="ImageSize/">ImageSize</a></td>
+<td>size of a 2D image (in integer units)</td>
+</tr>
+<tr>
+<td><a href="Instrument/">Instrument</a></td>
+<td>Instrument values, mostly constant across a data collection</td>
+</tr>
+<tr>
+<td><a href="Microscope/">Microscope</a></td>
+<td>Microscope information</td>
+</tr>
+<tr>
+<td><a href="Organizational/">Organizational</a></td>
+<td>Overarching category for authors and grants</td>
+</tr>
+<tr>
+<td><a href="Person/">Person</a></td>
+<td>personal information</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Author/">Author</a></td>
+<td>Details on the person performing the experiment</td>
+</tr>
+<tr>
+<td><a href="Phaseplate/">Phaseplate</a></td>
+<td>Used to modulate the phase of the electron wave</td>
+</tr>
+<tr>
+<td><a href="QuantityValue/">QuantityValue</a></td>
+<td>if a value has a unit, it should be given as a unit value pair</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="QuantitySI/">QuantitySI</a></td>
+<td>unit value extended to have two additional fields si_value and si_unit</td>
+</tr>
+<tr>
+<td><a href="Range/">Range</a></td>
+<td>A range constructed from min and max</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Series/">Series</a></td>
+<td>A series of numbers constructed from min, max, and increment</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="TiltAngle/">TiltAngle</a></td>
+<td>The min, max and increment of the tilt angle in a tomography session</td>
+</tr>
+<tr>
+<td><a href="SampleEnv/">SampleEnv</a></td>
+<td>Unifying class to describe the full sample</td>
+</tr>
+<tr>
+<td><a href="SpecialistOptics/">SpecialistOptics</a></td>
+<td>Optional optics used to correct for instrument limitations</td>
+</tr>
+<tr>
+<td><a href="SpecimenEnv/">SpecimenEnv</a></td>
+<td>base information on the acquisition and treatment of the sample itself</td>
+</tr>
+<tr>
+<td><a href="SphericalAberrationCorrector/">SphericalAberrationCorrector</a></td>
+<td>Special device used to correct instrument inherent spherical aberration</td>
+</tr>
+<tr>
+<td><a href="Thinning/">Thinning</a></td>
+<td>how the frozen sample was thinned by i</td>
+</tr>
+<tr>
+<td><a href="TomogramFeatures/">TomogramFeatures</a></td>
+<td>what was the target of the tomograms, and what area of a cell do they cover</td>
+</tr>
+</tbody>
+</table>
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Slot</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="acceleration_voltage/">acceleration_voltage</a></td>
+<td>Voltage used for the electron acceleration, in kV</td>
+</tr>
+<tr>
+<td><a href="acquisition/">acquisition</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="atmosphere/">atmosphere</a></td>
+<td>What was the atmosphere the sample was in right before freezing, elaborate on...</td>
+</tr>
+<tr>
+<td><a href="authors/">authors</a></td>
+<td>List of authors associated with the project</td>
+</tr>
+<tr>
+<td><a href="beam_convergence/">beam_convergence</a></td>
+<td>Refers to how tightly or widely the electron beam is focused onto the sample,...</td>
+</tr>
+<tr>
+<td><a href="beamshift/">beamshift</a></td>
+<td>Movement of the beam above the sample for data collection purposes that does ...</td>
+</tr>
+<tr>
+<td><a href="beamtilt/">beamtilt</a></td>
+<td>Another way to move the beam above the sample for data collection purposes th...</td>
+</tr>
+<tr>
+<td><a href="beamtiltgroups/">beamtiltgroups</a></td>
+<td>Number of Beamtilt groups present in this dataset - for optimized processing ...</td>
+</tr>
+<tr>
+<td><a href="binning_camera/">binning_camera</a></td>
+<td>Level of binning on the images applied during data collection</td>
+</tr>
+<tr>
+<td><a href="blotting/">blotting</a></td>
+<td>whether blotting was performed</td>
+</tr>
+<tr>
+<td><a href="budget/">budget</a></td>
+<td>budget</td>
+</tr>
+<tr>
+<td><a href="c2_aperture/">c2_aperture</a></td>
+<td>C2 aperture size used in data acquisition, in µm</td>
+</tr>
+<tr>
+<td><a href="calibrated_defocus/">calibrated_defocus</a></td>
+<td>Machine estimated defocus, min and max values in µm</td>
+</tr>
+<tr>
+<td><a href="calibrated_magnification/">calibrated_magnification</a></td>
+<td>Calculated magnification, no unit</td>
+</tr>
+<tr>
+<td><a href="cellular_features/">cellular_features</a></td>
+<td>What type of cellular features are present in your tomograms?</td>
+</tr>
+<tr>
+<td><a href="chromatic_aberration_corrector/">chromatic_aberration_corrector</a></td>
+<td>Specialist device to correct for chromatic aberration of the microscope lense...</td>
+</tr>
+<tr>
+<td><a href="collection_angle/">collection_angle</a></td>
+<td>Collection angle set, min and max values in mrad</td>
+</tr>
+<tr>
+<td><a href="collection_date/">collection_date</a></td>
+<td>When the sample was collected</td>
+</tr>
+<tr>
+<td><a href="country/">country</a></td>
+<td>Country of the institution</td>
+</tr>
+<tr>
+<td><a href="cryogen/">cryogen</a></td>
+<td>Cryogen used in cooling the instrument and sample, usually nitrogen</td>
+</tr>
+<tr>
+<td><a href="cryogen_sample_env/">cryogen_sample_env</a></td>
+<td>the cryogen used to freeze the sample, i</td>
+</tr>
+<tr>
+<td><a href="cs/">cs</a></td>
+<td>Spherical aberration of the instrument, in mm</td>
+</tr>
+<tr>
+<td><a href="date_time/">date_time</a></td>
+<td>Time and date of the data acquisition</td>
+</tr>
+<tr>
+<td><a href="description/">description</a></td>
+<td>The description of the item</td>
+</tr>
+<tr>
+<td><a href="descriptor_name/">descriptor_name</a></td>
+<td>Name defining the descriptor</td>
+</tr>
+<tr>
+<td><a href="descriptor_thing/">descriptor_thing</a></td>
+<td>Description of the descriptor</td>
+</tr>
+<tr>
+<td><a href="descriptors/">descriptors</a></td>
+<td>List of custom descriptors for user-defined key-value pairs describing how mo...</td>
+</tr>
+<tr>
+<td><a href="details/">details</a></td>
+<td>Any further comments on the freezing process go here</td>
+</tr>
+<tr>
+<td><a href="details_tomo/">details_tomo</a></td>
+<td>If you have any further comments on your tomograms please leave them here</td>
+</tr>
+<tr>
+<td><a href="detectors/">detectors</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="dispersion/">dispersion</a></td>
+<td>Dispersion of an analytical detector, in eV</td>
+</tr>
+<tr>
+<td><a href="dose_per_movie/">dose_per_movie</a></td>
+<td>Average dose per image/movie/tilt - given in electrons per square Angstrom</td>
+</tr>
+<tr>
+<td><a href="electron_source/">electron_source</a></td>
+<td>Type of electron source used in the microscope, such as FEG</td>
+</tr>
+<tr>
+<td><a href="email/">email</a></td>
+<td>email</td>
+</tr>
+<tr>
+<td><a href="end_date/">end_date</a></td>
+<td>end date</td>
+</tr>
+<tr>
+<td><a href="energy_filter/">energy_filter</a></td>
+<td>Whether an energy filter was used and its specifics</td>
+</tr>
+<tr>
+<td><a href="exposure_time/">exposure_time</a></td>
+<td>Time of data acquisition per movie/tilt - in s</td>
+</tr>
+<tr>
+<td><a href="family_name/">family_name</a></td>
+<td>last name</td>
+</tr>
+<tr>
+<td><a href="frames_per_movie/">frames_per_movie</a></td>
+<td>Number of frames that on average constitute a full movie, can be a bit hard t...</td>
+</tr>
+<tr>
+<td><a href="freezing/">freezing</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="funder/">funder</a></td>
+<td>funding organization/person</td>
+</tr>
+<tr>
+<td><a href="funder_name/">funder_name</a></td>
+<td>funding organization/person</td>
+</tr>
+<tr>
+<td><a href="gainref_flip_rotate/">gainref_flip_rotate</a></td>
+<td>Whether and how you have to flip or rotate the gainref in order to align with...</td>
+</tr>
+<tr>
+<td><a href="given_name/">given_name</a></td>
+<td>first name</td>
+</tr>
+<tr>
+<td><a href="grant_name/">grant_name</a></td>
+<td>name of the grant</td>
+</tr>
+<tr>
+<td><a href="grants/">grants</a></td>
+<td>List of grants associated with the project</td>
+</tr>
+<tr>
+<td><a href="grids_imaged/">grids_imaged</a></td>
+<td>Number of grids imaged for this project - here with qualifier during this dat...</td>
+</tr>
+<tr>
+<td><a href="handling/">handling</a></td>
+<td>What was done to the sample, please give an overview of relevant treatments</td>
+</tr>
+<tr>
+<td><a href="height/">height</a></td>
+<td>The height of a given item - unit depends on item</td>
+</tr>
+<tr>
+<td><a href="holder/">holder</a></td>
+<td>Speciman holder model</td>
+</tr>
+<tr>
+<td><a href="holder_cryogen/">holder_cryogen</a></td>
+<td>Type of cryogen used in the holder - if the holder is cooled seperately</td>
+</tr>
+<tr>
+<td><a href="humidity_env/">humidity_env</a></td>
+<td>humidity of the atmosphere right before/ during freezing; in %</td>
+</tr>
+<tr>
+<td><a href="illumination/">illumination</a></td>
+<td>Mode of illumination used during data collection</td>
+</tr>
+<tr>
+<td><a href="image_size/">image_size</a></td>
+<td>The size of the image in pixels, height and width given</td>
+</tr>
+<tr>
+<td><a href="images_generated/">images_generated</a></td>
+<td>Number of images generated total for this data collection - might need a qual...</td>
+</tr>
+<tr>
+<td><a href="imageshift/">imageshift</a></td>
+<td>Movement of the Beam below the image in order to shift the image on the detec...</td>
+</tr>
+<tr>
+<td><a href="imaging/">imaging</a></td>
+<td>Mode of imaging used during data collection</td>
+</tr>
+<tr>
+<td><a href="increment/">increment</a></td>
+<td>Increment between elements of a series</td>
+</tr>
+<tr>
+<td><a href="instrument/">instrument</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="instrument_thin/">instrument_thin</a></td>
+<td>Instrument used for thinning the sample</td>
+</tr>
+<tr>
+<td><a href="instrument_type/">instrument_type</a></td>
+<td>Details of a given specialist instrument</td>
+</tr>
+<tr>
+<td><a href="ion_source/">ion_source</a></td>
+<td>what ion source was used?</td>
+</tr>
+<tr>
+<td><a href="job_title/">job_title</a></td>
+<td>job title</td>
+</tr>
+<tr>
+<td><a href="lift_out/">lift_out</a></td>
+<td>whether a lift out was performed</td>
+</tr>
+<tr>
+<td><a href="location/">location</a></td>
+<td>the geographical location of your source, optimally in a geographic coordinat...</td>
+</tr>
+<tr>
+<td><a href="main_target/">main_target</a></td>
+<td>What was the main biological target of your research for this tomogram?</td>
+</tr>
+<tr>
+<td><a href="manufacturer/">manufacturer</a></td>
+<td>The name of the manufacturer</td>
+</tr>
+<tr>
+<td><a href="maximal/">maximal</a></td>
+<td>Maximal value of a given dataset property</td>
+</tr>
+<tr>
+<td><a href="method/">method</a></td>
+<td>freezing method - such as plunge freezing, high pressure freezing etc</td>
+</tr>
+<tr>
+<td><a href="method_thin/">method_thin</a></td>
+<td>The thinning method used, such as FIB milling</td>
+</tr>
+<tr>
+<td><a href="microscope/">microscope</a></td>
+<td>Microscope information</td>
+</tr>
+<tr>
+<td><a href="microscope_software/">microscope_software</a></td>
+<td>Software used for instrument control,</td>
+</tr>
+<tr>
+<td><a href="minimal/">minimal</a></td>
+<td>Minimal value of a given dataset property</td>
+</tr>
+<tr>
+<td><a href="mode/">mode</a></td>
+<td>Mode of the detector, e</td>
+</tr>
+<tr>
+<td><a href="model/">model</a></td>
+<td>The model of the item</td>
+</tr>
+<tr>
+<td><a href="name/">name</a></td>
+<td>The name of the item</td>
+</tr>
+<tr>
+<td><a href="name_org/">name_org</a></td>
+<td>Name of the organization</td>
+</tr>
+<tr>
+<td><a href="nominal_defocus/">nominal_defocus</a></td>
+<td>Target defocus set, min and max values in nm</td>
+</tr>
+<tr>
+<td><a href="nominal_magnification/">nominal_magnification</a></td>
+<td>Magnification level as indicated by the instrument, no unit</td>
+</tr>
+<tr>
+<td><a href="operating_mode/">operating_mode</a></td>
+<td>Operating mode of the microscope, i</td>
+</tr>
+<tr>
+<td><a href="orcid/">orcid</a></td>
+<td>ORCID of the author, a type of unique identifier</td>
+</tr>
+<tr>
+<td><a href="organelles/">organelles</a></td>
+<td>What organelles; if any; are present?</td>
+</tr>
+<tr>
+<td><a href="organism/">organism</a></td>
+<td>the organism(s) present in your sample, if not perfectly defined try to asses...</td>
+</tr>
+<tr>
+<td><a href="organizational/">organizational</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="person/">person</a></td>
+<td>person</td>
+</tr>
+<tr>
+<td><a href="phaseplate/">phaseplate</a></td>
+<td>Phaseplate is a special optics device that can be used to enhance contrast</td>
+</tr>
+<tr>
+<td><a href="pixel_size/">pixel_size</a></td>
+<td>Pixel size, in Angstrom</td>
+</tr>
+<tr>
+<td><a href="project_id/">project_id</a></td>
+<td>project id</td>
+</tr>
+<tr>
+<td><a href="role/">role</a></td>
+<td>Role of the author, for example principal investigator</td>
+</tr>
+<tr>
+<td><a href="sample/">sample</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="screen_current/">screen_current</a></td>
+<td>The total electron beam current hitting the viewing screen, in nA</td>
+</tr>
+<tr>
+<td><a href="source_env/">source_env</a></td>
+<td>where is this sample from? i</td>
+</tr>
+<tr>
+<td><a href="specialist_optics/">specialist_optics</a></td>
+<td>Any type of special optics, such as a phaseplate</td>
+</tr>
+<tr>
+<td><a href="specimen_env/">specimen_env</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="spherical_aberration_corrector/">spherical_aberration_corrector</a></td>
+<td>Specialist device to correct for spherical aberration of the microscope lense...</td>
+</tr>
+<tr>
+<td><a href="start_date/">start_date</a></td>
+<td>start date</td>
+</tr>
+<tr>
+<td><a href="target_thickness/">target_thickness</a></td>
+<td>What was the target thickness of the lamella; in nm</td>
+</tr>
+<tr>
+<td><a href="technique/">technique</a></td>
+<td>Specifies which Acquisition subschema/class is in use</td>
+</tr>
+<tr>
+<td><a href="telephone/">telephone</a></td>
+<td>work phone</td>
+</tr>
+<tr>
+<td><a href="temperature_env/">temperature_env</a></td>
+<td>temperature of the sample right before freezing; in K</td>
+</tr>
+<tr>
+<td><a href="temperature_range/">temperature_range</a></td>
+<td>Temperature during data collection, in K with min and max values</td>
+</tr>
+<tr>
+<td><a href="thinning/">thinning</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="tilt_angle/">tilt_angle</a></td>
+<td>The min, max and increment of the tilt angle in a tomography session</td>
+</tr>
+<tr>
+<td><a href="tilt_axis_angle/">tilt_axis_angle</a></td>
+<td>The tilt axis angle of a tomography series</td>
+</tr>
+<tr>
+<td><a href="tissue/">tissue</a></td>
+<td>if the sample is a tissue sample please indicate what type of tissue</td>
+</tr>
+<tr>
+<td><a href="tomogram_features/">tomogram_features</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="type_org/">type_org</a></td>
+<td>Type of organization, academic, commercial, governmental, etc</td>
+</tr>
+<tr>
+<td><a href="unit/">unit</a></td>
+<td>the unit of a given value</td>
+</tr>
+<tr>
+<td><a href="unitSI/">unitSI</a></td>
+<td>the SI unit attached to a si value</td>
+</tr>
+<tr>
+<td><a href="used/">used</a></td>
+<td>whether a specific instrument was used during data acquisition</td>
+</tr>
+<tr>
+<td><a href="value/">value</a></td>
+<td>the value of a field with a unit</td>
+</tr>
+<tr>
+<td><a href="valueSI/">valueSI</a></td>
+<td>value of a given field in respect to its SI unit</td>
+</tr>
+<tr>
+<td><a href="width/">width</a></td>
+<td>The width of a given item - unit depends on item</td>
+</tr>
+<tr>
+<td><a href="width_energy_filter/">width_energy_filter</a></td>
+<td>Width of the energy filter used</td>
+</tr>
+<tr>
+<td><a href="x_max/">x_max</a></td>
+<td>maximum x</td>
+</tr>
+<tr>
+<td><a href="x_min/">x_min</a></td>
+<td>minimum x</td>
+</tr>
+<tr>
+<td><a href="y_max/">y_max</a></td>
+<td>maximum y</td>
+</tr>
+<tr>
+<td><a href="y_min/">y_min</a></td>
+<td>minimum y</td>
+</tr>
+</tbody>
+</table>
+<h2 id="enumerations">Enumerations</h2>
+<table>
+<thead>
+<tr>
+<th>Enumeration</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="AcquisitionTechnique/">AcquisitionTechnique</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="FreezingMethodEnum/">FreezingMethodEnum</a></td>
+<td>Allowed freezing options</td>
+</tr>
+<tr>
+<td><a href="OrganizationTypeEnum/">OrganizationTypeEnum</a></td>
+<td>Allowed values for authors organizations</td>
+</tr>
+</tbody>
+</table>
+<h2 id="types">Types</h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Boolean/">Boolean</a></td>
+<td>A binary (true or false) value</td>
+</tr>
+<tr>
+<td><a href="Curie/">Curie</a></td>
+<td>a compact URI</td>
+</tr>
+<tr>
+<td><a href="Date/">Date</a></td>
+<td>a date (year, month and day) in an idealized calendar</td>
+</tr>
+<tr>
+<td><a href="DateOrDatetime/">DateOrDatetime</a></td>
+<td>Either a date or a datetime</td>
+</tr>
+<tr>
+<td><a href="Datetime/">Datetime</a></td>
+<td>The combination of a date and time</td>
+</tr>
+<tr>
+<td><a href="Decimal/">Decimal</a></td>
+<td>A real number with arbitrary precision that conforms to the xsd:decimal speci...</td>
+</tr>
+<tr>
+<td><a href="Double/">Double</a></td>
+<td>A real number that conforms to the xsd:double specification</td>
+</tr>
+<tr>
+<td><a href="Float/">Float</a></td>
+<td>A real number that conforms to the xsd:float specification</td>
+</tr>
+<tr>
+<td><a href="Integer/">Integer</a></td>
+<td>An integer</td>
+</tr>
+<tr>
+<td><a href="Jsonpath/">Jsonpath</a></td>
+<td>A string encoding a JSON Path</td>
+</tr>
+<tr>
+<td><a href="Jsonpointer/">Jsonpointer</a></td>
+<td>A string encoding a JSON Pointer</td>
+</tr>
+<tr>
+<td><a href="Ncname/">Ncname</a></td>
+<td>Prefix part of CURIE</td>
+</tr>
+<tr>
+<td><a href="Nodeidentifier/">Nodeidentifier</a></td>
+<td>A URI, CURIE or BNODE that represents a node in a model</td>
+</tr>
+<tr>
+<td><a href="Objectidentifier/">Objectidentifier</a></td>
+<td>A URI or CURIE that represents an object in the model</td>
+</tr>
+<tr>
+<td><a href="Sparqlpath/">Sparqlpath</a></td>
+<td>A string encoding a SPARQL Property Path</td>
+</tr>
+<tr>
+<td><a href="String/">String</a></td>
+<td>A character string</td>
+</tr>
+<tr>
+<td><a href="Time/">Time</a></td>
+<td>A time object represents a (local) time of day, independent of any particular...</td>
+</tr>
+<tr>
+<td><a href="Uri/">Uri</a></td>
+<td>a complete URI</td>
+</tr>
+<tr>
+<td><a href="Uriorcurie/">Uriorcurie</a></td>
+<td>a URI or a CURIE</td>
+</tr>
+</tbody>
+</table>
+<h2 id="subsets">Subsets</h2>
+<table>
+<thead>
+<tr>
+<th>Subset</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../subtomo/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Subtomogram Averaging" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Subtomogram Averaging
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../cellular_tomo/" class="md-footer__link md-footer__link--next" aria-label="Next: Cellular Tomography" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Cellular Tomography
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy", "content.tabs.link"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>
