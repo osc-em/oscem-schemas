@@ -171,13 +171,25 @@ test-examples: $(SCHEMA_NAMES:%=examples-%)
 test: test-lint test-examples
 .PHONY: test test-lint test-examples
 
+MAPPING_FILES := $(wildcard src/mappings/*.sssom.tsv)
+
 # Apply the SSSOM mappings in src/mappings/ to the schemas
 apply-mappings:
-	$(RUN) python scripts/apply_sssom_mappings.py
+	@[ -n "$(MAPPING_FILES)" ] || echo "No mapping files in src/mappings/"
+	@for f in $(MAPPING_FILES); do \
+		echo "Applying $$f"; \
+		$(RUN) python scripts/apply_sssom_mappings.py "$$f"; \
+	done
 
 # Check that the schemas are up to date with the SSSOM mappings
 test-mappings:
-	$(RUN) python scripts/apply_sssom_mappings.py --check
+	@[ -n "$(MAPPING_FILES)" ] || echo "No mapping files in src/mappings/"
+	@status=0; \
+	for f in $(MAPPING_FILES); do \
+		echo "Checking $$f"; \
+		$(RUN) python scripts/apply_sssom_mappings.py --check "$$f" || status=1; \
+	done; \
+	exit $$status
 .PHONY: apply-mappings test-mappings
 
 test-%:

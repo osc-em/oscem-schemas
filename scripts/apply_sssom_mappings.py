@@ -25,10 +25,10 @@ Schema files are edited line by line rather than re-serialized, so formatting an
 comments elsewhere in the file are preserved.
 
 Usage:
-    poetry run python scripts/apply_sssom_mappings.py [--check] [MAPPING.sssom.tsv ...]
+    poetry run python scripts/apply_sssom_mappings.py [--check] MAPPING.sssom.tsv
 
-With no mapping files, all src/mappings/*.sssom.tsv are applied. With --check, nothing
-is written and the exit status is 1 if any schema file would change.
+Applies one mapping file; `make apply-mappings` runs it over src/mappings/*.sssom.tsv.
+With --check, nothing is written and the exit status is 1 if any schema file would change.
 """
 
 import argparse
@@ -45,7 +45,6 @@ from yaml.nodes import MappingNode, Node, ScalarNode, SequenceNode
 
 REPO_DIR = Path(__file__).parent.parent
 SCHEMA_DIR = REPO_DIR / "src" / "oscem_schemas" / "schema"
-MAPPINGS_DIR = REPO_DIR / "src" / "mappings"
 
 # Prefixes that SSSOM files may use without declaring them in the curie_map
 BUILTIN_PREFIXES = {
@@ -469,23 +468,17 @@ def apply_mapping_file(path, index, files: Dict[Path, YamlText], log) -> List[st
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("mappings", nargs="*", type=Path, help="SSSOM/TSV files (default: src/mappings/*.sssom.tsv)")
+    parser.add_argument("mapping", type=Path, help="SSSOM/TSV file to apply")
     parser.add_argument("--schema-dir", type=Path, default=SCHEMA_DIR, help="directory with the LinkML modules")
     parser.add_argument("--check", action="store_true", help="don't write; exit 1 if any file would change")
     args = parser.parse_args()
 
-    mapping_files = args.mappings or sorted(MAPPINGS_DIR.glob("*.sssom.tsv"))
-    if not mapping_files:
-        parser.error(f"no mapping files given and none found in {MAPPINGS_DIR}")
-
     index = index_schemas(args.schema_dir)
     files: Dict[Path, YamlText] = {}
-    errors = []
-    for mapping_file in mapping_files:
-        try:
-            errors += apply_mapping_file(mapping_file, index, files, lambda msg: print(msg, file=sys.stderr))
-        except MappingError as e:
-            errors.append(str(e))
+    try:
+        errors = apply_mapping_file(args.mapping, index, files, lambda msg: print(msg, file=sys.stderr))
+    except MappingError as e:
+        errors = [str(e)]
 
     if errors:
         for err in errors:

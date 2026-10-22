@@ -64,11 +64,11 @@ When adding a new schema file, make sure to include 'id', 'name' and 'descriptio
 
 **Usage**:
 ```bash
-poetry run python scripts/apply_sssom_mappings.py [--check] [mapping.sssom.tsv ...]
+poetry run python scripts/apply_sssom_mappings.py [--check] mapping.sssom.tsv
 ```
 
 **Arguments**:
-- `mapping.sssom.tsv` (optional): SSSOM/TSV files to apply. Default: `src/mappings/*.sssom.tsv`
+- `mapping.sssom.tsv`: the SSSOM/TSV file to apply. `make apply-mappings` and `make test-mappings` run the script once for each `src/mappings/*.sssom.tsv`.
 - `--check`: Don't write anything; exit 1 if any schema file would change
 - `--schema-dir`: Directory with the LinkML modules. Default: `src/oscem_schemas/schema`
 
