@@ -10,6 +10,7 @@ prefixes:
   types: https://w3id.org/oscem-schemas/latest/custom_types
   pdbx: http://rdf.wwpdb.org/schema/pdbx-v50.owl#
   mmcif: https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/
+  emg: https://purls.helmholtz-metadaten.de/emg/EMG_
 
 default_prefix: acquisition
 
@@ -147,6 +148,10 @@ slots:
   screen_current:
     description: The total electron beam current hitting the viewing screen, in nA.
     range:  QuantitySI
+    see_also:
+      - emg:00000006
+    broad_mappings:
+      - emg:00000006
   nominal_defocus:
     range: Range
     description: Target defocus set, min and max values in nm.
@@ -193,14 +198,21 @@ slots:
     range:  QuantitySI
     see_also:
       - mmcif:_em_image_recording.avg_electron_dose_per_image.html
+      - emg:00000073
     exact_mappings:
       - pdbx:em_image_recording.avg_electron_dose_per_image
+    close_mappings:
+      - emg:00000073
   energy_filter:
     range: EnergyFilter
     description: Whether an energy filter was used and its specifics.
   detectors:
     range: Detector
     multivalued: true
+    see_also:
+      - emg:00000066
+    exact_mappings:
+      - emg:00000066
   used:
     description: whether a specific instrument was used during data acquisition
     range: boolean
@@ -220,8 +232,11 @@ slots:
     range:  QuantitySI
     see_also:
       - mmcif:_em_image_recording.average_exposure_time.html
+      - emg:00000055
     close_mappings:
       - pdbx:em_image_recording.average_exposure_time
+    broad_mappings:
+      - emg:00000055
   cryogen:
     description: Cryogen used in cooling the instrument and sample, usually nitrogen
     range: string
@@ -256,6 +271,10 @@ slots:
   pixel_size:
     description: Pixel size, in Angstrom
     range:  QuantitySI
+    see_also:
+      - emg:00000074
+    close_mappings:
+      - emg:00000074
   specialist_optics:
     description: Any type of special optics, such as a phaseplate
     range: SpecialistOptics
@@ -277,6 +296,10 @@ slots:
   beamtilt:
     range: BoundingBox2D
     description: Another way to move the beam above the sample for data collection purposes that does not require movement of the stage. Given in mrad.
+    see_also:
+      - emg:00000047
+    close_mappings:
+      - emg:00000047
   imageshift:
     range: BoundingBox2D
     description: Movement of the Beam below the image in order to shift the image on the detector. Given in µm.

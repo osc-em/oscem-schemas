@@ -10,6 +10,7 @@ prefixes:
   types: https://w3id.org/oscem-schemas/latest/custom_types
   pdbx: http://rdf.wwpdb.org/schema/pdbx-v50.owl#
   mmcif: https://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Items/
+  emg: https://purls.helmholtz-metadaten.de/emg/EMG_
 
 default_prefix: instrument
 
@@ -86,8 +87,11 @@ slots:
     range: string
     see_also:
       - mmcif:_em_imaging.electron_source.html
+      - emg:00000045
     exact_mappings:
       - pdbx:em_imaging.electron_source
+    broad_mappings:
+      - emg:00000045
   acceleration_voltage:
     description: Voltage used for the electron acceleration, in kV
     range:  QuantitySI
@@ -95,8 +99,11 @@ slots:
       ucum_code: kV
     see_also:
       - mmcif:_em_imaging.accelerating_voltage.html
+      - emg:00000004
     exact_mappings:
       - pdbx:em_imaging.accelerating_voltage
+    close_mappings:
+      - emg:00000004
   c2_aperture:
     description: C2 aperture size used in data acquisition, in µm
     range:  QuantitySI
@@ -117,3 +124,7 @@ slots:
   beam_convergence:
     description: Refers to how tightly or widely the electron beam is focused onto the sample, in mrad. Typically low convergence for TEM and high for STEM.
     range: QuantitySI
+    see_also:
+      - emg:00000010
+    close_mappings:
+      - emg:00000010
