@@ -6,13 +6,13 @@
 # mapping_date: 2026-10-06
 # license: https://creativecommons.org/licenses/by/4.0/
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
-oscem:acquisitionscreen_current	screen_current	skos:broaderMatch	emg:00000006	Beam Current	semapv:ManualMappingCuration
+oscem:acquisitionscreen_current	screen_current	skos:broadMatch	emg:00000006	Beam Current	semapv:ManualMappingCuration
 oscem:acquisitiondose_per_movie	dose_per_movie	skos:closeMatch	emg:00000073	Electron Dose	semapv:ManualMappingCuration	can differ in units
 oscem:acquisitiondetectors	detectors	skos:exactMatch	emg:00000066	Detector	semapv:ManualMappingCuration
-oscem:acquisitionexposure_time	exposure_time	skos:broaderMatch	emg:00000055	Acquisition Time	semapv:ManualMappingCuration	can differ in units
+oscem:acquisitionexposure_time	exposure_time	skos:broadMatch	emg:00000055	Acquisition Time	semapv:ManualMappingCuration	can differ in units
 oscem:acquisitionpixel_size	pixel_size	skos:closeMatch	emg:00000074	Pixel Size	semapv:ManualMappingCuration	can differ in units
 oscem:acquisitionbeamtilt	beamtilt	skos:closeMatch	emg:00000047	Tilt Correction	semapv:ManualMappingCuration
-oscem:instrumentelectron_source	electron_source	skos:broaderMatch	emg:00000045	Source	semapv:ManualMappingCuration
+oscem:instrumentelectron_source	electron_source	skos:broadMatch	emg:00000045	Source	semapv:ManualMappingCuration
 oscem:instrumentacceleration_voltage	acceleration_voltage	skos:closeMatch	emg:00000004	Acceleration Voltage	semapv:ManualMappingCuration	can differ in units
 oscem:instrumentbeam_convergence	beam_convergence	skos:closeMatch	emg:00000010	Convergence Angle	semapv:ManualMappingCuration	can differ in units
 oscem:sample	EMDatasetGeneral_sample	skos:exactMatch	emg:00000046	Specimen	semapv:ManualMappingCuration
