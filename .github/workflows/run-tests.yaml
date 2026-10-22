@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.9", "3.10"]
+        python-version: ["3.10", "3.12"]
 
     steps:
 
@@ -34,3 +34,6 @@ jobs:
 
       - name: Run test suite
         run: make test
+
+      - name: Check schemas match SSSOM mappings
+        run: make test-mappings
