@@ -250,6 +250,92 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+<span class="md-ellipsis">
+      
+        Slots
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usages">
+<span class="md-ellipsis">
+      
+        Usages
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+<span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+</a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+<span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+<span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+<span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+</a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+<span class="md-ellipsis">
+      
+        Direct
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+<span class="md-ellipsis">
+      
+        Induced
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -258,14 +344,8 @@
 <article class="md-content__inner md-typeset">
 <h1 id="class-overallmolecule">Class: OverallMolecule</h1>
 <p><em>Description of the overall molecule</em></p>
-<div data-search-exclude="" markdown="1">
-
-
-
-URI: [https://w3id.org/oscem-schemas/latest/spa/OverallMolecule](https://w3id.org/oscem-schemas/latest/spa/OverallMolecule)
-
-
-
+<div>
+<p>URI: <a href="https://w3id.org/oscem-schemas/latest/spa/OverallMolecule">https://w3id.org/oscem-schemas/latest/spa/OverallMolecule</a></p>
 <div class="mermaid">erDiagram
 OverallMolecule {
     AssemblyEnum assembly  
@@ -284,71 +364,101 @@ OverallMolecule ||--|o QuantitySI : "molecular_weight"
 
 </div>
 <!-- no inheritance hierarchy -->
-
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [molecular_overall_type](molecular_overall_type.md) | 0..1 <br/> [MoleculeClassEnum](MoleculeClassEnum.md) | Description of the overall molecular type, i | direct |
-| [name_sample](name_sample.md) | 1 <br/> [String](String.md) | Name of the full sample | direct |
-| [source](source.md) | 1 <br/> [String](String.md) | Where the sample was taken from, i | direct |
-| [molecular_weight](molecular_weight.md) | 0..1 <br/> [QuantitySI](QuantitySI.md) | Molecular weight in Da | direct |
-| [assembly](assembly.md) | 0..1 <br/> [AssemblyEnum](AssemblyEnum.md) | What type of higher order structure your sample forms - if any | direct |
-
-
-
-
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [Sample](Sample.md) | [overall_molecule](overall_molecule.md) | range | [OverallMolecule](OverallMolecule.md) |
-| [SampleMolecular](SampleMolecular.md) | [overall_molecule](overall_molecule.md) | range | [OverallMolecule](OverallMolecule.md) |
-
-
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/spa
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://w3id.org/oscem-schemas/latest/spa/OverallMolecule |
-| native | https://w3id.org/oscem-schemas/latest/spa/OverallMolecule |
-
-
-
-
-
-
-## LinkML Source
-
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../molecular_overall_type/">molecular_overall_type</a></td>
+<td>0..1 <br/> <a href="../MoleculeClassEnum/">MoleculeClassEnum</a></td>
+<td>Description of the overall molecular type, i</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../name_sample/">name_sample</a></td>
+<td>1 <br/> <a href="../String/">String</a></td>
+<td>Name of the full sample</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../source/">source</a></td>
+<td>1 <br/> <a href="../String/">String</a></td>
+<td>Where the sample was taken from, i</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../molecular_weight/">molecular_weight</a></td>
+<td>0..1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>Molecular weight in Da</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../assembly/">assembly</a></td>
+<td>0..1 <br/> <a href="../AssemblyEnum/">AssemblyEnum</a></td>
+<td>What type of higher order structure your sample forms - if any</td>
+<td>direct</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usages">Usages</h2>
+<table>
+<thead>
+<tr>
+<th>used by</th>
+<th>used in</th>
+<th>type</th>
+<th>used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../Sample/">Sample</a></td>
+<td><a href="../overall_molecule/">overall_molecule</a></td>
+<td>range</td>
+<td><a href="./">OverallMolecule</a></td>
+</tr>
+<tr>
+<td><a href="../SampleMolecular/">SampleMolecular</a></td>
+<td><a href="../overall_molecule/">overall_molecule</a></td>
+<td>range</td>
+<td><a href="./">OverallMolecule</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/spa</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>https://w3id.org/oscem-schemas/latest/spa/OverallMolecule</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/spa/OverallMolecule</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
-
-### Direct
-
+<h3 id="direct">Direct</h3>
 <details>
 <pre><code class="language-yaml">name: OverallMolecule
 description: Description of the overall molecule
@@ -377,9 +487,7 @@ slot_usage:
 
 </code></pre>
 </details>
-
-### Induced
-
+<h3 id="induced">Induced</h3>
 <details>
 <pre><code class="language-yaml">name: OverallMolecule
 description: Description of the overall molecule
@@ -468,7 +576,8 @@ attributes:
     required: false
 
 </code></pre>
-</details></div>
+</details>
+</div>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>

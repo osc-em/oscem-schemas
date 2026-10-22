@@ -250,6 +250,92 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inheritance">
+<span class="md-ellipsis">
+      
+        Inheritance
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+<span class="md-ellipsis">
+      
+        Slots
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+<span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+</a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+<span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+<span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+<span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+</a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+<span class="md-ellipsis">
+      
+        Direct
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+<span class="md-ellipsis">
+      
+        Induced
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -258,14 +344,8 @@
 <article class="md-content__inner md-typeset">
 <h1 id="class-sample">Class: Sample</h1>
 <p><em>Unifying class to describe the full sample.</em></p>
-<div data-search-exclude="" markdown="1">
-
-
-
-URI: [https://w3id.org/oscem-schemas/latest/subtomo/Sample](https://w3id.org/oscem-schemas/latest/subtomo/Sample)
-
-
-
+<div>
+<p>URI: <a href="https://w3id.org/oscem-schemas/latest/subtomo/Sample">https://w3id.org/oscem-schemas/latest/subtomo/Sample</a></p>
 <div class="mermaid">erDiagram
 Grid {
     string film_material  
@@ -330,74 +410,95 @@ Sample ||--}o Molecule : "molecule"
 Specimen ||--|o QuantitySI : "concentration, humidity, temperature"
 
 </div>
-
-
-
-
-
-## Inheritance
-* **Sample**
-    * [SampleMolecular](SampleMolecular.md)
-
-
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [name](name.md) | 1 <br/> [String](String.md) | The name of the item | direct |
-| [description](description.md) | 1 <br/> [String](String.md) | The description of the item | direct |
-| [overall_molecule](overall_molecule.md) | 0..1 <br/> [OverallMolecule](OverallMolecule.md) | Description of the overall molecule | direct |
-| [molecule](molecule.md) | * <br/> [Molecule](Molecule.md) | List of molecule associated with the sample | direct |
-| [ligands](ligands.md) | * <br/> [Ligand](Ligand.md) | List of ligands associated with the sample | direct |
-| [specimen](specimen.md) | 0..1 <br/> [Specimen](Specimen.md) | Description of the specimen | direct |
-| [grid](grid.md) | 0..1 <br/> [Grid](Grid.md) | Description of the grid used | direct |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/subtomo
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://w3id.org/oscem-schemas/latest/subtomo/Sample |
-| native | https://w3id.org/oscem-schemas/latest/subtomo/Sample |
-
-
-
-
-
-
-## LinkML Source
-
+<h2 id="inheritance">Inheritance</h2>
+<ul>
+<li><strong>Sample</strong><ul>
+<li><a href="../SampleMolecular/">SampleMolecular</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../name/">name</a></td>
+<td>1 <br/> <a href="../String/">String</a></td>
+<td>The name of the item</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../description/">description</a></td>
+<td>1 <br/> <a href="../String/">String</a></td>
+<td>The description of the item</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../overall_molecule/">overall_molecule</a></td>
+<td>0..1 <br/> <a href="../OverallMolecule/">OverallMolecule</a></td>
+<td>Description of the overall molecule</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../molecule/">molecule</a></td>
+<td>* <br/> <a href="../Molecule/">Molecule</a></td>
+<td>List of molecule associated with the sample</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../ligands/">ligands</a></td>
+<td>* <br/> <a href="../Ligand/">Ligand</a></td>
+<td>List of ligands associated with the sample</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../specimen/">specimen</a></td>
+<td>0..1 <br/> <a href="../Specimen/">Specimen</a></td>
+<td>Description of the specimen</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../grid/">grid</a></td>
+<td>0..1 <br/> <a href="../Grid/">Grid</a></td>
+<td>Description of the grid used</td>
+<td>direct</td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/subtomo</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>https://w3id.org/oscem-schemas/latest/subtomo/Sample</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/subtomo/Sample</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
-
-### Direct
-
+<h3 id="direct">Direct</h3>
 <details>
 <pre><code class="language-yaml">name: Sample
 description: Unifying class to describe the full sample.
@@ -433,9 +534,7 @@ slot_usage:
 
 </code></pre>
 </details>
-
-### Induced
-
+<h3 id="induced">Induced</h3>
 <details>
 <pre><code class="language-yaml">name: Sample
 description: Unifying class to describe the full sample.
@@ -534,7 +633,8 @@ attributes:
     range: Grid
 
 </code></pre>
-</details></div>
+</details>
+</div>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>

@@ -250,6 +250,92 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+<span class="md-ellipsis">
+      
+        Slots
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usages">
+<span class="md-ellipsis">
+      
+        Usages
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+<span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+</a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+<span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+<span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+<span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+</a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+<span class="md-ellipsis">
+      
+        Direct
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+<span class="md-ellipsis">
+      
+        Induced
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -258,14 +344,8 @@
 <article class="md-content__inner md-typeset">
 <h1 id="class-detector">Class: Detector</h1>
 <p><em>Class representing a detector</em></p>
-<div data-search-exclude="" markdown="1">
-
-
-
-URI: [https://w3id.org/oscem-schemas/latest/spa/Detector](https://w3id.org/oscem-schemas/latest/spa/Detector)
-
-
-
+<div>
+<p>URI: <a href="https://w3id.org/oscem-schemas/latest/spa/Detector">https://w3id.org/oscem-schemas/latest/spa/Detector</a></p>
 <div class="mermaid">erDiagram
 Detector {
     string name  
@@ -287,70 +367,95 @@ Range ||--|o QuantitySI : "maximal, minimal"
 
 </div>
 <!-- no inheritance hierarchy -->
-
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [name](name.md) | 0..1 <br/> [String](String.md) | The name of the item | direct |
-| [mode](mode.md) | 0..1 <br/> [String](String.md) | Mode of the detector, e | direct |
-| [dispersion](dispersion.md) | 0..1 <br/> [QuantitySI](QuantitySI.md) | Dispersion of an analytical detector, in eV | direct |
-| [collection_angle](collection_angle.md) | 0..1 <br/> [Range](Range.md) | Collection angle set, min and max values in mrad | direct |
-
-
-
-
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [Acquisition](Acquisition.md) | [detectors](detectors.md) | range | [Detector](Detector.md) |
-| [AcquisitionSpa](AcquisitionSpa.md) | [detectors](detectors.md) | range | [Detector](Detector.md) |
-
-
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/spa
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://w3id.org/oscem-schemas/latest/spa/Detector |
-| native | https://w3id.org/oscem-schemas/latest/spa/Detector |
-
-
-
-
-
-
-## LinkML Source
-
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../name/">name</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>The name of the item</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../mode/">mode</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Mode of the detector, e</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../dispersion/">dispersion</a></td>
+<td>0..1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>Dispersion of an analytical detector, in eV</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../collection_angle/">collection_angle</a></td>
+<td>0..1 <br/> <a href="../Range/">Range</a></td>
+<td>Collection angle set, min and max values in mrad</td>
+<td>direct</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usages">Usages</h2>
+<table>
+<thead>
+<tr>
+<th>used by</th>
+<th>used in</th>
+<th>type</th>
+<th>used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../Acquisition/">Acquisition</a></td>
+<td><a href="../detectors/">detectors</a></td>
+<td>range</td>
+<td><a href="./">Detector</a></td>
+</tr>
+<tr>
+<td><a href="../AcquisitionSpa/">AcquisitionSpa</a></td>
+<td><a href="../detectors/">detectors</a></td>
+<td>range</td>
+<td><a href="./">Detector</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/spa</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>https://w3id.org/oscem-schemas/latest/spa/Detector</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/spa/Detector</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
-
-### Direct
-
+<h3 id="direct">Direct</h3>
 <details>
 <pre><code class="language-yaml">name: Detector
 description: Class representing a detector
@@ -363,9 +468,7 @@ slots:
 
 </code></pre>
 </details>
-
-### Induced
-
+<h3 id="induced">Induced</h3>
 <details>
 <pre><code class="language-yaml">name: Detector
 description: Class representing a detector
@@ -415,7 +518,8 @@ attributes:
     range: Range
 
 </code></pre>
-</details></div>
+</details>
+</div>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>

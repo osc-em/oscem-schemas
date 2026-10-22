@@ -250,6 +250,101 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inheritance">
+<span class="md-ellipsis">
+      
+        Inheritance
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+<span class="md-ellipsis">
+      
+        Slots
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usages">
+<span class="md-ellipsis">
+      
+        Usages
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+<span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+</a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+<span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+<span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+<span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+</a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+<span class="md-ellipsis">
+      
+        Direct
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+<span class="md-ellipsis">
+      
+        Induced
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -258,14 +353,8 @@
 <article class="md-content__inner md-typeset">
 <h1 id="class-samplecell">Class: SampleCell</h1>
 <p><em>Unifying class to describe the full sample with growth conditions</em></p>
-<div data-search-exclude="" markdown="1">
-
-
-
-URI: [https://w3id.org/oscem-schemas/latest/cellular_tomo/SampleCell](https://w3id.org/oscem-schemas/latest/cellular_tomo/SampleCell)
-
-
-
+<div>
+<p>URI: <a href="https://w3id.org/oscem-schemas/latest/cellular_tomo/SampleCell">https://w3id.org/oscem-schemas/latest/cellular_tomo/SampleCell</a></p>
 <div class="mermaid">erDiagram
 Freezing {
     string atmosphere  
@@ -321,79 +410,102 @@ SampleCell ||--|| SpecimenEnv : "specimen_env"
 Thinning ||--|o QuantitySI : "target_thickness"
 
 </div>
-
-
-
-
-
-## Inheritance
-* [SampleEnv](SampleEnv.md)
-    * **SampleCell**
-
-
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [growth_condition](growth_condition.md) | 0..1 <br/> [GrowthCondition](GrowthCondition.md) | How the specimen was grown | direct |
-| [specimen_env](specimen_env.md) | 1 <br/> [SpecimenEnv](SpecimenEnv.md) |  | [SampleEnv](SampleEnv.md) |
-| [freezing](freezing.md) | 0..1 <br/> [Freezing](Freezing.md) |  | [SampleEnv](SampleEnv.md) |
-| [thinning](thinning.md) | 0..1 <br/> [Thinning](Thinning.md) |  | [SampleEnv](SampleEnv.md) |
-| [tomogram_features](tomogram_features.md) | 0..1 <br/> [TomogramFeatures](TomogramFeatures.md) |  | [SampleEnv](SampleEnv.md) |
-
-
-
-
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [EMDatasetCell](EMDatasetCell.md) | [sample](sample.md) | range | [SampleCell](SampleCell.md) |
-
-
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/cellular_tomo
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://w3id.org/oscem-schemas/latest/cellular_tomo/SampleCell |
-| native | https://w3id.org/oscem-schemas/latest/cellular_tomo/SampleCell |
-
-
-
-
-
-
-## LinkML Source
-
+<h2 id="inheritance">Inheritance</h2>
+<ul>
+<li><a href="../SampleEnv/">SampleEnv</a><ul>
+<li><strong>SampleCell</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../growth_condition/">growth_condition</a></td>
+<td>0..1 <br/> <a href="../GrowthCondition/">GrowthCondition</a></td>
+<td>How the specimen was grown</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../specimen_env/">specimen_env</a></td>
+<td>1 <br/> <a href="../SpecimenEnv/">SpecimenEnv</a></td>
+<td></td>
+<td><a href="../SampleEnv/">SampleEnv</a></td>
+</tr>
+<tr>
+<td><a href="../freezing/">freezing</a></td>
+<td>0..1 <br/> <a href="../Freezing/">Freezing</a></td>
+<td></td>
+<td><a href="../SampleEnv/">SampleEnv</a></td>
+</tr>
+<tr>
+<td><a href="../thinning/">thinning</a></td>
+<td>0..1 <br/> <a href="../Thinning/">Thinning</a></td>
+<td></td>
+<td><a href="../SampleEnv/">SampleEnv</a></td>
+</tr>
+<tr>
+<td><a href="../tomogram_features/">tomogram_features</a></td>
+<td>0..1 <br/> <a href="../TomogramFeatures/">TomogramFeatures</a></td>
+<td></td>
+<td><a href="../SampleEnv/">SampleEnv</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="usages">Usages</h2>
+<table>
+<thead>
+<tr>
+<th>used by</th>
+<th>used in</th>
+<th>type</th>
+<th>used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../EMDatasetCell/">EMDatasetCell</a></td>
+<td><a href="../sample/">sample</a></td>
+<td>range</td>
+<td><a href="./">SampleCell</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/cellular_tomo</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>https://w3id.org/oscem-schemas/latest/cellular_tomo/SampleCell</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/cellular_tomo/SampleCell</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
-
-### Direct
-
+<h3 id="direct">Direct</h3>
 <details>
 <pre><code class="language-yaml">name: SampleCell
 description: Unifying class to describe the full sample with growth conditions
@@ -404,9 +516,7 @@ slots:
 
 </code></pre>
 </details>
-
-### Induced
-
+<h3 id="induced">Induced</h3>
 <details>
 <pre><code class="language-yaml">name: SampleCell
 description: Unifying class to describe the full sample with growth conditions
@@ -457,7 +567,8 @@ attributes:
     range: TomogramFeatures
 
 </code></pre>
-</details></div>
+</details>
+</div>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>

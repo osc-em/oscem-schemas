@@ -250,6 +250,92 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+<span class="md-ellipsis">
+      
+        Slots
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usages">
+<span class="md-ellipsis">
+      
+        Usages
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+<span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+</a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+<span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+<span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+<span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+</a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+<span class="md-ellipsis">
+      
+        Direct
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+<span class="md-ellipsis">
+      
+        Induced
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -258,14 +344,8 @@
 <article class="md-content__inner md-typeset">
 <h1 id="class-volumes">Class: Volumes</h1>
 <p><em>Class representing volume metadata</em></p>
-<div data-search-exclude="" markdown="1">
-
-
-
-URI: [https://w3id.org/oscem-schemas/latest/spa/Volumes](https://w3id.org/oscem-schemas/latest/spa/Volumes)
-
-
-
+<div>
+<p>URI: <a href="https://w3id.org/oscem-schemas/latest/spa/Volumes">https://w3id.org/oscem-schemas/latest/spa/Volumes</a></p>
 <div class="mermaid">erDiagram
 Any {
 
@@ -301,72 +381,107 @@ Volumes ||--}o Descriptors : "descriptors"
 
 </div>
 <!-- no inheritance hierarchy -->
-
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [volume_type](volume_type.md) | 1 <br/> [String](String.md) | Indicates the type of volume | direct |
-| [vol_number_particles](vol_number_particles.md) | 0..1 <br/> [Integer](Integer.md) | Number of particles associated to volume | direct |
-| [size](size.md) | * <br/> [Integer](Integer.md) | Size of the volume | direct |
-| [orthogonal_slices](orthogonal_slices.md) | 0..1 <br/> [OrthogonalSlices](OrthogonalSlices.md) | orthogonal slices of volume | direct |
-| [isosurface_images](isosurface_images.md) | 0..1 <br/> [IsosurfaceImages](IsosurfaceImages.md) | isosurface images of volume | direct |
-| [vol_resolution](vol_resolution.md) | 0..1 <br/> [QuantityValue](QuantityValue.md) | Resolution of volume | direct |
-| [descriptors](descriptors.md) | * <br/> [Descriptors](Descriptors.md) | List of custom descriptors for user-defined key-value pairs describing how mo... | direct |
-
-
-
-
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [Processing](Processing.md) | [volumes](volumes.md) | range | [Volumes](Volumes.md) |
-
-
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/spa
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://w3id.org/oscem-schemas/latest/spa/Volumes |
-| native | https://w3id.org/oscem-schemas/latest/spa/Volumes |
-
-
-
-
-
-
-## LinkML Source
-
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../volume_type/">volume_type</a></td>
+<td>1 <br/> <a href="../String/">String</a></td>
+<td>Indicates the type of volume</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../vol_number_particles/">vol_number_particles</a></td>
+<td>0..1 <br/> <a href="../Integer/">Integer</a></td>
+<td>Number of particles associated to volume</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../size/">size</a></td>
+<td>* <br/> <a href="../Integer/">Integer</a></td>
+<td>Size of the volume</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../orthogonal_slices/">orthogonal_slices</a></td>
+<td>0..1 <br/> <a href="../OrthogonalSlices/">OrthogonalSlices</a></td>
+<td>orthogonal slices of volume</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../isosurface_images/">isosurface_images</a></td>
+<td>0..1 <br/> <a href="../IsosurfaceImages/">IsosurfaceImages</a></td>
+<td>isosurface images of volume</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../vol_resolution/">vol_resolution</a></td>
+<td>0..1 <br/> <a href="../QuantityValue/">QuantityValue</a></td>
+<td>Resolution of volume</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../descriptors/">descriptors</a></td>
+<td>* <br/> <a href="../Descriptors/">Descriptors</a></td>
+<td>List of custom descriptors for user-defined key-value pairs describing how mo...</td>
+<td>direct</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usages">Usages</h2>
+<table>
+<thead>
+<tr>
+<th>used by</th>
+<th>used in</th>
+<th>type</th>
+<th>used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../Processing/">Processing</a></td>
+<td><a href="../volumes/">volumes</a></td>
+<td>range</td>
+<td><a href="./">Volumes</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/spa</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>https://w3id.org/oscem-schemas/latest/spa/Volumes</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/spa/Volumes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
-
-### Direct
-
+<h3 id="direct">Direct</h3>
 <details>
 <pre><code class="language-yaml">name: Volumes
 description: Class representing volume metadata
@@ -404,9 +519,7 @@ slot_usage:
 
 </code></pre>
 </details>
-
-### Induced
-
+<h3 id="induced">Induced</h3>
 <details>
 <pre><code class="language-yaml">name: Volumes
 description: Class representing volume metadata
@@ -517,7 +630,8 @@ attributes:
     multivalued: true
 
 </code></pre>
-</details></div>
+</details>
+</div>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>

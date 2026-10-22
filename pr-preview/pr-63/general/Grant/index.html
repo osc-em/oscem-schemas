@@ -250,6 +250,101 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#class-properties">
+<span class="md-ellipsis">
+      
+        Class Properties
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+<span class="md-ellipsis">
+      
+        Slots
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usages">
+<span class="md-ellipsis">
+      
+        Usages
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+<span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+</a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+<span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+<span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+<span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+</a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+<span class="md-ellipsis">
+      
+        Direct
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+<span class="md-ellipsis">
+      
+        Induced
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -258,14 +353,8 @@
 <article class="md-content__inner md-typeset">
 <h1 id="class-grant">Class: Grant</h1>
 <p><em>Grant</em></p>
-<div data-search-exclude="" markdown="1">
-
-
-
-URI: [schema:Grant](http://schema.org/Grant)
-
-
-
+<div>
+<p>URI: <a href="http://schema.org/Grant">schema:Grant</a></p>
 <div class="mermaid">erDiagram
 Grant {
     string country  
@@ -283,78 +372,116 @@ Grant ||--|o QuantityValue : "budget"
 
 </div>
 <!-- no inheritance hierarchy -->
-
-## Class Properties
-
-| Property | Value |
-| --- | --- |
-| Class URI | [schema:Grant](http://schema.org/Grant) |
-
-
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [grant_name](grant_name.md) | 0..1 <br/> [String](String.md) | name of the grant | direct |
-| [start_date](start_date.md) | 0..1 <br/> [Datetime](Datetime.md) | start date | direct |
-| [end_date](end_date.md) | 0..1 <br/> [Datetime](Datetime.md) | end date | direct |
-| [budget](budget.md) | 0..1 <br/> [QuantityValue](QuantityValue.md) | budget | direct |
-| [project_id](project_id.md) | 0..1 <br/> [String](String.md) | project id | direct |
-| [country](country.md) | 0..1 <br/> [String](String.md) | Country of the institution | direct |
-
-
-
-
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [Organizational](Organizational.md) | [grants](grants.md) | range | [Grant](Grant.md) |
-
-
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/general
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | schema:Grant |
-| native | https://w3id.org/oscem-schemas/latest/general/Grant |
-
-
-
-
-
-
-## LinkML Source
-
+<h2 id="class-properties">Class Properties</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Class URI</td>
+<td><a href="http://schema.org/Grant">schema:Grant</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../grant_name/">grant_name</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>name of the grant</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../start_date/">start_date</a></td>
+<td>0..1 <br/> <a href="../Datetime/">Datetime</a></td>
+<td>start date</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../end_date/">end_date</a></td>
+<td>0..1 <br/> <a href="../Datetime/">Datetime</a></td>
+<td>end date</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../budget/">budget</a></td>
+<td>0..1 <br/> <a href="../QuantityValue/">QuantityValue</a></td>
+<td>budget</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../project_id/">project_id</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>project id</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../country/">country</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Country of the institution</td>
+<td>direct</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usages">Usages</h2>
+<table>
+<thead>
+<tr>
+<th>used by</th>
+<th>used in</th>
+<th>type</th>
+<th>used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../Organizational/">Organizational</a></td>
+<td><a href="../grants/">grants</a></td>
+<td>range</td>
+<td><a href="./">Grant</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/general</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>schema:Grant</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/general/Grant</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
-
-### Direct
-
+<h3 id="direct">Direct</h3>
 <details>
 <pre><code class="language-yaml">name: Grant
 description: Grant
@@ -370,9 +497,7 @@ class_uri: schema:Grant
 
 </code></pre>
 </details>
-
-### Induced
-
+<h3 id="induced">Induced</h3>
 <details>
 <pre><code class="language-yaml">name: Grant
 description: Grant
@@ -442,7 +567,8 @@ attributes:
 class_uri: schema:Grant
 
 </code></pre>
-</details></div>
+</details>
+</div>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
