@@ -77,6 +77,8 @@ slots:
   acceleration_voltage:
     description: Voltage used for the electron acceleration, in kV
     range:  QuantitySI
+    unit:
+      ucum_code: kV
   c2_aperture:
     description: C2 aperture size used in data acquisition, in µm
     range:  QuantitySI

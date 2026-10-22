@@ -8,10 +8,15 @@ if it is the object, the predicate is inverted (broadMatch <-> narrowMatch). The
 term gets:
 - the external CURIE in the LinkML mapping slot matching the predicate
   (skos:exactMatch -> exact_mappings, skos:closeMatch -> close_mappings, ...)
-- the external CURIE in see_also
-- the external prefix declared in the module's prefixes
+- the links in the row's see_also column in see_also (SSSOM separates multiple values
+  with |). Rows without see_also use the external CURIE, so leave the column empty when
+  the external IRIs resolve to useful pages, and fill it when they don't (e.g. PDBx).
+- the prefixes of the external CURIE and of the see_also links declared in the module
 
-The mapping file is the source of truth for the external prefixes it uses (e.g. emg:).
+URLs in see_also are compacted using the mapping file's curie_map.
+
+The mapping file is the source of truth for the external prefixes it uses (e.g. emg:,
+or pdbx: and the see_also prefix mmcif:).
 For each OSC-EM term in the file, mappings with those prefixes that are no longer in the
 file (e.g. after changing the predicate or the external term) are removed. Mappings with
 other prefixes are left untouched, as are elements not mentioned in the file.
@@ -93,6 +98,7 @@ class MappingRow:
     predicate_id: str
     object_id: str
     object_label: str
+    see_also: List[str]
 
 
 # --- SSSOM ---------------------------------------------------------------------------
@@ -125,6 +131,7 @@ def read_sssom(path: Path) -> Tuple[dict, List[MappingRow]]:
                 predicate_id=rec["predicate_id"].strip(),
                 object_id=rec["object_id"].strip(),
                 object_label=(rec.get("object_label") or "").strip(),
+                see_also=[v.strip() for v in (rec.get("see_also") or "").split("|") if v.strip()],
             )
         )
     return metadata, rows
@@ -342,7 +349,7 @@ def apply_mapping_file(path, index, files: Dict[Path, YamlText], log) -> List[st
 
     # Resolve rows and group by OSC-EM element
     desired: Dict[Element, Dict[str, List[str]]] = {}
-    object_prefixes: Dict[str, str] = {}  # prefixes of the external terms
+    external_prefixes: Dict[str, str] = {}  # prefixes of the external terms and see_also links
     for row in rows:
         where = f"{path.name}:{row.line}"
         predicate = expand(row.predicate_id, sssom_prefixes)
@@ -372,7 +379,18 @@ def apply_mapping_file(path, index, files: Dict[Path, YamlText], log) -> List[st
         if expand(mapped_id, sssom_prefixes) is None or "://" in mapped_id:
             errors.append(f"{where}: {mapped_id} is not a CURIE with a prefix in the curie_map")
             continue
-        object_prefixes[mapped_prefix] = sssom_prefixes[mapped_prefix]
+        external_prefixes[mapped_prefix] = sssom_prefixes[mapped_prefix]
+
+        links = []
+        for link in row.see_also:
+            curie = compact(link, sssom_prefixes) if "://" in link else link
+            if "://" not in curie:
+                prefix = curie.partition(":")[0]
+                if prefix not in sssom_prefixes:
+                    errors.append(f"{where}: see_also {link} has a prefix not in the curie_map")
+                    continue
+                external_prefixes[prefix] = sssom_prefixes[prefix]
+            links.append(curie)
 
         elems = index.get(term_uri, [])
         if not elems:
@@ -387,21 +405,23 @@ def apply_mapping_file(path, index, files: Dict[Path, YamlText], log) -> List[st
         elem = elems[0]
 
         slots = desired.setdefault(elem, {s: [] for s in MANAGED_SLOTS})
-        if mapped_id in slots["see_also"]:
+        if any(mapped_id in slots[s] for s in PREDICATE_SLOTS.values()):
             errors.append(f"{where}: {term_id} is mapped to {mapped_id} more than once")
             continue
-        slots["see_also"].append(mapped_id)
+        for link in links if row.see_also else [mapped_id]:
+            if link not in slots["see_also"]:
+                slots["see_also"].append(link)
         slots[PREDICATE_SLOTS[predicate]].append(mapped_id)
 
     if errors:
         return errors
 
-    managed_bases = tuple(object_prefixes.values())
+    managed_bases = tuple(external_prefixes.values())
 
     # Apply to each element
     for elem, slots in desired.items():
         doc = files.setdefault(elem.path, YamlText(elem.path))
-        for prefix, uri in object_prefixes.items():
+        for prefix, uri in external_prefixes.items():
             if any(i.startswith(prefix + ":") for items in slots.values() for i in items):
                 if doc.ensure_prefix(prefix, uri):
                     log(f"{elem.path.name}: added prefix {prefix}: {uri}")

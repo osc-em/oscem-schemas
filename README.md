@@ -191,8 +191,12 @@ truth. Don't edit those mappings in the schema YAML by hand:
    OSC-EM terms use the `oscem:` prefix followed by the module and term name, e.g.
    `oscem:instrumentacceleration_voltage` for the `acceleration_voltage` slot in
    `instrument.yaml`. Exactly one side of each row must be an OSC-EM term.
+   If the external term's IRI doesn't resolve to a useful web page (as with PDBx), put a
+   browsable URL in the optional `see_also` column. Separate multiple URLs with `|`.
 2. Run `make apply-mappings`. For each row, this adds the external term to the mapping slot
-   and to `see_also`, and declares its prefix in the module. Mappings with that prefix that
+   and to `see_also`, and declares its prefix in the module. If the row has a `see_also`
+   column, those URLs go into `see_also` instead of the external term, written as CURIEs
+   using the mapping file's `curie_map`. Mappings with that prefix that
    are no longer in the SSSOM file are removed. Unknown OSC-EM terms are reported as
    errors, and no files are changed.
 3. Commit both the SSSOM file and the updated schemas.
