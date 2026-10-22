@@ -58,6 +58,31 @@ When adding a new schema file, make sure to include 'id', 'name' and 'descriptio
 
 ---
 
+### `apply_sssom_mappings.py`
+
+**Purpose**: Updates the LinkML schemas from the SSSOM mapping files in `src/mappings/`.
+
+**Usage**:
+```bash
+poetry run python scripts/apply_sssom_mappings.py [--check] mapping.sssom.tsv
+```
+
+**Arguments**:
+- `mapping.sssom.tsv`: the SSSOM/TSV file to apply. `make apply-mappings` and `make test-mappings` run the script once for each `src/mappings/*.sssom.tsv`.
+- `--check`: Don't write anything; exit 1 if any schema file would change
+- `--schema-dir`: Directory with the LinkML modules. Default: `src/oscem_schemas/schema`
+
+**Description**:
+1. Finds the OSC-EM side of each row: whichever of `subject_id` and `object_id` is in the `https://w3id.org/oscem-schemas/` namespace. Exactly one side must be. If it's the object, `skos:broadMatch` and `skos:narrowMatch` are swapped.
+2. Resolves the OSC-EM term to the slot, class or enum with that URI. Unknown terms (e.g. typos) are reported with suggestions, and nothing is written.
+3. Adds the external term to the mapping slot for the predicate (`skos:exactMatch` → `exact_mappings`, `skos:closeMatch` → `close_mappings`, `skos:broadMatch` → `broad_mappings`, ...). Also adds a link to `see_also`: the URLs in the row's optional `see_also` column (`|`-separated, compacted with the `curie_map`), or the external term itself if that column is empty.
+4. Adds the external prefix (e.g. `emg`) to the module's `prefixes`
+5. Removes mappings with that prefix which are no longer in the file, so a changed predicate or external term replaces the old one. Mappings with other prefixes are left alone.
+
+Files are edited line by line, so existing formatting and comments are preserved.
+
+---
+
 ## Development
 
 ### Running Locally

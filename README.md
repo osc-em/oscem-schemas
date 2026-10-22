@@ -74,6 +74,22 @@ Detailed descriptions of the schemas and individual terms can be viewed in the [
 documentation](https://osc-em.github.io/oscem-schemas/), which is automatically updated
 from LinkML.
 
+## Ontology Mappings
+
+Many terms are linked to equivalent or related terms in other vocabularies, such as the
+[PDBx/mmCIF dictionary](https://mmcif.wwpdb.org/) and the
+[Electron Microscopy Glossary](https://owl.emglossary.helmholtz-metadaten.de/) (EM Glossary).
+The links are stored on each term as LinkML mappings (`exact_mappings`, `close_mappings`,
+`broad_mappings`, `narrow_mappings` and `related_mappings`), and appear in the
+documentation and the generated artifacts.
+
+Mappings to some vocabularies are also published as [SSSOM](https://mapping-commons.github.io/sssom/)
+mapping sets in [src/mappings/](src/mappings/):
+
+| File | Vocabulary |
+| ---- | ---------- |
+| [oscem_emg.sssom.tsv](src/mappings/oscem_emg.sssom.tsv) | EM Glossary (`emg:`) |
+
 ## Developer Documentation
 
 ### Repository Structure
@@ -82,6 +98,7 @@ from LinkML.
   - [oscem_schemas](src/oscem_schemas)
     - [schema](src/oscem_schemas/schema) -- LinkML schema files (edit these). Files starting with `oscem_schemas_` are main technique schemas; others are supporting modules.
     - [datamodel](src/oscem_schemas/datamodel) -- generated Python datamodel
+  - [mappings](src/mappings) -- SSSOM mapping sets to other vocabularies (edit these)
 - [tests/](tests/) - Python tests
 - [tests/data/examples/](tests/data/examples/) - example data
 - [perm_docs/](perm_docs/) - permanent documentation files
@@ -104,6 +121,8 @@ Use the `make` command to generate project artifacts:
 - `make -j serve-live`: run docs locally, rebuilding automatically on schema changes
 - `make gen-all-schemas`: generate artifacts for all schema files (main + supporting)
 - `make gen-project`: generate artifacts for main schemas only (oscem_schemas_*.yaml)
+- `make apply-mappings`: update the schemas from the SSSOM files in `src/mappings/`
+- `make test-mappings`: check that the schemas match the SSSOM files
 - `make clean` : remove generated files
 
 **Development workflow**: Edit source schemas in `src/oscem_schemas/schema/`, run `make gen-all-schemas` locally for testing, then create a release to deploy artifacts.
@@ -152,6 +171,40 @@ To add a new schema:
 
 No code changes needed - the system automatically discovers and processes new schemas.
 For more information, please read the [Artifact Generation Scripts documentation](./scripts/README.md).
+
+### Updating Ontology Mappings
+
+For vocabularies with an SSSOM file in `src/mappings/`, the SSSOM file is the source of
+truth. Don't edit those mappings in the schema YAML by hand:
+
+1. Edit the SSSOM file. Each row maps an OSC-EM term to an external term with a SKOS
+   `predicate_id`. The OSC-EM term can be either the `subject_id` or the `object_id`:
+
+   | predicate_id | LinkML slot (OSC-EM term is the subject) | LinkML slot (OSC-EM term is the object) |
+   | ------------ | ----------- | ----------- |
+   | `skos:exactMatch` | `exact_mappings` | `exact_mappings` |
+   | `skos:closeMatch` | `close_mappings` | `close_mappings` |
+   | `skos:broadMatch` | `broad_mappings` | `narrow_mappings` |
+   | `skos:narrowMatch` | `narrow_mappings` | `broad_mappings` |
+   | `skos:relatedMatch` | `related_mappings` | `related_mappings` |
+
+   OSC-EM terms use the `oscem:` prefix followed by the module and term name, e.g.
+   `oscem:instrumentacceleration_voltage` for the `acceleration_voltage` slot in
+   `instrument.yaml`. Exactly one side of each row must be an OSC-EM term.
+   If the external term's IRI doesn't resolve to a useful web page (as with PDBx), put a
+   browsable URL in the optional `see_also` column. Separate multiple URLs with `|`.
+2. Run `make apply-mappings`. For each row, this adds the external term to the mapping slot
+   and to `see_also`, and declares its prefix in the module. If the row has a `see_also`
+   column, those URLs go into `see_also` instead of the external term, written as CURIEs
+   using the mapping file's `curie_map`. Mappings with that prefix that
+   are no longer in the SSSOM file are removed. Unknown OSC-EM terms are reported as
+   errors, and no files are changed.
+3. Commit both the SSSOM file and the updated schemas.
+
+CI runs `make test-mappings` and fails if the schemas are out of date with the SSSOM files.
+Mappings to vocabularies without an SSSOM file (e.g. `pdbx:`) are edited directly in the
+schema YAML. See the [scripts documentation](./scripts/README.md#apply_sssom_mappingspy)
+for details.
 
 ## Credits
 
