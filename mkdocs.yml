@@ -22,10 +22,17 @@ theme:
     - content.code.copy
     - content.tabs.link
 edit_uri: ""
+
 plugins:
   - search
   - mermaid2:
       version: 10.9.0
+
+markdown_extensions:
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#markdown-in-html
+  # write markdown inside of HTML
+  - md_in_html
+
 # Generated class/slot/enum pages are linked from each schema's index.md
 # rather than listed in the nav
 not_in_nav: |

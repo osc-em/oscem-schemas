@@ -7,6 +7,7 @@ generator_args:
     mergeimports: true
     metaclasses: true
     type_objects: true
+    skip_vacuous_min_zero_cardinality_axioms: true
     # throws 'Cannot handle metadata profile: rdfs'
     # metadata_profile: rdfs
   markdown:
