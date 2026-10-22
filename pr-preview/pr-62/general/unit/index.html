@@ -523,6 +523,103 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#applicable-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Applicable Classes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Properties
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Properties">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#type-and-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type and Range
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#identifier-and-mapping-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Identifier and Mapping Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schema-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mappings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linkml-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -540,74 +637,80 @@
 
 <h1 id="slot-unit">Slot: unit</h1>
 <p><em>the unit of a given value</em></p>
-<div data-search-exclude markdown="1">
-
-
-
-URI: [qudt:hasUnit](http://qudt.org/schema/qudt/hasUnit)
+<div>
+<p>URI: <a href="http://qudt.org/schema/qudt/hasUnit">qudt:hasUnit</a></p>
 <!-- no inheritance hierarchy -->
-
-
-
-
-
-## Applicable Classes
-
-| Name | Description | Modifies Slot |
-| --- | --- | --- |
-| [QuantityValue](QuantityValue.md) | if a value has a unit, it should be given as a unit value pair |  yes  |
-| [QuantitySI](QuantitySI.md) | unit value extended to have two additional fields si_value and si_unit |  no  |
-
-
-
-
-
-
-## Properties
-
-### Type and Range
-
-| Property | Value |
-| --- | --- |
-| Range | [String](String.md) |
-| Domain Of | [QuantityValue](QuantityValue.md) |
-| Slot URI | [qudt:hasUnit](http://qudt.org/schema/qudt/hasUnit) |
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/general
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | qudt:hasUnit |
-| native | https://w3id.org/oscem-schemas/latest/general/unit |
-
-
-
-
-## LinkML Source
-
+<h2 id="applicable-classes">Applicable Classes</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Modifies Slot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../QuantityValue/">QuantityValue</a></td>
+<td>if a value has a unit, it should be given as a unit value pair</td>
+<td>yes</td>
+</tr>
+<tr>
+<td><a href="../QuantitySI/">QuantitySI</a></td>
+<td>unit value extended to have two additional fields si_value and si_unit</td>
+<td>no</td>
+</tr>
+</tbody>
+</table>
+<h2 id="properties">Properties</h2>
+<h3 id="type-and-range">Type and Range</h3>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td><a href="../String/">String</a></td>
+</tr>
+<tr>
+<td>Domain Of</td>
+<td><a href="../QuantityValue/">QuantityValue</a></td>
+</tr>
+<tr>
+<td>Slot URI</td>
+<td><a href="http://qudt.org/schema/qudt/hasUnit">qudt:hasUnit</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/general</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>qudt:hasUnit</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/general/unit</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <details>
 
 <pre><code class="language-yaml">name: unit
@@ -621,7 +724,8 @@ range: string
 
 </code></pre>
 
-</details></div>
+</details>
+</div>
 
 
 

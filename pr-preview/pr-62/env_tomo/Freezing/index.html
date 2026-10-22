@@ -250,6 +250,92 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+<span class="md-ellipsis">
+      
+        Slots
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usages">
+<span class="md-ellipsis">
+      
+        Usages
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+<span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+</a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+<span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+<span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+<span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+</a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+<span class="md-ellipsis">
+      
+        Direct
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+<span class="md-ellipsis">
+      
+        Induced
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -258,14 +344,8 @@
 <article class="md-content__inner md-typeset">
 <h1 id="class-freezing">Class: Freezing</h1>
 <p><em>how the sample was frozen.</em></p>
-<div data-search-exclude="" markdown="1">
-
-
-
-URI: [https://w3id.org/oscem-schemas/latest/env_tomo/Freezing](https://w3id.org/oscem-schemas/latest/env_tomo/Freezing)
-
-
-
+<div>
+<p>URI: <a href="https://w3id.org/oscem-schemas/latest/env_tomo/Freezing">https://w3id.org/oscem-schemas/latest/env_tomo/Freezing</a></p>
 <div class="mermaid">erDiagram
 Freezing {
     string atmosphere  
@@ -285,72 +365,107 @@ Freezing ||--|o QuantitySI : "humidity_env, temperature_env"
 
 </div>
 <!-- no inheritance hierarchy -->
-
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [cryogen_sample_env](cryogen_sample_env.md) | 0..1 <br/> [String](String.md) | the cryogen used to freeze the sample, i | direct |
-| [method](method.md) | 0..1 <br/> [FreezingMethodEnum](FreezingMethodEnum.md) | freezing method - such as plunge freezing, high pressure freezing etc | direct |
-| [blotting](blotting.md) | 0..1 <br/> [Boolean](Boolean.md) | whether blotting was performed | direct |
-| [humidity_env](humidity_env.md) | 0..1 <br/> [QuantitySI](QuantitySI.md) | humidity of the atmosphere right before/ during freezing; in % | direct |
-| [temperature_env](temperature_env.md) | 0..1 <br/> [QuantitySI](QuantitySI.md) | temperature of the sample right before freezing; in K | direct |
-| [atmosphere](atmosphere.md) | 0..1 <br/> [String](String.md) | What was the atmosphere the sample was in right before freezing, elaborate on... | direct |
-| [details](details.md) | 0..1 <br/> [String](String.md) | Any further comments on the freezing process go here | direct |
-
-
-
-
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [SampleEnv](SampleEnv.md) | [freezing](freezing.md) | range | [Freezing](Freezing.md) |
-
-
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/env_tomo
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://w3id.org/oscem-schemas/latest/env_tomo/Freezing |
-| native | https://w3id.org/oscem-schemas/latest/env_tomo/Freezing |
-
-
-
-
-
-
-## LinkML Source
-
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../cryogen_sample_env/">cryogen_sample_env</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>the cryogen used to freeze the sample, i</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../method/">method</a></td>
+<td>0..1 <br/> <a href="../FreezingMethodEnum/">FreezingMethodEnum</a></td>
+<td>freezing method - such as plunge freezing, high pressure freezing etc</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../blotting/">blotting</a></td>
+<td>0..1 <br/> <a href="../Boolean/">Boolean</a></td>
+<td>whether blotting was performed</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../humidity_env/">humidity_env</a></td>
+<td>0..1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>humidity of the atmosphere right before/ during freezing; in %</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../temperature_env/">temperature_env</a></td>
+<td>0..1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>temperature of the sample right before freezing; in K</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../atmosphere/">atmosphere</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>What was the atmosphere the sample was in right before freezing, elaborate on...</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../details/">details</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Any further comments on the freezing process go here</td>
+<td>direct</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usages">Usages</h2>
+<table>
+<thead>
+<tr>
+<th>used by</th>
+<th>used in</th>
+<th>type</th>
+<th>used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../SampleEnv/">SampleEnv</a></td>
+<td><a href="../freezing/">freezing</a></td>
+<td>range</td>
+<td><a href="./">Freezing</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/env_tomo</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>https://w3id.org/oscem-schemas/latest/env_tomo/Freezing</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/env_tomo/Freezing</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
-
-### Direct
-
+<h3 id="direct">Direct</h3>
 <details>
 <pre><code class="language-yaml">name: Freezing
 description: how the sample was frozen.
@@ -366,9 +481,7 @@ slots:
 
 </code></pre>
 </details>
-
-### Induced
-
+<h3 id="induced">Induced</h3>
 <details>
 <pre><code class="language-yaml">name: Freezing
 description: how the sample was frozen.
@@ -441,7 +554,8 @@ attributes:
     range: string
 
 </code></pre>
-</details></div>
+</details>
+</div>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>

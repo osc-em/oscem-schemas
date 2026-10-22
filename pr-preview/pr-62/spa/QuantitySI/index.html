@@ -250,6 +250,101 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inheritance">
+<span class="md-ellipsis">
+      
+        Inheritance
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+<span class="md-ellipsis">
+      
+        Slots
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usages">
+<span class="md-ellipsis">
+      
+        Usages
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+<span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+</a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+<span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+<span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+<span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+</a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+<span class="md-ellipsis">
+      
+        Direct
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+<span class="md-ellipsis">
+      
+        Induced
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -258,14 +353,8 @@
 <article class="md-content__inner md-typeset">
 <h1 id="class-quantitysi">Class: QuantitySI</h1>
 <p><em>unit value extended to have two additional fields si_value and si_unit</em></p>
-<div data-search-exclude="" markdown="1">
-
-
-
-URI: [https://w3id.org/oscem-schemas/latest/spa/QuantitySI](https://w3id.org/oscem-schemas/latest/spa/QuantitySI)
-
-
-
+<div>
+<p>URI: <a href="https://w3id.org/oscem-schemas/latest/spa/QuantitySI">https://w3id.org/oscem-schemas/latest/spa/QuantitySI</a></p>
 <div class="mermaid">erDiagram
 QuantitySI {
     string unitSI  
@@ -277,106 +366,264 @@ QuantitySI {
 
 
 </div>
-
-
-
-
-
-## Inheritance
-* [QuantityValue](QuantityValue.md)
-    * **QuantitySI**
-
-
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [valueSI](valueSI.md) | 0..1 <br/> [Float](Float.md) | value of a given field in respect to its SI unit | direct |
-| [unitSI](unitSI.md) | 0..1 <br/> [String](String.md) | the SI unit attached to a si value | direct |
-| [unit](unit.md) | 1 <br/> [String](String.md) | the unit of a given value | [QuantityValue](QuantityValue.md) |
-| [value](value.md) | 1 <br/> [Float](Float.md) | the value of a field with a unit | [QuantityValue](QuantityValue.md) |
-
-
-
-
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [Range](Range.md) | [minimal](minimal.md) | range | [QuantitySI](QuantitySI.md) |
-| [Range](Range.md) | [maximal](maximal.md) | range | [QuantitySI](QuantitySI.md) |
-| [Series](Series.md) | [increment](increment.md) | range | [QuantitySI](QuantitySI.md) |
-| [Series](Series.md) | [minimal](minimal.md) | range | [QuantitySI](QuantitySI.md) |
-| [Series](Series.md) | [maximal](maximal.md) | range | [QuantitySI](QuantitySI.md) |
-| [BoundingBox2D](BoundingBox2D.md) | [x_min](x_min.md) | range | [QuantitySI](QuantitySI.md) |
-| [BoundingBox2D](BoundingBox2D.md) | [x_max](x_max.md) | range | [QuantitySI](QuantitySI.md) |
-| [BoundingBox2D](BoundingBox2D.md) | [y_min](y_min.md) | range | [QuantitySI](QuantitySI.md) |
-| [BoundingBox2D](BoundingBox2D.md) | [y_max](y_max.md) | range | [QuantitySI](QuantitySI.md) |
-| [Acquisition](Acquisition.md) | [screen_current](screen_current.md) | range | [QuantitySI](QuantitySI.md) |
-| [Acquisition](Acquisition.md) | [dose_per_movie](dose_per_movie.md) | range | [QuantitySI](QuantitySI.md) |
-| [Acquisition](Acquisition.md) | [exposure_time](exposure_time.md) | range | [QuantitySI](QuantitySI.md) |
-| [Acquisition](Acquisition.md) | [pixel_size](pixel_size.md) | range | [QuantitySI](QuantitySI.md) |
-| [AcquisitionSpa](AcquisitionSpa.md) | [screen_current](screen_current.md) | range | [QuantitySI](QuantitySI.md) |
-| [AcquisitionSpa](AcquisitionSpa.md) | [dose_per_movie](dose_per_movie.md) | range | [QuantitySI](QuantitySI.md) |
-| [AcquisitionSpa](AcquisitionSpa.md) | [exposure_time](exposure_time.md) | range | [QuantitySI](QuantitySI.md) |
-| [AcquisitionSpa](AcquisitionSpa.md) | [pixel_size](pixel_size.md) | range | [QuantitySI](QuantitySI.md) |
-| [EnergyFilter](EnergyFilter.md) | [width_energy_filter](width_energy_filter.md) | range | [QuantitySI](QuantitySI.md) |
-| [Detector](Detector.md) | [dispersion](dispersion.md) | range | [QuantitySI](QuantitySI.md) |
-| [Instrument](Instrument.md) | [acceleration_voltage](acceleration_voltage.md) | range | [QuantitySI](QuantitySI.md) |
-| [Instrument](Instrument.md) | [c2_aperture](c2_aperture.md) | range | [QuantitySI](QuantitySI.md) |
-| [Instrument](Instrument.md) | [cs](cs.md) | range | [QuantitySI](QuantitySI.md) |
-| [Instrument](Instrument.md) | [beam_convergence](beam_convergence.md) | range | [QuantitySI](QuantitySI.md) |
-| [OverallMolecule](OverallMolecule.md) | [molecular_weight](molecular_weight.md) | range | [QuantitySI](QuantitySI.md) |
-| [Specimen](Specimen.md) | [concentration](concentration.md) | range | [QuantitySI](QuantitySI.md) |
-| [Specimen](Specimen.md) | [humidity](humidity.md) | range | [QuantitySI](QuantitySI.md) |
-| [Specimen](Specimen.md) | [temperature](temperature.md) | range | [QuantitySI](QuantitySI.md) |
-| [Grid](Grid.md) | [pretreatment_time](pretreatment_time.md) | range | [QuantitySI](QuantitySI.md) |
-| [Grid](Grid.md) | [pretreatment_pressure](pretreatment_pressure.md) | range | [QuantitySI](QuantitySI.md) |
-
-
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/spa
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://w3id.org/oscem-schemas/latest/spa/QuantitySI |
-| native | https://w3id.org/oscem-schemas/latest/spa/QuantitySI |
-
-
-
-
-
-
-## LinkML Source
-
+<h2 id="inheritance">Inheritance</h2>
+<ul>
+<li><a href="../QuantityValue/">QuantityValue</a><ul>
+<li><strong>QuantitySI</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../valueSI/">valueSI</a></td>
+<td>0..1 <br/> <a href="../Float/">Float</a></td>
+<td>value of a given field in respect to its SI unit</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../unitSI/">unitSI</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>the SI unit attached to a si value</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../unit/">unit</a></td>
+<td>1 <br/> <a href="../String/">String</a></td>
+<td>the unit of a given value</td>
+<td><a href="../QuantityValue/">QuantityValue</a></td>
+</tr>
+<tr>
+<td><a href="../value/">value</a></td>
+<td>1 <br/> <a href="../Float/">Float</a></td>
+<td>the value of a field with a unit</td>
+<td><a href="../QuantityValue/">QuantityValue</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="usages">Usages</h2>
+<table>
+<thead>
+<tr>
+<th>used by</th>
+<th>used in</th>
+<th>type</th>
+<th>used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../Range/">Range</a></td>
+<td><a href="../minimal/">minimal</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Range/">Range</a></td>
+<td><a href="../maximal/">maximal</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Series/">Series</a></td>
+<td><a href="../increment/">increment</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Series/">Series</a></td>
+<td><a href="../minimal/">minimal</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Series/">Series</a></td>
+<td><a href="../maximal/">maximal</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../BoundingBox2D/">BoundingBox2D</a></td>
+<td><a href="../x_min/">x_min</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../BoundingBox2D/">BoundingBox2D</a></td>
+<td><a href="../x_max/">x_max</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../BoundingBox2D/">BoundingBox2D</a></td>
+<td><a href="../y_min/">y_min</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../BoundingBox2D/">BoundingBox2D</a></td>
+<td><a href="../y_max/">y_max</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Acquisition/">Acquisition</a></td>
+<td><a href="../screen_current/">screen_current</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Acquisition/">Acquisition</a></td>
+<td><a href="../dose_per_movie/">dose_per_movie</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Acquisition/">Acquisition</a></td>
+<td><a href="../exposure_time/">exposure_time</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Acquisition/">Acquisition</a></td>
+<td><a href="../pixel_size/">pixel_size</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../AcquisitionSpa/">AcquisitionSpa</a></td>
+<td><a href="../screen_current/">screen_current</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../AcquisitionSpa/">AcquisitionSpa</a></td>
+<td><a href="../dose_per_movie/">dose_per_movie</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../AcquisitionSpa/">AcquisitionSpa</a></td>
+<td><a href="../exposure_time/">exposure_time</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../AcquisitionSpa/">AcquisitionSpa</a></td>
+<td><a href="../pixel_size/">pixel_size</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../EnergyFilter/">EnergyFilter</a></td>
+<td><a href="../width_energy_filter/">width_energy_filter</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Detector/">Detector</a></td>
+<td><a href="../dispersion/">dispersion</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Instrument/">Instrument</a></td>
+<td><a href="../acceleration_voltage/">acceleration_voltage</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Instrument/">Instrument</a></td>
+<td><a href="../c2_aperture/">c2_aperture</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Instrument/">Instrument</a></td>
+<td><a href="../cs/">cs</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Instrument/">Instrument</a></td>
+<td><a href="../beam_convergence/">beam_convergence</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../OverallMolecule/">OverallMolecule</a></td>
+<td><a href="../molecular_weight/">molecular_weight</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Specimen/">Specimen</a></td>
+<td><a href="../concentration/">concentration</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Specimen/">Specimen</a></td>
+<td><a href="../humidity/">humidity</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Specimen/">Specimen</a></td>
+<td><a href="../temperature/">temperature</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Grid/">Grid</a></td>
+<td><a href="../pretreatment_time/">pretreatment_time</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+<tr>
+<td><a href="../Grid/">Grid</a></td>
+<td><a href="../pretreatment_pressure/">pretreatment_pressure</a></td>
+<td>range</td>
+<td><a href="./">QuantitySI</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/spa</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>https://w3id.org/oscem-schemas/latest/spa/QuantitySI</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/spa/QuantitySI</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
-
-### Direct
-
+<h3 id="direct">Direct</h3>
 <details>
 <pre><code class="language-yaml">name: QuantitySI
 description: unit value extended to have two additional fields si_value and si_unit
@@ -388,9 +635,7 @@ slots:
 
 </code></pre>
 </details>
-
-### Induced
-
+<h3 id="induced">Induced</h3>
 <details>
 <pre><code class="language-yaml">name: QuantitySI
 description: unit value extended to have two additional fields si_value and si_unit
@@ -439,7 +684,8 @@ attributes:
     required: true
 
 </code></pre>
-</details></div>
+</details>
+</div>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>

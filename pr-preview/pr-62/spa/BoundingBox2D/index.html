@@ -250,6 +250,92 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+<span class="md-ellipsis">
+      
+        Slots
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usages">
+<span class="md-ellipsis">
+      
+        Usages
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+<span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+</a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+<span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+<span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+<span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+</a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+<span class="md-ellipsis">
+      
+        Direct
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+<span class="md-ellipsis">
+      
+        Induced
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -258,14 +344,8 @@
 <article class="md-content__inner md-typeset">
 <h1 id="class-boundingbox2d">Class: BoundingBox2D</h1>
 <p><em>an axis-aligned 2D bounding box (float units)</em></p>
-<div data-search-exclude="" markdown="1">
-
-
-
-URI: [https://w3id.org/oscem-schemas/latest/spa/BoundingBox2D](https://w3id.org/oscem-schemas/latest/spa/BoundingBox2D)
-
-
-
+<div>
+<p>URI: <a href="https://w3id.org/oscem-schemas/latest/spa/BoundingBox2D">https://w3id.org/oscem-schemas/latest/spa/BoundingBox2D</a></p>
 <div class="mermaid">erDiagram
 BoundingBox2D {
 
@@ -281,74 +361,119 @@ BoundingBox2D ||--|o QuantitySI : "x_max, x_min, y_max, y_min"
 
 </div>
 <!-- no inheritance hierarchy -->
-
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [x_min](x_min.md) | 0..1 <br/> [QuantitySI](QuantitySI.md) | minimum x | direct |
-| [x_max](x_max.md) | 0..1 <br/> [QuantitySI](QuantitySI.md) | maximum x | direct |
-| [y_min](y_min.md) | 0..1 <br/> [QuantitySI](QuantitySI.md) | minimum y | direct |
-| [y_max](y_max.md) | 0..1 <br/> [QuantitySI](QuantitySI.md) | maximum y | direct |
-
-
-
-
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [Acquisition](Acquisition.md) | [beamshift](beamshift.md) | range | [BoundingBox2D](BoundingBox2D.md) |
-| [Acquisition](Acquisition.md) | [beamtilt](beamtilt.md) | range | [BoundingBox2D](BoundingBox2D.md) |
-| [Acquisition](Acquisition.md) | [imageshift](imageshift.md) | range | [BoundingBox2D](BoundingBox2D.md) |
-| [AcquisitionSpa](AcquisitionSpa.md) | [beamshift](beamshift.md) | range | [BoundingBox2D](BoundingBox2D.md) |
-| [AcquisitionSpa](AcquisitionSpa.md) | [beamtilt](beamtilt.md) | range | [BoundingBox2D](BoundingBox2D.md) |
-| [AcquisitionSpa](AcquisitionSpa.md) | [imageshift](imageshift.md) | range | [BoundingBox2D](BoundingBox2D.md) |
-
-
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/spa
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://w3id.org/oscem-schemas/latest/spa/BoundingBox2D |
-| native | https://w3id.org/oscem-schemas/latest/spa/BoundingBox2D |
-
-
-
-
-
-
-## LinkML Source
-
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../x_min/">x_min</a></td>
+<td>0..1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>minimum x</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../x_max/">x_max</a></td>
+<td>0..1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>maximum x</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../y_min/">y_min</a></td>
+<td>0..1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>minimum y</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../y_max/">y_max</a></td>
+<td>0..1 <br/> <a href="../QuantitySI/">QuantitySI</a></td>
+<td>maximum y</td>
+<td>direct</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usages">Usages</h2>
+<table>
+<thead>
+<tr>
+<th>used by</th>
+<th>used in</th>
+<th>type</th>
+<th>used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../Acquisition/">Acquisition</a></td>
+<td><a href="../beamshift/">beamshift</a></td>
+<td>range</td>
+<td><a href="./">BoundingBox2D</a></td>
+</tr>
+<tr>
+<td><a href="../Acquisition/">Acquisition</a></td>
+<td><a href="../beamtilt/">beamtilt</a></td>
+<td>range</td>
+<td><a href="./">BoundingBox2D</a></td>
+</tr>
+<tr>
+<td><a href="../Acquisition/">Acquisition</a></td>
+<td><a href="../imageshift/">imageshift</a></td>
+<td>range</td>
+<td><a href="./">BoundingBox2D</a></td>
+</tr>
+<tr>
+<td><a href="../AcquisitionSpa/">AcquisitionSpa</a></td>
+<td><a href="../beamshift/">beamshift</a></td>
+<td>range</td>
+<td><a href="./">BoundingBox2D</a></td>
+</tr>
+<tr>
+<td><a href="../AcquisitionSpa/">AcquisitionSpa</a></td>
+<td><a href="../beamtilt/">beamtilt</a></td>
+<td>range</td>
+<td><a href="./">BoundingBox2D</a></td>
+</tr>
+<tr>
+<td><a href="../AcquisitionSpa/">AcquisitionSpa</a></td>
+<td><a href="../imageshift/">imageshift</a></td>
+<td>range</td>
+<td><a href="./">BoundingBox2D</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/spa</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>https://w3id.org/oscem-schemas/latest/spa/BoundingBox2D</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/spa/BoundingBox2D</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
-
-### Direct
-
+<h3 id="direct">Direct</h3>
 <details>
 <pre><code class="language-yaml">name: BoundingBox2D
 description: an axis-aligned 2D bounding box (float units)
@@ -361,9 +486,7 @@ slots:
 
 </code></pre>
 </details>
-
-### Induced
-
+<h3 id="induced">Induced</h3>
 <details>
 <pre><code class="language-yaml">name: BoundingBox2D
 description: an axis-aligned 2D bounding box (float units)
@@ -407,7 +530,8 @@ attributes:
     range: QuantitySI
 
 </code></pre>
-</details></div>
+</details>
+</div>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>

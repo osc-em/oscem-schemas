@@ -250,6 +250,92 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#inheritance">
+<span class="md-ellipsis">
+      
+        Inheritance
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+<span class="md-ellipsis">
+      
+        Slots
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+<span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+</a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+<span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+<span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+<span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+</a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+<span class="md-ellipsis">
+      
+        Direct
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+<span class="md-ellipsis">
+      
+        Induced
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -257,14 +343,8 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1 id="class-descriptors">Class: Descriptors</h1>
-<div data-search-exclude="" markdown="1">
-
-
-
-URI: [https://w3id.org/oscem-schemas/latest/cellular_tomo/Descriptors](https://w3id.org/oscem-schemas/latest/cellular_tomo/Descriptors)
-
-
-
+<div>
+<p>URI: <a href="https://w3id.org/oscem-schemas/latest/cellular_tomo/Descriptors">https://w3id.org/oscem-schemas/latest/cellular_tomo/Descriptors</a></p>
 <div class="mermaid">erDiagram
 Any {
 
@@ -276,69 +356,65 @@ Descriptors {
 Descriptors ||--|o Any : "descriptor_thing"
 
 </div>
-
-
-
-
-
-## Inheritance
-* [Descriptor](Descriptor.md)
-    * **Descriptors**
-
-
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [descriptor_name](descriptor_name.md) | 1 <br/> [String](String.md) | Name defining the descriptor | [Descriptor](Descriptor.md) |
-| [descriptor_thing](descriptor_thing.md) | 0..1 <br/> [Any](Any.md) | Description of the descriptor | [Descriptor](Descriptor.md) |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/cellular_tomo
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://w3id.org/oscem-schemas/latest/cellular_tomo/Descriptors |
-| native | https://w3id.org/oscem-schemas/latest/cellular_tomo/Descriptors |
-
-
-
-
-
-
-## LinkML Source
-
+<h2 id="inheritance">Inheritance</h2>
+<ul>
+<li><a href="../Descriptor/">Descriptor</a><ul>
+<li><strong>Descriptors</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../descriptor_name/">descriptor_name</a></td>
+<td>1 <br/> <a href="../String/">String</a></td>
+<td>Name defining the descriptor</td>
+<td><a href="../Descriptor/">Descriptor</a></td>
+</tr>
+<tr>
+<td><a href="../descriptor_thing/">descriptor_thing</a></td>
+<td>0..1 <br/> <a href="../Any/">Any</a></td>
+<td>Description of the descriptor</td>
+<td><a href="../Descriptor/">Descriptor</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/cellular_tomo</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>https://w3id.org/oscem-schemas/latest/cellular_tomo/Descriptors</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/cellular_tomo/Descriptors</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
-
-### Direct
-
+<h3 id="direct">Direct</h3>
 <details>
 <pre><code class="language-yaml">name: Descriptors
 from_schema: https://w3id.org/oscem-schemas/latest/cellular_tomo
@@ -346,9 +422,7 @@ is_a: Descriptor
 
 </code></pre>
 </details>
-
-### Induced
-
+<h3 id="induced">Induced</h3>
 <details>
 <pre><code class="language-yaml">name: Descriptors
 from_schema: https://w3id.org/oscem-schemas/latest/cellular_tomo
@@ -376,7 +450,8 @@ attributes:
     required: false
 
 </code></pre>
-</details></div>
+</details>
+</div>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
