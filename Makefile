@@ -133,8 +133,9 @@ gendoc: $(SCHEMA_NAMES:%=gendoc-%)
 gendoc-%:
 	@echo "Generating documentation for schema $*"
 	mkdir -p $(DOCDIR)/$*
-	cp -rf $(SRC)/docs/files/* $(DOCDIR)/$*
 	$(RUN) gen-doc --diagram-type er_diagram $(GEN_DOC_ARGS) -d $(DOCDIR)/$* src/oscem_schemas/schema/oscem_schemas_$*.yaml
+	@# copy static files only after gen-doc succeeds, so a failed run leaves docs/ untouched
+	cp -rf $(SRC)/docs/files/* $(DOCDIR)/$*
 	cp $(PERMDOCS)/* $(DOCDIR)/
 
 # Run gendoc for all schemas, showing output only on failure
@@ -238,14 +239,20 @@ serve:
 	$(RUN) mkdocs serve -f mkdocs.yml -a 0.0.0.0:8000
 
 # Serve docs, regenerating them whenever the schema or doc sources change.
-serve-live: gendoc-quiet
-	$(RUN) watchmedo shell-command --recursive --drop \
+# Extra watchmedo args; compose.yaml sets --debug-force-polling because file
+# events from the host don't reliably reach Docker bind mounts
+WATCH_ARGS =
+serve-live: gendoc gen-project
+	$(RUN) watchmedo shell-command --recursive --drop $(WATCH_ARGS) \
 		--patterns='*.yaml;*.md;*.jinja2' \
-		--command='$(MAKE) --no-print-directory -j gendoc-quiet' \
+		--command='$(MAKE) --no-print-directory -j gendoc gen-project' \
 		src/oscem_schemas/schema $(SRC)/docs $(PERMDOCS) & \
 	trap "kill $$! 2>/dev/null" EXIT; \
-	$(RUN) mkdocs serve -f mkdocs.yml -a 0.0.0.0:8000
+	$(RUN) mkdocs serve -f mkdocs.yml -a 0.0.0.0:8000 2>&1 | $(MKDOCS_LOG_FILTER)
 
+# mkdocs doesn't have a flag for WARN-level verbosity.
+MKDOCS_LOG_FILTER = awk '/^[A-Z]+ +- / {keep = !/^INFO/ || /Serving on|Reloading browsers/} \
+	keep {print; fflush()}'
 
 
 .PHONY: serve serve-live prepare-mkdocs mkdocs-build serve-all serve-test build-test

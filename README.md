@@ -97,16 +97,30 @@ Use the `make` command to generate project artifacts:
 - `make setup`: one-time setup
 - `make all`: make everything
 - `make gen-project`: generate schema outputs
-- `make gendocs`: generate documentation
+- `make gendoc`: generate documentation
 - `make deploy`: deploys site
 - `make test`: run tests and linting
 - `make serve`: run docs locally on <http://127.0.0.1:8000/oscem-schemas/>
-- `make serve-live`: run docs locally, rebuilding automatically on schema changes
+- `make -j serve-live`: run docs locally, rebuilding automatically on schema changes
 - `make gen-all-schemas`: generate artifacts for all schema files (main + supporting)
 - `make gen-project`: generate artifacts for main schemas only (oscem_schemas_*.yaml)
 - `make clean` : remove generated files
 
 **Development workflow**: Edit source schemas in `src/oscem_schemas/schema/`, run `make gen-all-schemas` locally for testing, then create a release to deploy artifacts.
+
+> [!NOTE]
+> **Building docs on macOS or Windows.** Some slots and classes have names that
+> differ only in case (e.g. slot `phaseplate` and class `Phaseplate`). `make gendoc`
+> writes a separate page for each, which collide on a case-insensitive
+> filesystem: one page overwrites the other, and mkdocs warns about links that
+> are "not found among documentation files". The deployed site is built on
+> Linux, which is case-sensitive, so it should not be affected.
+>
+> For an accurate local preview, run `docker compose up` instead of
+> `make serve-live`. It runs the same live-reloading server in a Linux
+> container (based on the `linkml/linkml` image), at
+> <http://localhost:8000/oscem-schemas/>. Generated docs are kept in a Docker
+> volume, so `docs/` in your checkout is not updated.
 
 ### Project Structure Notes
 
