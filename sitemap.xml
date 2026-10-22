@@ -2,4054 +2,4054 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Acquisition/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/AcquisitionCelTomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/AcquisitionEnvTomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/AcquisitionSpa/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/AcquisitionSubTomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/AcquisitionTechnique/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/AcquisitionTomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Any/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Author/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Boolean/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/BoundingBox2D/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/CellularTomography/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/ChromaticAberrationCorrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Curie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/DateOrDatetime/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Datetime/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Decimal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Descriptor/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Descriptors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Detector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Double/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/EMDatasetBase/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/EMDatasetCell/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/EnergyFilter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Float/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Freezing/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/FreezingMethodEnum/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Funder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Grant/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/GrowthCondition/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/ImageSize/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Instrument/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Integer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Jsonpath/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Jsonpointer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Microscope/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Ncname/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Nodeidentifier/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Objectidentifier/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/OrganizationTypeEnum/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Organizational/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Person/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Phaseplate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/QuantitySI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/QuantityValue/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Range/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/SampleCell/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/SampleEnv/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Series/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Sparqlpath/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/SpecialistOptics/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/SpecimenEnv/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/SphericalAberrationCorrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/String/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Thinning/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/TiltAngle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/TomogramFeatures/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Uri/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/Uriorcurie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/about/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/acceleration_voltage/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/acquisition/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/atmosphere/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/atmosphere_growth/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/authors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/beam_convergence/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/beamshift/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/beamtilt/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/beamtiltgroups/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/binning_camera/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/blotting/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/budget/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/c2_aperture/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/calibrated_defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/calibrated_magnification/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/cell_cycle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/cellular_features/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/chromatic_aberration_corrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/collection_angle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/collection_date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/country/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/cryogen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/cryogen_sample_env/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/cs/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/date_time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/description/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/descriptor_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/descriptor_thing/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/descriptors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/details/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/details_tomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/detectors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/dispersion/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/dose_per_movie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/electron_source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/email/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/end_date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/energy_filter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/exposure_time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/family_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/frames_per_movie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/freezing/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/funder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/funder_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/gainref_flip_rotate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/given_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/grant_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/grants/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/grids_imaged/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/growth_condition/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/growth_location/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/handling/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/height/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/holder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/holder_cryogen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/humidity_env/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/illumination/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/image_size/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/images_generated/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/imageshift/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/imaging/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/increment/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/instrument/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/instrument_thin/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/instrument_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/ion_source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/job_title/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/lift_out/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/location/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/main_target/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/manufacturer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/maximal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/media/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/method/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/method_thin/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/microscope/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/microscope_software/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/minimal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/mode/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/model/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/name_org/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/nominal_defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/nominal_magnification/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/operating_mode/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/orcid/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/organelles/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/organism/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/organizational/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/person/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/phaseplate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/pixel_size/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/project_id/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/role/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/sample/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/screen_current/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/source_env/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/specialist_optics/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/specimen_env/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/spherical_aberration_corrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/start_date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/target_thickness/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/technique/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/telephone/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/temperature_env/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/temperature_growth/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/temperature_range/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/thinning/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/tilt_angle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/tilt_axis_angle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/tissue/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/tomogram_features/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/treatment/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/type_org/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/unit/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/unitSI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/used/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/value/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/valueSI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/width/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/width_energy_filter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/x_max/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/x_min/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/y_max/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/cellular_tomo/y_min/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Acquisition/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/AcquisitionCelTomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/AcquisitionEnvTomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/AcquisitionSpa/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/AcquisitionSubTomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/AcquisitionTechnique/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/AcquisitionTomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Any/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Author/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Boolean/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/BoundingBox2D/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/ChromaticAberrationCorrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Curie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/DateOrDatetime/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Datetime/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Decimal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Descriptor/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Descriptors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Detector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Double/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/EMDatasetBase/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/EMDatasetEnv/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/EnergyFilter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/EnvironmentalTomography/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Float/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Freezing/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/FreezingMethodEnum/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Funder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Grant/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/ImageSize/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Instrument/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Integer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Jsonpath/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Jsonpointer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Microscope/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Ncname/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Nodeidentifier/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Objectidentifier/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/OrganizationTypeEnum/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Organizational/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Person/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Phaseplate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/QuantitySI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/QuantityValue/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Range/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/SampleEnv/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Series/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Sparqlpath/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/SpecialistOptics/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/SpecimenEnv/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/SphericalAberrationCorrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/String/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Thinning/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/TiltAngle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/TomogramFeatures/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Uri/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/Uriorcurie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/about/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/acceleration_voltage/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/acquisition/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/atmosphere/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/authors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/beam_convergence/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/beamshift/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/beamtilt/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/beamtiltgroups/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/binning_camera/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/blotting/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/budget/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/c2_aperture/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/calibrated_defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/calibrated_magnification/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/cellular_features/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/chromatic_aberration_corrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/collection_angle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/collection_date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/country/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/cryogen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/cryogen_sample_env/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/cs/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/date_time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/description/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/descriptor_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/descriptor_thing/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/descriptors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/details/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/details_tomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/detectors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/dispersion/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/dose_per_movie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/electron_source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/email/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/end_date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/energy_filter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/exposure_time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/family_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/frames_per_movie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/freezing/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/funder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/funder_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/gainref_flip_rotate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/given_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/grant_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/grants/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/grids_imaged/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/handling/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/height/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/holder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/holder_cryogen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/humidity_env/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/illumination/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/image_size/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/images_generated/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/imageshift/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/imaging/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/increment/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/instrument/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/instrument_thin/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/instrument_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/ion_source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/job_title/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/lift_out/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/location/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/main_target/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/manufacturer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/maximal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/method/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/method_thin/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/microscope/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/microscope_software/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/minimal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/mode/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/model/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/name_org/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/nominal_defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/nominal_magnification/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/operating_mode/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/orcid/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/organelles/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/organism/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/organizational/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/person/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/phaseplate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/pixel_size/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/project_id/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/role/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/sample/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/screen_current/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/source_env/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/specialist_optics/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/specimen_env/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/spherical_aberration_corrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/start_date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/target_thickness/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/technique/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/telephone/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/temperature_env/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/temperature_range/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/thinning/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/tilt_angle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/tilt_axis_angle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/tissue/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/tomogram_features/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/type_org/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/unit/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/unitSI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/used/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/value/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/valueSI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/width/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/width_energy_filter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/x_max/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/x_min/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/y_max/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/env_tomo/y_min/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Acquisition/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/AcquisitionSpa/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/AcquisitionTechnique/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Any/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/AssemblyEnum/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Author/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Boolean/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/BoundingBox2D/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/ChromaticAberrationCorrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Curie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/DateOrDatetime/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Datetime/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Decimal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Descriptor/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Descriptors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Detector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Double/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/EMDatasetBase/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/EMDatasetGeneral/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/EnergyFilter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Float/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Funder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/General/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Grant/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Grid/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/ImageSize/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Instrument/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Integer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Jsonpath/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Jsonpointer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Ligand/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Microscope/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Molecule/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/MoleculeClassEnum/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Ncname/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Nodeidentifier/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Objectidentifier/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/OrganizationTypeEnum/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Organizational/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/OverallMolecule/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Person/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Phaseplate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/QuantitySI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/QuantityValue/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Range/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Sample/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/SampleMolecular/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Series/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Sparqlpath/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/SpecialistOptics/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Specimen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/SphericalAberrationCorrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/String/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Uri/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/Uriorcurie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/about/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/acceleration_voltage/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/acquisition/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/assembly/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/authors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/beam_convergence/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/beamshift/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/beamtilt/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/beamtiltgroups/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/binning_camera/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/budget/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/buffer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/c2_aperture/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/calibrated_defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/calibrated_magnification/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/chromatic_aberration_corrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/collection_angle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/concentration/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/country/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/cryogen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/cs/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/date_time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/description/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/descriptor_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/descriptor_thing/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/descriptors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/detectors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/dispersion/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/dose_per_movie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/electron_source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/email/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/embedding/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/end_date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/energy_filter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/exposure_time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/expression_system/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/family_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/film_material/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/film_support/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/film_thickness/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/film_topology/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/frames_per_movie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/funder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/funder_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/gainref_flip_rotate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/gene_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/given_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/grant_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/grants/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/grid/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/grids_imaged/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/height/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/holder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/holder_cryogen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/humidity/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/illumination/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/image_size/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/images_generated/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/imageshift/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/imaging/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/increment/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/instrument/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/instrument_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/job_title/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/ligands/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/manufacturer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/material/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/maximal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/mesh/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/microscope/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/microscope_software/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/minimal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/mode/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/model/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/molecular_class/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/molecular_overall_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/molecular_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/molecular_weight/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/molecule/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/name_mol/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/name_org/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/name_sample/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/natural_source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/nominal_defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/nominal_magnification/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/operating_mode/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/orcid/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/organizational/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/overall_molecule/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/person/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/ph/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/phaseplate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/pixel_size/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/present/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/pretreatment_atmosphere/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/pretreatment_pressure/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/pretreatment_time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/pretreatment_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/project_id/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/reference/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/role/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/sample/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/screen_current/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/sequence/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/shadowing/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/smiles/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/specialist_optics/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/specimen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/spherical_aberration_corrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/staining/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/start_date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/taxonomy_id_expression/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/taxonomy_id_source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/technique/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/telephone/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/temperature/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/temperature_range/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/type_org/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/unit/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/unitSI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/used/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/value/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/valueSI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/vitrification/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/vitrification_cryogen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/width/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/width_energy_filter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/x_max/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/x_min/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/y_max/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/general/y_min/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Acquisition/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/AcquisitionSpa/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/AcquisitionTechnique/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Any/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/AssemblyEnum/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Astigmatism/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Author/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Boolean/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/BoundingBox2D/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/CTFs/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/ChromaticAberrationCorrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Classes2D/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Classes3D/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Coordinates/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Curie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/DateOrDatetime/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Datetime/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Decimal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Descriptor/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Descriptors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Detector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Double/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/EMDatasetBase/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/EMDatasetSpa/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/EnergyFilter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Float/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Funder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Grant/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Grid/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/ImageSize/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Instrument/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Integer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/IsosurfaceImages/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Jsonpath/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Jsonpointer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Ligand/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Micrographs/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Microscope/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Molecule/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/MoleculeClassEnum/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Movies/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Ncname/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Nodeidentifier/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Objectidentifier/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/OrganizationTypeEnum/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Organizational/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/OrthogonalSlices/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/OverallMolecule/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Person/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Phaseplate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Processing/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/QuantitySI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/QuantityValue/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Range/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Resolution/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Sample/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/SampleMolecular/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Series/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/SingleParticleAnalysis/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Sparqlpath/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/SpecialistOptics/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Specimen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/SphericalAberrationCorrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/String/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Uri/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Uriorcurie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Volume/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/Volumes/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/about/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/acceleration_voltage/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/acquisition/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/amplitude_contrast/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/assembly/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/astigmatism/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/astigmatism_histogram/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/authors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/beam_convergence/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/beamshift/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/beamtilt/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/beamtiltgroups/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/binning_camera/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/budget/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/buffer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/c2_aperture/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/calibrated_defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/calibrated_magnification/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/chromatic_aberration_corrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/classes2D/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/classes3D/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/collection_angle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/concentration/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/coordinates/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/country/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/cryogen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/cs/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/ctfs/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/dark_image/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/date_time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/defocus_histogram/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/defocus_micrograph_examples/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/description/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/descriptor_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/descriptor_thing/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/descriptors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/detectors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/dispersion/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/dose_per_image/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/dose_per_movie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/electron_source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/email/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/embedding/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/end_date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/energy_filter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/exposure_time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/expression_system/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/family_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/film_material/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/film_support/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/film_thickness/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/film_topology/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/frames_per_movie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/front_view/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/funder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/funder_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/gain_image/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/gainref_flip_rotate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/gene_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/given_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/grant_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/grants/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/grid/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/grids_imaged/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/height/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/holder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/holder_cryogen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/humidity/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/illumination/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/image_size/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/images_classes_2D/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/images_classes_3D/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/images_generated/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/imageshift/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/imaging/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/increment/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/initial_dose/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/instrument/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/instrument_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/isosurface_images/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/job_title/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/ligands/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/manufacturer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/material/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/maximal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/mesh/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/micrograph_examples/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/micrographs/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/microscope/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/microscope_software/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/minimal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/mode/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/model/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/molecular_class/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/molecular_overall_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/molecular_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/molecular_weight/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/molecule/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/movies/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/name_mol/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/name_org/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/name_sample/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/natural_source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/nominal_defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/nominal_magnification/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/num_source_micrographs/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/number_micrographs/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/number_particles/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/operating_mode/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/orcid/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/organizational/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/orthogonal_slices/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/orthogonal_slices_X/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/orthogonal_slices_Y/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/orthogonal_slices_Z/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/output_avg_defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/output_avg_resolution/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/output_max_defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/output_max_resolution/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/output_min_defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/output_min_resolution/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/overall_molecule/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/particles_histogram/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/particles_per_2Dclass/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/particles_per_3Dclass/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/particles_per_micrograph/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/person/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/ph/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/phaseplate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/pixel_size/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/present/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/pretreatment_atmosphere/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/pretreatment_pressure/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/pretreatment_time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/pretreatment_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/processing/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/project_id/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/reference/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/resolution/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/resolution_classes_2D/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/resolution_classes_3D/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/resolution_histogram/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/role/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/sample/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/screen_current/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/sequence/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/shadowing/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/side_view/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/size/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/smiles/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/specialist_optics/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/specimen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/spherical_aberration_corrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/staining/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/start_date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/taxonomy_id_expression/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/taxonomy_id_source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/technique/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/telephone/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/temperature/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/temperature_range/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/top_view/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/type_org/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/unit/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/unitSI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/used/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/value/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/valueSI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/vitrification/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/vitrification_cryogen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/vol_number_particles/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/vol_resolution/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/volume/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/volume_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/volumes/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/width/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/width_energy_filter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/x_max/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/x_min/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/y_max/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/spa/y_min/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Acquisition/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/AcquisitionCelTomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/AcquisitionEnvTomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/AcquisitionSpa/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/AcquisitionSubTomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/AcquisitionTechnique/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/AcquisitionTomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Any/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/AssemblyEnum/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Author/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Boolean/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/BoundingBox2D/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/ChromaticAberrationCorrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Curie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/DateOrDatetime/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Datetime/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Decimal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Descriptor/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Descriptors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Detector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Double/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/EMDatasetBase/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/EMDatasetTomo/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/EnergyFilter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Float/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Funder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Grant/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Grid/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/ImageSize/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Instrument/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Integer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Jsonpath/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Jsonpointer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Ligand/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Microscope/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Molecule/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/MoleculeClassEnum/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Ncname/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Nodeidentifier/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Objectidentifier/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/OrganizationTypeEnum/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Organizational/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/OverallMolecule/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Person/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Phaseplate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/QuantitySI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/QuantityValue/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Range/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Sample/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/SampleMolecular/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Series/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Sparqlpath/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/SpecialistOptics/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Specimen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/SphericalAberrationCorrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/String/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/SubtomogramAveraging/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/TiltAngle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Uri/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/Uriorcurie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/about/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/acceleration_voltage/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/acquisition/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/assembly/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/authors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/beam_convergence/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/beamshift/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/beamtilt/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/beamtiltgroups/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/binning_camera/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/budget/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/buffer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/c2_aperture/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/calibrated_defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/calibrated_magnification/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/chromatic_aberration_corrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/collection_angle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/concentration/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/country/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/cryogen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/cs/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/date_time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/description/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/descriptor_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/descriptor_thing/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/descriptors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/detectors/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/dispersion/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/dose_per_movie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/electron_source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/email/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/embedding/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/end_date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/energy_filter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/exposure_time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/expression_system/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/family_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/film_material/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/film_support/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/film_thickness/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/film_topology/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/frames_per_movie/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/funder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/funder_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/gainref_flip_rotate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/gene_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/given_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/grant_name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/grants/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/grid/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/grids_imaged/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/height/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/holder/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/holder_cryogen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/humidity/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/illumination/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/image_size/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/images_generated/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/imageshift/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/imaging/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/increment/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/instrument/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/instrument_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/job_title/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/ligands/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/manufacturer/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/material/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/maximal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/mesh/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/microscope/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/microscope_software/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/minimal/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/mode/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/model/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/molecular_class/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/molecular_overall_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/molecular_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/molecular_weight/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/molecule/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/name/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/name_mol/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/name_org/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/name_sample/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/natural_source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/nominal_defocus/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/nominal_magnification/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/operating_mode/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/orcid/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/organizational/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/overall_molecule/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/person/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/ph/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/phaseplate/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/pixel_size/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/present/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/pretreatment_atmosphere/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/pretreatment_pressure/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/pretreatment_time/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/pretreatment_type/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/project_id/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/reference/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/role/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/sample/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/screen_current/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/sequence/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/shadowing/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/smiles/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/specialist_optics/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/specimen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/spherical_aberration_corrector/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/staining/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/start_date/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/taxonomy_id_expression/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/taxonomy_id_source/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/technique/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/telephone/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/temperature/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/temperature_range/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/tilt_angle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/tilt_axis_angle/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/type_org/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/unit/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/unitSI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/used/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/value/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/valueSI/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/vitrification/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/vitrification_cryogen/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/width/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/width_energy_filter/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/x_max/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/x_min/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/y_max/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
          <loc>https://osc-em.github.io/oscem-schemas/subtomo/y_min/</loc>
-         <lastmod>2025-12-05</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
 </urlset>
