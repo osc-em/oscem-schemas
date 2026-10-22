@@ -250,6 +250,92 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slots">
+<span class="md-ellipsis">
+      
+        Slots
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usages">
+<span class="md-ellipsis">
+      
+        Usages
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#identifier-and-mapping-information">
+<span class="md-ellipsis">
+      
+        Identifier and Mapping Information
+      
+    </span>
+</a>
+<nav aria-label="Identifier and Mapping Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#schema-source">
+<span class="md-ellipsis">
+      
+        Schema Source
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mappings">
+<span class="md-ellipsis">
+      
+        Mappings
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#linkml-source">
+<span class="md-ellipsis">
+      
+        LinkML Source
+      
+    </span>
+</a>
+<nav aria-label="LinkML Source" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#direct">
+<span class="md-ellipsis">
+      
+        Direct
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#induced">
+<span class="md-ellipsis">
+      
+        Induced
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -258,14 +344,8 @@
 <article class="md-content__inner md-typeset">
 <h1 id="class-specimenenv">Class: SpecimenEnv</h1>
 <p><em>base information on the acquisition and treatment of the sample itself.</em></p>
-<div data-search-exclude="" markdown="1">
-
-
-
-URI: [https://w3id.org/oscem-schemas/latest/env_tomo/SpecimenEnv](https://w3id.org/oscem-schemas/latest/env_tomo/SpecimenEnv)
-
-
-
+<div>
+<p>URI: <a href="https://w3id.org/oscem-schemas/latest/env_tomo/SpecimenEnv">https://w3id.org/oscem-schemas/latest/env_tomo/SpecimenEnv</a></p>
 <div class="mermaid">erDiagram
 SpecimenEnv {
     date collection_date  
@@ -280,71 +360,101 @@ SpecimenEnv {
 
 </div>
 <!-- no inheritance hierarchy -->
-
-## Slots
-
-| Name | Cardinality and Range | Description | Inheritance |
-| ---  | --- | --- | --- |
-| [organism](organism.md) | 1..* <br/> [String](String.md) | the organism(s) present in your sample, if not perfectly defined try to asses... | direct |
-| [tissue](tissue.md) | 0..1 <br/> [String](String.md) | if the sample is a tissue sample please indicate what type of tissue | direct |
-| [source_env](source_env.md) | 0..1 <br/> [String](String.md) | where is this sample from? i | direct |
-| [location](location.md) | 0..1 <br/> [String](String.md) | the geographical location of your source, optimally in a geographic coordinat... | direct |
-| [collection_date](collection_date.md) | 0..1 <br/> [Date](Date.md) | When the sample was collected | direct |
-| [handling](handling.md) | 0..1 <br/> [String](String.md) | What was done to the sample, please give an overview of relevant treatments | direct |
-
-
-
-
-
-## Usages
-
-| used by | used in | type | used |
-| ---  | --- | --- | --- |
-| [SampleEnv](SampleEnv.md) | [specimen_env](specimen_env.md) | range | [SpecimenEnv](SpecimenEnv.md) |
-
-
-
-
-
-
-
-
-
-
-
-
-## Identifier and Mapping Information
-
-
-
-
-
-### Schema Source
-
-
-* from schema: https://w3id.org/oscem-schemas/latest/env_tomo
-
-
-
-
-## Mappings
-
-| Mapping Type | Mapped Value |
-| ---  | ---  |
-| self | https://w3id.org/oscem-schemas/latest/env_tomo/SpecimenEnv |
-| native | https://w3id.org/oscem-schemas/latest/env_tomo/SpecimenEnv |
-
-
-
-
-
-
-## LinkML Source
-
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../organism/">organism</a></td>
+<td>1..* <br/> <a href="../String/">String</a></td>
+<td>the organism(s) present in your sample, if not perfectly defined try to asses...</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../tissue/">tissue</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>if the sample is a tissue sample please indicate what type of tissue</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../source_env/">source_env</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>where is this sample from? i</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../location/">location</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>the geographical location of your source, optimally in a geographic coordinat...</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../collection_date/">collection_date</a></td>
+<td>0..1 <br/> <a href="../Date/">Date</a></td>
+<td>When the sample was collected</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../handling/">handling</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>What was done to the sample, please give an overview of relevant treatments</td>
+<td>direct</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usages">Usages</h2>
+<table>
+<thead>
+<tr>
+<th>used by</th>
+<th>used in</th>
+<th>type</th>
+<th>used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../SampleEnv/">SampleEnv</a></td>
+<td><a href="../specimen_env/">specimen_env</a></td>
+<td>range</td>
+<td><a href="./">SpecimenEnv</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/oscem-schemas/latest/env_tomo</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>https://w3id.org/oscem-schemas/latest/env_tomo/SpecimenEnv</td>
+</tr>
+<tr>
+<td>native</td>
+<td>https://w3id.org/oscem-schemas/latest/env_tomo/SpecimenEnv</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
-
-### Direct
-
+<h3 id="direct">Direct</h3>
 <details>
 <pre><code class="language-yaml">name: SpecimenEnv
 description: base information on the acquisition and treatment of the sample itself.
@@ -363,9 +473,7 @@ slot_usage:
 
 </code></pre>
 </details>
-
-### Induced
-
+<h3 id="induced">Induced</h3>
 <details>
 <pre><code class="language-yaml">name: SpecimenEnv
 description: base information on the acquisition and treatment of the sample itself.
@@ -436,7 +544,8 @@ attributes:
     range: string
 
 </code></pre>
-</details></div>
+</details>
+</div>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
