@@ -8,17 +8,19 @@ services:
   docs:
     build:
       context: .
-      # Versions match poetry.lock
+      # Same Python and poetry.lock install as CI (.github/workflows/deploy-docs.yaml)
       dockerfile_inline: |
-        FROM linkml/linkml:1.9.5
-        USER root
+        FROM python:3.12-slim
         # gawk: the default mawk buffers input, delaying serve-live's log filter
         RUN apt-get update && apt-get install -y --no-install-recommends make gawk \
             && rm -rf /var/lib/apt/lists/*
-        RUN pip install --no-cache-dir --root-user-action=ignore mkdocs==1.6.1 mkdocs-material==8.5.11 \
-            mkdocs-mermaid2-plugin==1.2.3
-        RUN mkdir -p /work/docs && chown linkmluser /work/docs
-        USER linkmluser
+        RUN pip install --no-cache-dir --root-user-action=ignore poetry \
+            && poetry config virtualenvs.create false
+        COPY pyproject.toml poetry.lock /tmp/deps/
+        RUN cd /tmp/deps && poetry install -E docs --no-root --no-interaction \
+            && rm -rf /tmp/deps /root/.cache
+        RUN useradd -m docsuser && mkdir -p /work/docs && chown docsuser /work/docs
+        USER docsuser
     working_dir: /work
     volumes:
       - .:/work
