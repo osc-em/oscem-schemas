@@ -15,7 +15,7 @@ include = ["README.md", "src/oscem_schemas/schema"]
 keywords = ["electron microscopy", "schemas", "linkml", "open standards"]
 # set dynamically via poetry
 dynamic = [ "classifiers", "dependencies" ]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 
 [project.urls]
 homepage = "https://osc-em.github.io/"
