@@ -1,0 +1,32 @@
+# Live-reloading docs server in a Linux container: `docker compose up`, then
+# open http://localhost:8000/oscem-schemas/
+#
+# Generated docs are written to a Docker volume rather than the bind-mounted
+# repo, because macOS/Windows filesystems are case-insensitive and pages that
+# differ only in case (e.g. phaseplate.md and Phaseplate.md) would collide.
+services:
+  docs:
+    build:
+      context: .
+      # Versions match poetry.lock
+      dockerfile_inline: |
+        FROM linkml/linkml:1.9.5
+        USER root
+        # gawk: the default mawk buffers input, delaying serve-live's log filter
+        RUN apt-get update && apt-get install -y --no-install-recommends make gawk \
+            && rm -rf /var/lib/apt/lists/*
+        RUN pip install --no-cache-dir --root-user-action=ignore mkdocs==1.6.1 mkdocs-material==8.5.11 \
+            mkdocs-mermaid2-plugin==1.2.3
+        RUN mkdir -p /work/docs && chown linkmluser /work/docs
+        USER linkmluser
+    working_dir: /work
+    volumes:
+      - .:/work
+      - docs:/work/docs
+    ports:
+      - "8000:8000"
+    init: true
+    command: make -j serve-live RUN= WATCH_ARGS=--debug-force-polling
+
+volumes:
+  docs:
