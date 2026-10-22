@@ -26,6 +26,11 @@ plugins:
   - search
   - mermaid2:
       version: 10.9.0
+# Generated class/slot/enum pages are linked from each schema's index.md
+# rather than listed in the nav
+not_in_nav: |
+  /*/*.md
+
 nav:
   - Home: https://osc-em.github.io/
   - Overview: index.md
